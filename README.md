@@ -2,7 +2,7 @@
 
 > A curated, searchable library of **217 AI prompts** across **11 categories** — styled as a light, tech-focused "dev tool" interface. Fully editable, one-click copy, mobile-first, works offline.
 
-🔗 **Live site:** [babatundeawo.github.io/ai-prompt-library](https://babatundeawo.github.io/ai-prompt-library/)
+🔗 **Live site:** [techbaseng.github.io/ai-prompt-library](https://techbaseng.github.io/ai-prompt-library/)
 
 ---
 
@@ -68,18 +68,18 @@ ai-prompt-library/
 1. Create a **public** repo named `ai-prompt-library` on [github.com/new](https://github.com/new)
 2. Upload `index.html`, `README.md`, and `.nojekyll` to the repo root
 3. **Settings → Pages → Branch: main / (root) → Save**
-4. Wait 1–3 minutes → live at **https://babatundeawo.github.io/ai-prompt-library/**
+4. Wait 1–3 minutes → live at **https://techbaseng.github.io/ai-prompt-library/**
 
 ---
 
 ## 🛠️ Built With
 
 Plain HTML, CSS & JavaScript — zero frameworks, zero dependencies beyond Google Fonts.
-Built and maintained by **[Babatunde Awoyemi](https://github.com/babatundeawo)**.
+Built and maintained by **[Babatunde Awoyemi](https://github.com/techbaseng)**.
 
 ---
 
 <p align="center">
-  Made with ♥ by <a href="https://github.com/babatundeawo">babatundeawo</a> &nbsp;·&nbsp;
-  <a href="https://babatundeawo.github.io/ai-prompt-library/">Live Demo</a>
+  Made with ♥ by <a href="https://github.com/techbaseng">techbaseng</a> &nbsp;·&nbsp;
+  <a href="https://techbaseng.github.io/ai-prompt-library/">Live Demo</a>
 </p>
