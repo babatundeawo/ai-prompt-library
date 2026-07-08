@@ -75,7 +75,7 @@ ai-prompt-library/
 ## 🛠️ Built With
 
 Plain HTML, CSS & JavaScript — zero frameworks, zero dependencies beyond Google Fonts.
-Built and maintained by **[Babatunde Awoyemi](https://github.com/techbaseng)**.
+Built and maintained by **[Babatunde Awoyemi](https://github.com/babatundeawo)**.
 
 ---
 
