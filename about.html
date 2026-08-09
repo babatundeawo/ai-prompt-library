@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<title>About — PromptOS</title>
+<meta name="description" content="What PromptOS is, how it works, and why it's built as a fast, offline-capable static site with no sign-up and no paywall."/>
+<meta name="theme-color" content="#FAFBFE"/>
+<link rel="canonical" href="https://babatundeawo.github.io/ai-prompt-library/about.html"/>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%235B4FE8'/><stop offset='1' stop-color='%2306B6D4'/></linearGradient></defs><rect width='32' height='32' rx='9' fill='url(%23g)'/><path d='M10 21 L16 9 L16 16 L22 16 L13 25 Z' fill='white'/></svg>"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="css/variables.css"/>
+<link rel="stylesheet" href="css/layout.css"/>
+<link rel="stylesheet" href="css/components.css"/>
+<link rel="stylesheet" href="css/responsive.css"/>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="app">
+
+<nav class="sidebar" id="sidebar" aria-label="Primary">
+  <div class="sidebar-head">
+    <div class="brand">
+      <div class="brand-mark">
+        <svg viewBox="0 0 24 24" fill="white"><path d="M10 21 L16 9 L16 16 L22 16 L13 25 Z" transform="translate(0,-4)"/></svg>
+      </div>
+      <div>
+        <div class="brand-name">PromptOS</div>
+        <div class="brand-tag">/// ai-prompt-library</div>
+      </div>
+    </div>
+    <div class="stat-row">
+      <div class="stat-chip"><b id="statTotal">217</b> prompts</div>
+      <div class="stat-chip"><b id="statCats">11</b> categories</div>
+    </div>
+  </div>
+
+  <div class="nav-section">Menu</div>
+  <div id="navPrimary"></div>
+
+  <div class="nav-section">Categories</div>
+  <div id="navCats"></div>
+
+  <div class="sidebar-foot">
+    Press <kbd>/</kbd> to search &nbsp;·&nbsp; click any card to edit<br/>
+    All prompts fully editable &amp; copyable<br/><br/>
+    <a href="https://github.com/babatundeawo/ai-prompt-library" target="_blank" rel="noopener">⭐ Star on GitHub →</a>
+  </div>
+</nav>
+
+<div id="overlay"></div>
+
+<div class="content">
+
+  <div class="topbar">
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <div class="search">
+      <svg class="s-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input id="searchInput" type="text" placeholder="Search 217 prompts…" autocomplete="off" spellcheck="false"/>
+      <span class="kbd-hint" id="kbdHint">/</span>
+      <button class="clear-btn" id="clearBtn" aria-label="Clear search">✕</button>
+    </div>
+  </div>
+
+  <header class="page-header">
+    <div class="page-header-inner">
+      <div class="breadcrumb"><a href="index.html">Home</a> / About</div>
+      <h1>A prompt library, built like a dev tool</h1>
+      <p>PromptOS is a single static site: no sign-up, no paywall, no server. Here's what's inside and why it's built this way.</p>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="section">
+      <div class="section-inner">
+        <div class="stat-strip">
+          <div class="stat-card"><b id="aboutTotal">217</b><span>Prompts</span></div>
+          <div class="stat-card"><b id="aboutCats">11</b><span>Categories</span></div>
+          <div class="stat-card"><b id="aboutSources">—</b><span>Creators credited</span></div>
+          <div class="stat-card"><b id="aboutFields">—</b><span>Editable fields, total</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="section-inner">
+        <div class="section-head">
+          <div class="section-eyebrow">How it works</div>
+          <h2>From search to clipboard in three steps</h2>
+          <p>No accounts, no configuration — the whole flow happens on the page.</p>
+        </div>
+        <div class="step-list">
+          <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-body">
+              <h3>Find a prompt</h3>
+              <p>Search by keyword, or browse one of the 11 categories from the sidebar or the library page. Sort by A–Z or by how many fields need filling in.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-body">
+              <h3>Fill in the fields</h3>
+              <p>Every prompt sits in a live textarea. Replace the <code>[BRACKETED FIELDS]</code> with your own details, right where you're reading — no copy-paste-edit round trip.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-body">
+              <h3>Copy and go</h3>
+              <p>One click copies your edited version to the clipboard. Made a mess of it? The reset button restores the original text instantly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-inner">
+        <div class="section-head">
+          <div class="section-eyebrow">Frequently asked</div>
+          <h2>Good to know</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              Are my favourites saved anywhere online?
+              <span class="faq-plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            </button>
+            <div class="faq-a"><div class="faq-a-inner">No. Favourites are stored in this browser's local storage only. Clearing your browser data or switching devices will reset them — nothing is sent to a server.</div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              Do my edits to a prompt get saved?
+              <span class="faq-plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            </button>
+            <div class="faq-a"><div class="faq-a-inner">Edits live only in the textarea for your current visit. Copy the finished version somewhere safe — refreshing the page brings back the original prompt text.</div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              Which AI tools do these prompts work with?
+              <span class="faq-plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            </button>
+            <div class="faq-a"><div class="faq-a-inner">Most were written for image models (like Midjourney, DALL·E or Gemini) and chat assistants (like ChatGPT). Check each prompt's source tag for context on where it came from.</div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q" aria-expanded="false">
+              Can I contribute a prompt or fix one?
+              <span class="faq-plus"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            </button>
+            <div class="faq-a"><div class="faq-a-inner">Yes — the project is open source. Open an issue or a pull request on GitHub and it'll be reviewed.</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-inner">
+        <div class="cta-band">
+          <div class="cta-band-inner">
+            <h2>That's the whole tool</h2>
+            <p>No tutorial needed — jump in and start searching.</p>
+            <a class="btn btn-primary" href="library.html">Open the library</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="sf-inner">
+      <div class="sf-brand">
+        <div class="brand-mark"><svg viewBox="0 0 24 24" fill="white"><path d="M10 21 L16 9 L16 16 L22 16 L13 25 Z" transform="translate(0,-4)"/></svg></div>
+        PromptOS
+      </div>
+      <div class="sf-links">
+        <a href="index.html">Home</a>
+        <a href="library.html">Library</a>
+        <a href="favorites.html">Favourites</a>
+        <a href="about.html">About</a>
+        <a href="https://github.com/babatundeawo/ai-prompt-library" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <div class="sf-meta">Built by <a href="https://github.com/babatundeawo" target="_blank" rel="noopener">Babatunde Awoyemi</a></div>
+    </div>
+  </footer>
+
+</div>
+</div>
+
+<nav class="bottom-nav" id="bottomNav" aria-label="Primary mobile"></nav>
+
+<div id="toast">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+  <span data-toast-msg>Copied to clipboard</span>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/constants.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/cards.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/about.js"></script>
+</body>
+</html>

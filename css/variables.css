@@ -1,0 +1,84 @@
+/* ============================================================
+   PromptOS — Design tokens, reset & global rules
+   Light, tech-product aesthetic · mobile-first
+   ============================================================ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+  --bg:#FAFBFE;
+  --surface:#FFFFFF;
+  --surface-2:#F3F4FA;
+  --surface-3:#F7F8FD;
+  --code-bg:#F8F9FD;
+
+  --border:#E7E9F2;
+  --border-strong:#D9DCEC;
+
+  --ink:#13141F;
+  --ink-2:#5B5F77;
+  --ink-3:#9296AC;
+
+  --brand-1:#5B4FE8;
+  --brand-2:#06B6D4;
+  --brand-3:#FF7849;
+  --success:#059669;
+  --danger:#DC2626;
+
+  --f-display:'Space Grotesk',system-ui,sans-serif;
+  --f-body:'Manrope',system-ui,sans-serif;
+  --f-mono:'JetBrains Mono',ui-monospace,monospace;
+
+  --r-sm:8px;--r-md:12px;--r-lg:18px;--r-xl:24px;--r-2xl:28px;
+  --tr:.18s cubic-bezier(.4,0,.2,1);
+  --tr-slow:.36s cubic-bezier(.4,0,.2,1);
+  --shadow-sm:0 1px 2px rgba(20,21,40,.04);
+  --shadow-md:0 4px 16px rgba(20,21,40,.06);
+  --shadow-lg:0 12px 32px rgba(20,21,40,.10);
+  --shadow-xl:0 24px 60px rgba(20,21,40,.14);
+  --sidebar-w:264px;
+  --page-max:1320px;
+}
+
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+body{
+  background:var(--bg);
+  color:var(--ink);
+  font-family:var(--f-body);
+  font-size:15px;
+  line-height:1.55;
+  min-height:100vh;
+  min-height:100dvh;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+
+body::before{
+  content:'';
+  position:fixed;inset:0;z-index:0;pointer-events:none;
+  background-image:radial-gradient(circle,#D6DAEE 1px,transparent 1px);
+  background-size:26px 26px;
+  opacity:.45;
+}
+
+a{color:inherit;text-decoration:none;}
+button,input,select,textarea{font-family:inherit;color:inherit}
+kbd{font-family:var(--f-mono)}
+::selection{background:rgba(91,79,232,.18)}
+img,svg{display:block;max-width:100%;}
+
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:#CBD0E6;border-radius:4px}
+:focus-visible{outline:2px solid var(--brand-1);outline-offset:2px;border-radius:4px}
+
+/* Skip-to-content link — keyboard accessibility */
+.skip-link{
+  position:fixed;top:-60px;left:12px;z-index:1000;
+  background:var(--ink);color:#fff;padding:10px 16px;border-radius:var(--r-sm);
+  font-size:13px;font-weight:700;transition:top var(--tr);
+}
+.skip-link:focus{top:12px;}
+
+@media(prefers-reduced-motion:reduce){
+  *{animation-duration:.01ms !important;animation-iteration-count:1 !important;transition-duration:.01ms !important;scroll-behavior:auto !important;}
+}
