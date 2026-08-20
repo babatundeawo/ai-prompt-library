@@ -2,7 +2,7 @@
 
 > A curated, searchable library of **217 AI prompts** across **11 categories** — styled as a light, tech-focused "dev tool" interface. Fully editable, one-click copy, favourites that persist, mobile-first, works offline.
 
-🔗 **Live site:** [techbaseng.github.io/ai-prompt-library](https://techbaseng.github.io/ai-prompt-library/)
+🔗 **Live site:** [babatundeawo.github.io/ai-prompt-library](https://babatundeawo.github.io/ai-prompt-library/)
 
 ---
 
@@ -117,5 +117,5 @@ Originally built by, and upgraded for, **[Babatunde Awoyemi](https://github.com/
 
 <p align="center">
   Made with ♥ &nbsp;·&nbsp;
-  <a href="https://techbaseng.github.io/ai-prompt-library/">Live Demo</a>
+  <a href="https://babatundeawo.github.io/ai-prompt-library/">Live Demo</a>
 </p>
