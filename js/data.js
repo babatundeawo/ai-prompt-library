@@ -1,10 +1,10 @@
 /* ============================================================
    PromptOS — Prompt Data
-   217 curated AI prompts across 11 categories.
+   206 curated AI prompts across 11 categories.
    Auto-generated data module: edit prompt content here.
    ============================================================ */
 const PROMPTS=[
-{id:1,c:"Image Generation",s:"@AiWithTariq",t:"Soccer Jersey \u2014 Phone Screen Emergence",ph:3,x:`Create an image of this person in 9:16 aspect ratio, happy expression, 4K resolution. Use uploaded reference as primary identity anchor — preserve exact facial structure, bone proportions, skin tone, eye shape, nose, lips with absolute precision.
+{id:1,c:"Image Generation",s:"@AiWithTariq",t:"Soccer Jersey — Phone Screen Emergence",ph:3,x:`Create an image of this person in 9:16 aspect ratio, happy expression, 4K resolution. Use uploaded reference as primary identity anchor — preserve exact facial structure, bone proportions, skin tone, eye shape, nose, lips with absolute precision.
 
 Hyper-realistic 3D optical illusion — subject wearing a white [TEAM NAME, e.g. Real Madrid] soccer jersey, emerging dynamically from a large vertical smartphone screen on a rustic wooden table. Arm stretching out of the liquid-like phone screen reaching to grab a [BRAND, e.g. Coca-Cola] bottle on the table.
 
@@ -56,7 +56,7 @@ Lock screen UI:
 
 Lighting: Warm, cinematic, soft with gentle highlights and realistic shadows. Subtle vintage film grain.
 Aspect ratio: 3:4`},
-{id:6,c:"Image Generation",s:"@Strength04_X",t:"Luxury Balcony Campaign \u2014 Brand Editorial",ph:22,x:`Wide environmental architectural cinematic shot from below looking up at a sun-drenched [LOCATION, e.g. Italian villa] balcony. Format: 4:5 vertical.
+{id:6,c:"Image Generation",s:"@Strength04_X",t:"Luxury Balcony Campaign — Brand Editorial",ph:22,x:`Wide environmental architectural cinematic shot from below looking up at a sun-drenched [LOCATION, e.g. Italian villa] balcony. Format: 4:5 vertical.
 
 Architecture: Ornate [RAILING TYPE] balcony of a [FACADE COLOR] [BUILDING STYLE] facade. [PLANT TYPE, e.g. chili-red bougainvillea] cascading from edges. [SHUTTER COLOR] louvered shutters. Terracotta pots with [PLANTS]. Sky: [SKY DESCRIPTION].
 
@@ -65,23 +65,19 @@ Subject: A [PERSON DESCRIPTION] leaning both forearms on the top rail, looking d
 Outfit: [OUTFIT DESCRIPTION]. [BRAND NAME] [PRODUCT TYPE] in [COLOR] leather with [HARDWARE] hardware and [BRAND] plate visible.
 
 Lighting: Warm directional peak-afternoon key from camera-right, editorial magazine contrast. Palette locked to [COLOR 1], [COLOR 2], [COLOR 3], [COLOR 4] only. Shot on Phase One IQ4 150MP 8K, 50mm prime f/4. No borders, no text overlay, no watermark.`},
-{id:7,c:"Image Generation",s:"@Naiknelofar788",t:"Premium Brand Identity System Poster",ph:3,x:`Using the uploaded logo, generate a highly detailed premium brand identity system poster.
+{id:7,c:"Image Generation",s:"Merged",t:"Brand Identity Board — Choose Your Theme",ph:4,x:`Generate a professional brand identity presentation board for "[BRAND NAME]".
 
-Goal: Complete, visually rich brand kit — top design agency quality, real professional brand guideline board.
-Core Rule: Everything derived from the uploaded logo — colors, style, tone, personality. No generic outputs.
+Pick ONE theme below (delete the rest):
 
-Structure (Vertical 4:5 poster, multi-layered grid):
-TOP SECTION: Brand name · Short brand statement (max 6 words) · 3-word identity: "[WORD 1] / [WORD 2] / [WORD 3]"
-COLOR SYSTEM: Primary palette (3–5 colors) with HEX codes · Secondary palette · Accent colors · Gradient examples
-TYPOGRAPHY SYSTEM: Headline · Subheadline · Body text — with clear hierarchy examples
-VISUAL LANGUAGE: Image style · Lighting direction · Texture/material inspiration · 3–5 visual tiles
-BRAND APPLICATIONS: Product packaging · Website hero · Mobile UI · Social media posts (3 variations) · Business card · Billboard
-LAYOUT SYSTEM: UI blocks, card components, spacing, buttons, cards
-ICONOGRAPHY: 6–10 icons in brand style
-PATTERNS & ELEMENTS: Background patterns, decorative shapes, logo-derived motifs
-MICRO DETAILS: Shadows, material textures, reflections, depth layers
+THEME A — Minimalist, From Uploaded Logo: Everything (colors, style, tone, personality) derived from the uploaded logo — no generic output. Vertical 4:5 multi-layered grid: brand statement + 3-word identity ("[WORD 1] / [WORD 2] / [WORD 3]"); primary/secondary/accent color palette with HEX codes; typography hierarchy (headline/subhead/body); 3–5 visual-language tiles (image style, lighting, texture); brand applications (packaging, website hero, mobile UI, 3 social variations, business card, billboard).
 
-Rules: No empty space. No generic placeholders. 30–50 visual elements. Everything intentional.`},
+THEME B — Dark Mode Sports / Tech: Futuristic black interface with [ACCENT COLOR, e.g. neon volt] accents, aggressive modular technical grid system. Sections: dark/neon/neutral color system with HEX; bold condensed typography; action-photography style direction; UI components and interface elements; esports overlay / jersey / app-screen applications; carbon-fiber and mesh textures; holographic and cyberpunk visual-identity notes.
+
+THEME C — Luxury Fashion: Clean modular grid, white background, black + gold accents, elegant editorial couture aesthetic. Sections: neutral/signature/accent palette with HEX; typography system (serif primary, sans-serif secondary, script accent); luxury textures (silk, leather, gold foil, embossing); packaging concepts, website UI direction, social layouts, logo system variations, grid/spacing system. Photography style: high-fashion, cinematic lighting, [COLOR GRADING DIRECTION].
+
+THEME D — Studio Flat-Lay: Minimalist futuristic layout presented as a flat lay on a subtle [TEXTURE, e.g. concrete] background. Top center: primary logo in [LOGO STYLE]. Includes a [NUMBER]-swatch HEX color strip, an "Aa Bb Cc" typography sample, and two realistic mockups (e.g. [MOCKUP 1] + [MOCKUP 2]). Soft studio lighting.
+
+Shared inputs: Main color [PRIMARY COLOR], accents [ACCENT COLORS], brand personality [ADJECTIVES], industry [INDUSTRY], target customer [DESCRIPTION]. Style: high-end design-studio quality, 8K, photorealistic mockups.`},
 {id:8,c:"Image Generation",s:"@AiWithTariq",t:"Venetian Blinds Chiaroscuro Portrait",ph:3,x:`A striking close-up portrait where lighting defines the narrative. A [GENDER] figure (upload face as reference) stands behind Venetian blinds — stark horizontal bars of light and shadow across the face. Extreme chiaroscuro, mysterious, almost predatory charisma.
 
 [ATMOSPHERIC ELEMENT, e.g. Exhaling a thin stream of smoke that catches the light beams, creating turbulent texture in the air].
@@ -89,7 +85,7 @@ Rules: No empty space. No generic placeholders. 30–50 visual elements. Everyth
 Rendered in high-contrast black and white. Wearing a [OUTFIT, e.g. simple ribbed tank top].
 Composition: 50mm lens at f/2.8 — blind shadows sharp while background blurs into total darkness.
 Mood: [MOOD, e.g. mysterious, noir, cinematic]. 8K resolution, masterpiece.`},
-{id:9,c:"Image Generation",s:"@AiWithTariq",t:"Single Match Flame \u2014 Extreme Close-Up",ph:2,x:`An intimate extreme close-up portrait surrounded by pure black void. The only light source: a single match freshly struck by the subject (upload face — 100% identity preserved).
+{id:9,c:"Image Generation",s:"@AiWithTariq",t:"Single Match Flame — Extreme Close-Up",ph:2,x:`An intimate extreme close-up portrait surrounded by pure black void. The only light source: a single match freshly struck by the subject (upload face — 100% identity preserved).
 
 The warm fiery localized glow violently cuts through absolute darkness, intensely illuminating sharp contours of face and raw texture of skin. Wearing a realistic casual [OUTFIT, e.g. plain crew neck shirt].
 
@@ -103,20 +99,20 @@ True cinematic chiaroscuro, 85mm macro lens, masterpiece, raw realism. 8K.`},
 Wearing a dark layered utility outfit: [OUTFIT, e.g. hoodie under worn canvas jacket].
 
 Shot has graphic poster-like quality. 8K resolution, 135mm f/2 lens.`},
-{id:11,c:"Image Generation",s:"@AiWithTariq",t:"Rim Lighting Profile \u2014 Monochromatic Poster",ph:2,x:`A profile view close-up portrait relying heavily on rim lighting. Subject (upload face as reference) outlined against a pitch-black background by a strong backlight — silhouette effect where features are defined only by the glowing edge of light.
+{id:11,c:"Image Generation",s:"@AiWithTariq",t:"Rim Lighting Profile — Monochromatic Poster",ph:2,x:`A profile view close-up portrait relying heavily on rim lighting. Subject (upload face as reference) outlined against a pitch-black background by a strong backlight — silhouette effect where features are defined only by the glowing edge of light.
 
 [ATMOSPHERIC ELEMENT, e.g. Smoke] glows brilliantly white against dark background, creating a halo effect.
 
 Image is monochromatic. Wearing a [OUTFIT, e.g. structured techwear collar].
 8K cinema camera with 135mm lens — compressing features for a graphic poster-like quality.`},
-{id:12,c:"Image Generation",s:"@AiWithTariq",t:"Fire & Water Heart \u2014 Social Logo Orbit",ph:8,x:`A [GENDER] sitting cross-legged on the ground, wearing a [OUTFIT, e.g. stylish floral shirt and fitted pants]. [HAIR DESCRIPTION], sharp facial features, calm emotional expression.
+{id:12,c:"Image Generation",s:"@AiWithTariq",t:"Fire & Water Heart — Social Logo Orbit",ph:8,x:`A [GENDER] sitting cross-legged on the ground, wearing a [OUTFIT, e.g. stylish floral shirt and fitted pants]. [HAIR DESCRIPTION], sharp facial features, calm emotional expression.
 
 In right hand: a glowing magical heart made of intense fire — radiating vivid [COLOR 1], [COLOR 2], and [COLOR 3] flames. With left hand, slowly pouring crystal-clear water from a transparent glass onto the burning heart — fire and water collide, producing steam, glowing sparks, magical energy waves.
 
 Surrounded by floating 3D glossy [PLATFORM, e.g. X/Twitter or Instagram] logos with futuristic [COLOR] neon lighting. Some logos appear large and sharp near camera, others float blurred with bokeh.
 
 Dramatic cinematic lighting, ultra realistic, social media influencer vibe, HDR, volumetric lighting, shallow depth of field, masterpiece, 8K.`},
-{id:13,c:"Image Generation",s:"@AiWithTariq",t:"Shadow Entity \u2014 Floating Mid-Air Portrait",ph:2,x:`Ultra-realistic cinematic 4:5 portrait of [SUBJECT — upload face as reference] floating mid-air above dense clouds. Body leaning backward in relaxed suspended pose — head tilted back, eyes closed, arms hanging loosely.
+{id:13,c:"Image Generation",s:"@AiWithTariq",t:"Shadow Entity — Floating Mid-Air Portrait",ph:2,x:`Ultra-realistic cinematic 4:5 portrait of [SUBJECT — upload face as reference] floating mid-air above dense clouds. Body leaning backward in relaxed suspended pose — head tilted back, eyes closed, arms hanging loosely.
 
 Wearing: [OUTFIT, e.g. deep red sweater, blue jeans, black sneakers with white stripes].
 
@@ -124,14 +120,14 @@ Behind: a dark smoky shadow entity emerges from swirling black mist — ghostly 
 
 Setting: dramatic cloudy sky, moody [COLOR] tones, soft diffused lighting, high contrast, volumetric fog.
 Shallow depth of field, hyper-detailed, 8K, surreal dark fantasy atmosphere.`},
-{id:14,c:"Image Generation",s:"@AiWithTariq",t:"Library Name Stack \u2014 3D Marquee Letters",ph:11,x:`A [GENDER] with [HAIR DESCRIPTION], wearing a [COLOR] [CLOTHING TYPE] and [BOTTOM] — standing full-body with arms crossed inside a warm cozy library studio. Sharp jawline, confident posture, calm attractive expression. Cinematic lighting falling softly across face and clothes.
+{id:14,c:"Image Generation",s:"@AiWithTariq",t:"Library Name Stack — 3D Marquee Letters",ph:11,x:`A [GENDER] with [HAIR DESCRIPTION], wearing a [COLOR] [CLOTHING TYPE] and [BOTTOM] — standing full-body with arms crossed inside a warm cozy library studio. Sharp jawline, confident posture, calm attractive expression. Cinematic lighting falling softly across face and clothes.
 
 Beside: a vertical stack of glowing 3D [MATERIAL, e.g. rose-gold marquee] letters spelling "[YOUR NAME]", beautifully placed on wooden shelves. Around the letters: miniature versions of the same person in different poses — [POSE 1], [POSE 2], [POSE 3], [POSE 4].
 
 Library environment: warm, aesthetic, cinematic — ambient golden lighting, soft shadows, glowing reflections, blurred bookshelves, shallow depth of field, ultra realistic textures, luxury atmosphere.
 
 Masterpiece composition, HDR, volumetric lighting, 8K ultra quality.`},
-{id:15,c:"Image Generation",s:"@Sheldon056",t:"Pixar 3D Caricature \u2014 Sports Character",ph:3,x:`Ultra-detailed stylized 3D caricature character inspired by modern Pixar / collectible toy aesthetics. Full-body pose with oversized head and compact athletic body proportions.
+{id:15,c:"Image Generation",s:"@Sheldon056",t:"Pixar 3D Caricature — Sports Character",ph:3,x:`Ultra-detailed stylized 3D caricature character inspired by modern Pixar / collectible toy aesthetics. Full-body pose with oversized head and compact athletic body proportions.
 
 [EXPRESSION/STANCE, e.g. confident stance with crossed arms], expressive sharp eyes, clean jawline, glossy realistic skin shading. Highly detailed [HAIR STYLE] with smooth fade and defined texture.
 
@@ -200,24 +196,26 @@ Lighting: cinematic golden sunlight, depth of field, soft bokeh background. Play
 
 Mood: vibrant summer vibe, realistic lighting, animated movie style, wholesome aesthetic.
 Quality: ultra HD, masterpiece, Pixar CGI quality.`},
-{id:20,c:"Image Generation",s:"@Naiknelofar788",t:"Editorial Travel Poster \u2014 Flat Vector",ph:10,x:`Create a premium editorial travel poster illustration of [DESTINATION].
+{id:20,c:"Image Generation",s:"Merged",t:"Travel / City Poster — Choose Your Style",ph:6,x:`Create a premium travel poster for [DESTINATION — a city or country].
 
-Style: flat vector illustration, ultra clean minimalism, mid-century modern aesthetic, editorial travel poster style (Scandinavian design inspired), no photorealism, no textures, no noise, no gradients.
+Pick ONE style below and use only that block (delete the rest):
 
-Composition: vertical 4:5 poster layout
-- Foreground: [NATURAL ELEMENT, e.g. calm waterfront / road / natural edge]
-- Midground: colorful local buildings with clean geometric shapes
-- Background: iconic natural landscape or mountain of [DESTINATION]
-- 1–2 landmark structures (church, tower, bridge, etc.) subtly integrated
+STYLE A — Flat Vector Editorial (mid-century Scandinavian):
+Flat vector illustration, ultra clean minimalism, mid-century modern, editorial travel-poster style, no photorealism / textures / gradients. Vertical 4:5. Foreground: [NATURAL ELEMENT, e.g. calm waterfront]. Midground: colorful local buildings, clean geometric shapes. Background: iconic landscape or mountain of [DESTINATION], 1–2 landmarks subtly integrated. Palette: soft, location-inspired pastels — [COLOR 1], [COLOR 2], [COLOR 3], [COLOR 4]. Typography: "[DESTINATION]" large modern sans-serif bottom center, "[COUNTRY]" small subtitle below. Mood: calm, clean, dreamy, print-ready.
 
-Color palette: soft, cohesive, location-inspired — pastel tones + muted contrast, bright but not saturated.
-Suggested for [DESTINATION]: [COLOR 1], [COLOR 2], [COLOR 3], [COLOR 4].
+STYLE B — Line-Art Street Scene (Swiss modernist):
+Minimalist ultra-high-resolution line-art poster for [CITY], portrayed as an everyday urban scene rather than a tourist postcard. Central composition: [CITY]'s iconic street / intersection / alleyway. Foreground: locals, commuters, cyclists reflecting local street culture. Background: authentic signage, cafés, transport signs, storefronts. Large centered title "[CITY]" at top, subtitle in local language at bottom. Style: Swiss modernist, monoline drawing, mid-century editorial. Color: ONE primary ink color + ONE background color — [SUGGESTED PAIRING]. Vertical, 8K, print-ready.
 
-Typography:
-- "[DESTINATION]" — large, modern sans-serif, spaced letters, bottom center
-- "[COUNTRY]" — small subtitle below
+STYLE C — Illustrated City Collage (storybook "toy city"):
+Ultra-high-resolution vector illustration compressing all of [CITY] into one dense "illustrated world" — landmarks, bridges, rivers, streets, and parks layered vertically like a postcard collage (8–15 landmarks). Portrait 4:5. Thick navy outlines, muted pastel palette, flat shading, screen-print aesthetic, slightly cute/stylized "miniature toy city" feel. "[CITY]" typography in a clean bottom margin, thin geometric sans-serif. 8K, print-ready.
 
-Mood: calm, clean, premium, slightly dreamy travel magazine feel. Print-ready.`},
+STYLE D — 3D Typography Letterform Architecture:
+"[CITY]"'s name built as monumental 3D sculptural letterforms in [MATERIAL, e.g. polished ceramic / carved stone], each letter architecturally transforming into the city's landmarks and skyline — not pasted behind, physically integrated. Low-angle three-quarter camera, bright daylight with soft key light upper-left. City-adaptive palette (coastal → aqua/coral/cream; historic → terracotta/stone/olive; tropical → turquoise/mango/palm-green; mountain → alpine-blue/meadow-green; nightlife → violet/cyan/amber). Quiet header row of tiny landmark icons, "DESTINATION SERIES" + "[CITY] / 01" + "VISIT [CITY]" microtype. 3:2. No visible sun top-left, no flat typography.
+
+STYLE E — Tourist Collage Editorial ("Lost In…"):
+A stylish international tourist — clearly a traveller, with [TRAVEL ACCESSORIES, e.g. camera, backpack, sunglasses] — exploring the culture of [COUNTRY], surrounded by iconic architecture, food, signage, and cultural motifs. Graphic-collage technique: layered paper textures, torn poster edges, stickers, halftone dots, bold geometric shapes. Large headline: "LOST IN [COUNTRY]". Premium, artistic, print-worthy editorial layout.
+
+Shared negative prompt: no generic stock-photo look, no cluttered or blurry composition, no misspelled text.`},
 {id:21,c:"Image Generation",s:"@TechieBySA",t:"Exploded Technical Infographic Poster",ph:5,x:`A ultra-detailed technical infographic poster of a [OBJECT], rendered in a clean engineering style on a crisp white background.
 
 The [OBJECT] is shown in a precise exploded-view diagram at the center, with every major component separated and labeled with thin hairline annotation lines pointing to bold capitalized technical labels.
@@ -233,34 +231,19 @@ No title bar, no tagline, no header strip — just the infographic.
 Visual details: subtle grid/graph paper overlay. Color accents in [COLOR, e.g. electric amber or cyan] highlight critical parts only. Pure white background throughout.
 
 Aspect ratio: 1:1 · Highly detailed, print-quality, technical illustration aesthetic.`},
-{id:22,c:"Image Generation",s:"@oggii_0",t:"City Travel Poster \u2014 Line Art Style",ph:7,x:`Create a minimalist ultra-high-resolution travel poster in line-art style for [CITY], portraying the city as a stylish everyday urban scene rather than a tourist postcard.
-
-MAIN COMPOSITION:
-- Central composition: [CITY]'s iconic everyday [street scene / intersection / alleyway / pedestrian crossing]
-- Foreground: local residents, commuters, cyclists, travelers reflecting local street fashion and urban culture
-- Background: authentic local signage, cafés, food spots, transport signs, storefronts, architectural details. Landmarks blend subtly into daily life.
-- Large centered title at top: "[CITY]"
-- Subtitle at bottom in [LOCAL LANGUAGE]: "[LOCAL NAME]"
-
-STYLE: Ultra-clean vector · Swiss modernist travel poster · Minimalist line-art · Monoline drawing · Mid-century editorial · Crisp geometric perspective
-
-COLOR SYSTEM: Use only ONE primary ink color + ONE background color — select pairing that best represents [CITY]'s atmosphere. Monochrome silkscreen poster aesthetic.
-Recommended for [CITY]: [SUGGESTED COLOR PAIRING, e.g. Bright Japanese red ink on warm ivory background]
-
-OUTPUT: Vertical poster · 8K resolution · Print-ready · Ultra-precise vector-quality rendering`},
-{id:23,c:"Image Generation",s:"@ZephyraLeigh",t:"Hand-Drawn Illustration \u2014 Pastel Dreamy",ph:4,x:`Hand-drawn illustration of [SUBJECT], delicate pencil or ink lines, soft pastel color palette, muted tones, gentle shading, calm and dreamy atmosphere, subtle gradients, minimal contrast, textured sketchbook paper background.
+{id:22,c:"Image Generation",s:"@ZephyraLeigh",t:"Hand-Drawn Illustration — Pastel Dreamy",ph:4,x:`Hand-drawn illustration of [SUBJECT], delicate pencil or ink lines, soft pastel color palette, muted tones, gentle shading, calm and dreamy atmosphere, subtle gradients, minimal contrast, textured sketchbook paper background.
 
 Style: [STYLE DIRECTION, e.g. whimsical / botanical / portraiture / landscape].
 Mood: [MOOD, e.g. peaceful, romantic, nostalgic].
 Detail level: [SIMPLE / INTRICATE].
 Focus: [CLOSE-UP / FULL SCENE / PORTRAIT].`},
-{id:24,c:"Image Generation",s:"@ZephyraLeigh",t:"Hand-Drawn Ink Illustration \u2014 Black & White",ph:4,x:`Hand-drawn ink illustration of [SUBJECT], clean line art, black ink on white paper, no color, varied line weight, cross-hatching and stippling for shading, minimalistic yet detailed, high contrast, sketchbook or comic style.
+{id:23,c:"Image Generation",s:"@ZephyraLeigh",t:"Hand-Drawn Ink Illustration — Black & White",ph:4,x:`Hand-drawn ink illustration of [SUBJECT], clean line art, black ink on white paper, no color, varied line weight, cross-hatching and stippling for shading, minimalistic yet detailed, high contrast, sketchbook or comic style.
 
 Style: [STYLE, e.g. fine art / comic / technical / botanical illustration].
 Mood: [MOOD, e.g. bold, dramatic, clean, editorial].
 Detail level: [LIGHT LINEWORK / HEAVY DETAIL].
 Composition: [SINGLE SUBJECT / FULL SCENE / PATTERN].`},
-{id:25,c:"Image Generation",s:"@aleenaamiir",t:"Typography Portrait from Name",ph:3,x:`Design a minimalist portrait where the [CELEBRITY / PERSON NAME] merges together to form their recognizable face and hairstyle.
+{id:24,c:"Image Generation",s:"@aleenaamiir",t:"Typography Portrait from Name",ph:3,x:`Design a minimalist portrait where the [CELEBRITY / PERSON NAME] merges together to form their recognizable face and hairstyle.
 
 Letters should shape facial contours, iconic features, and silhouette while maintaining elegant readability.
 
@@ -268,7 +251,7 @@ Style: Modern vector art, monochrome aesthetic, clean typography sculpture.
 Application: [USE CASE, e.g. poster / album cover / profile art / merch].
 Color: [MONOCHROME / LIMITED PALETTE, e.g. black and white / gold on black].
 Background: [BACKGROUND, e.g. minimal white / solid dark / textured].`},
-{id:26,c:"Image Generation",s:"@aleenaamiir",t:"Brand Letter Transformation Typography",ph:4,x:`The word '[BRAND NAME]' where each letter transforms into an object representing the brand's core idea.
+{id:25,c:"Image Generation",s:"@aleenaamiir",t:"Brand Letter Transformation Typography",ph:4,x:`The word '[BRAND NAME]' where each letter transforms into an object representing the brand's core idea.
 
 Seamless integration between typography and illustration, clean vector style, balanced composition, modern logo design.
 
@@ -276,7 +259,7 @@ Brand concept: [WHAT THE BRAND REPRESENTS, e.g. sustainability / speed / creativ
 Objects per letter: each letter becomes a [OBJECT TYPE, e.g. leaf / lightning bolt / brush stroke].
 Style: [MINIMAL / DETAILED / PLAYFUL / CORPORATE].
 Color palette: [COLORS].`},
-{id:27,c:"Image Generation",s:"@aleenaamiir",t:"Typography Logo \u2014 Animal/Object Silhouette",ph:6,x:`Design a clever typography logo where the brand name '[BRAND NAME]' merges together to form the silhouette of a [ANIMAL / OBJECT].
+{id:26,c:"Image Generation",s:"@aleenaamiir",t:"Typography Logo — Animal/Object Silhouette",ph:6,x:`Design a clever typography logo where the brand name '[BRAND NAME]' merges together to form the silhouette of a [ANIMAL / OBJECT].
 
 Letters should naturally shape the contours of the figure while maintaining subtle readability.
 
@@ -286,7 +269,7 @@ Animal / Object: [SPECIFIC, e.g. eagle / fox / mountain / wave].
 Brand personality: [ADJECTIVES, e.g. bold, trustworthy, innovative, natural].
 Color: [PRIMARY COLOR + SECONDARY COLOR].
 Use case: [INDUSTRY, e.g. tech startup / sports brand / eco company].`},
-{id:28,c:"Image Generation",s:"@aleenaamiir",t:"Self-Explaining Word Typography Design",ph:4,x:`The word "[WORD]" designed in a minimalist style where each letter subtly incorporates symbolic elements of its meaning.
+{id:27,c:"Image Generation",s:"@aleenaamiir",t:"Self-Explaining Word Typography Design",ph:4,x:`The word "[WORD]" designed in a minimalist style where each letter subtly incorporates symbolic elements of its meaning.
 
 Clean linework, limited color palette, clever negative space, modern design aesthetic, high clarity.
 
@@ -294,7 +277,7 @@ Word chosen: [WORD, e.g. GROW / WILD / FLOW / BUILD / LIGHT].
 Symbolic elements: [HOW LETTERS REFLECT MEANING, e.g. letters shaped like plants / water / architecture].
 Style: [FLAT / 3D / OUTLINED / FILLED].
 Color palette: [COLORS — max 2–3].`},
-{id:29,c:"Image Generation",s:"@rovvmut_",t:"Rugged Urban Portrait \u2014 Vintage Eyewear",ph:4,x:`A stylish rugged portrait of a [GENDER] with a relaxed yet sophisticated urban look. [HAIR DESCRIPTION, e.g. messy dark hair with natural highlights] and [BEARD/FEATURE, e.g. a well-maintained thick beard].
+{id:28,c:"Image Generation",s:"@rovvmut_",t:"Rugged Urban Portrait — Vintage Eyewear",ph:4,x:`A stylish rugged portrait of a [GENDER] with a relaxed yet sophisticated urban look. [HAIR DESCRIPTION, e.g. messy dark hair with natural highlights] and [BEARD/FEATURE, e.g. a well-maintained thick beard].
 
 Wearing distinctive vintage-style sunglasses with [FRAME DESCRIPTION, e.g. translucent amber frames and dark circular lenses with unique metal flip-up bridge mechanism].
 
@@ -305,7 +288,7 @@ In foreground: hand partially visible holding [PROP, e.g. white disposable coffe
 Lighting: bright and natural, casting soft shadows emphasizing texture of [KNITWEAR / FABRIC] and facial features.
 
 Background: soft-focus [BACKGROUND, e.g. blue vintage vehicle with horizontal grille lines] — cool-toned cinematic backdrop making warm tones of sunglasses and skin pop.`},
-{id:30,c:"Image Generation",s:"@iamsofiaijaz",t:"Educational Encyclopedia Infographic",ph:7,x:`Create a high-quality vertical encyclopedia-style educational infographic image based on [TOPIC / SUBJECT].
+{id:29,c:"Image Generation",s:"@iamsofiaijaz",t:"Educational Encyclopedia Infographic",ph:7,x:`Create a high-quality vertical encyclopedia-style educational infographic image based on [TOPIC / SUBJECT].
 
 Subject: [SUBJECT, e.g. Honeybee / Blue Whale / Venus Flytrap / Solar Panel / The Human Heart].
 
@@ -324,7 +307,7 @@ Composition modules:
 - "Did You Know?" footer
 
 Style: High resolution, crisp typography, clean vector lines, professional scientific journal aesthetic, [VINTAGE FIELD GUIDE / MODERN ENCYCLOPEDIA] feel.`},
-{id:31,c:"Image Generation",s:"@Taaruk_",t:"Cinematic Food Advertisement Poster",ph:11,x:`Ultra cinematic food advertisement poster of [DISH NAME] in a [SERVING VESSEL, e.g. copper karahi bowl / ceramic plate / cast iron skillet], dramatic floating ingredients composition.
+{id:30,c:"Image Generation",s:"@Taaruk_",t:"Cinematic Food Advertisement Poster",ph:11,x:`Ultra cinematic food advertisement poster of [DISH NAME] in a [SERVING VESSEL, e.g. copper karahi bowl / ceramic plate / cast iron skillet], dramatic floating ingredients composition.
 
 [MAIN PROTEIN OR HERO ELEMENT] levitating above [SAUCE / BASE]. [INGREDIENT 1], [INGREDIENT 2], [INGREDIENT 3], and [SPICE/HERB] suspended mid-air. Creamy [SAUCE TYPE] splashes and steam swirls.
 
@@ -335,14 +318,14 @@ Style: cinematic studio lighting, ultra realistic food textures, luxurious [CUIS
 Infographic-style ingredient labels with [LANGUAGE 1] and [LANGUAGE 2] typography. Floating [ATMOSPHERE ELEMENT, e.g. spice particles / ember and smoke / steam trails].
 
 Commercial food photography mixed with dynamic motion effects, hyper detailed, premium restaurant poster design, 8K.`},
-{id:32,c:"Image Generation",s:"@Taaruk_",t:"Sunrise Desk Flatlay",ph:3,x:`Sunrise Desk Flatlay: Top-down cozy desk flatlay near a sunrise window, wooden table filled with [ITEMS, e.g. coffee, camera, headphones, notebooks, fruit bowl, cassette player, glasses and phone playing music], warm sunrise reflections, nostalgic morning atmosphere.
+{id:31,c:"Image Generation",s:"@Taaruk_",t:"Sunrise Desk Flatlay",ph:3,x:`Sunrise Desk Flatlay: Top-down cozy desk flatlay near a sunrise window, wooden table filled with [ITEMS, e.g. coffee, camera, headphones, notebooks, fruit bowl, cassette player, glasses and phone playing music], warm sunrise reflections, nostalgic morning atmosphere.
 
 Handwritten doodle annotations around every object, pastel sketch overlays, cute arrows, stars and handwritten [MOTIVATIONAL / PERSONAL PHRASES].
 
 Style: Realistic lifestyle photography mixed with diary aesthetics, soft golden lighting, cinematic composition, vintage indie mood, highly detailed textures, warm creamy tones, 8K.
 
 Customize: Replace [ITEMS] with your own desk objects. Change [MOTIVATIONAL PHRASES] to your personal words or quotes.`},
-{id:33,c:"Image Generation",s:"@Goodmanprotocol",t:"Vintage Collectible Stamp Poster",ph:2,x:`Design a premium 4:5 collectible postal-stamp poster for [CITY], where the entire composition is one monumental luxury postage stamp filling the frame edge-to-edge.
+{id:32,c:"Image Generation",s:"@Goodmanprotocol",t:"Vintage Collectible Stamp Poster",ph:2,x:`Design a premium 4:5 collectible postal-stamp poster for [CITY], where the entire composition is one monumental luxury postage stamp filling the frame edge-to-edge.
 
 Style: Handcrafted gouache illustration blended with silkscreen poster aesthetics, editorial travel art, and museum-grade print minimalism. Capture the city's atmosphere through architecture, skyline rhythm, transportation, landscape, cultural motifs, and environmental identity — in elegant graphic forms.
 
@@ -362,7 +345,7 @@ Tropical → emerald, mango, sea blue
 Snowy northern → icy blue, muted pine, silver gray
 
 Negative: generic travel posters, floating landmarks, souvenir aesthetics, busy collages, excessive typography, centered layouts.`},
-{id:34,c:"Image Generation",s:"@HaniaAi12",t:"Bird's-Eye Luxury Commercial Shot",ph:8,x:`A vibrant luxury commercial graphic design composite shot from an extreme high-angle bird's-eye view using a 24mm wide-angle lens for dramatic forced perspective.
+{id:33,c:"Image Generation",s:"@HaniaAi12",t:"Bird's-Eye Luxury Commercial Shot",ph:8,x:`A vibrant luxury commercial graphic design composite shot from an extreme high-angle bird's-eye view using a 24mm wide-angle lens for dramatic forced perspective.
 
 Subject (uploaded face as reference — exact identity preserved): looks directly up with a [EXPRESSION, e.g. confident elegant expression] wearing [OUTFIT, e.g. premium red oversized blazer, fitted black pants, luxury white sneakers], holding [PROP 1] and [PROP 2]. [HAIR DESCRIPTION] adds motion and sophistication.
 
@@ -373,7 +356,7 @@ Floating elements: [ITEM 1], [ITEM 2], [ITEM 3] — positioned around the subjec
 Style: Deep depth of field, ultra-sharp focus, vibrant high-contrast colors, matte fabric textures, glossy reflections, floating typography. Inspired by high-end fashion campaigns and luxury Instagram branding.
 
 Quality: Elegant editorial-style layout, cinematic shadows, polished commercial art direction, ultra-realistic 8K.`},
-{id:35,c:"Image Generation",s:"@HaniaAi12",t:"Social Media Mega City \u2014 Platform Portal",ph:7,x:`Ultra-realistic 8K cinematic scene of [SUBJECT — uploaded image, 100% identical face, no modification] stepping out of a giant smartphone showing [PLATFORM, e.g. TikTok / Instagram / YouTube / Facebook / Snapchat] interface into Social Media Mega City.
+{id:34,c:"Image Generation",s:"@HaniaAi12",t:"Social Media Mega City — Platform Portal",ph:7,x:`Ultra-realistic 8K cinematic scene of [SUBJECT — uploaded image, 100% identical face, no modification] stepping out of a giant smartphone showing [PLATFORM, e.g. TikTok / Instagram / YouTube / Facebook / Snapchat] interface into Social Media Mega City.
 
 Pose: [POSE, e.g. dynamic forward motion / fashion runway walk / confident creator entrance / influencer stride / playful bounce].
 Outfit: [OUTFIT, e.g. oversized black hoodie, cargo pants, chunky white sneakers].
@@ -385,7 +368,7 @@ Effects: floating [PLATFORM ICONS, e.g. music notes / likes / reactions / emoji 
 Base: [SHAPE] glowing pedestal with [ENERGY EFFECT]. Engraving: "[YOUR NAME] – [YOUR TITLE, e.g. AI CREATOR]".
 
 Lighting: neon [PLATFORM COLOR] + [SECONDARY COLOR] cinematic cyber glow. Unreal Engine 5 realism.`},
-{id:36,c:"Image Generation",s:"@Kanishkhaai",t:"Luxury Brand Campaign \u2014 6-Image Grid",ph:9,x:`ULTRA-REALISTIC [BRAND NAME] CAMPAIGN, LIGHT LUXURY EDITORIAL 6-IMAGE GRID SYSTEM (3×2).
+{id:35,c:"Image Generation",s:"@Kanishkhaai",t:"Luxury Brand Campaign — 6-Image Grid",ph:9,x:`ULTRA-REALISTIC [BRAND NAME] CAMPAIGN, LIGHT LUXURY EDITORIAL 6-IMAGE GRID SYSTEM (3×2).
 
 CAMPAIGN TITLE: "[CAMPAIGN TITLE, e.g. SUNLIT STILLNESS]"
 CORE EMOTION: [MOOD, e.g. warm sophistication, cultured summer minimalism, quiet luxury, Mediterranean stillness].
@@ -401,7 +384,7 @@ MODEL DIRECTION: [MODEL TYPE, e.g. young editorial model, natural beauty, subtle
 GRID RHYTHM:
 TOP ROW: [FRAME 1 TYPE, e.g. architectural full body] → [FRAME 2 TYPE, e.g. intimate portrait] → [FRAME 3 TYPE, e.g. still life object]
 BOTTOM ROW: [FRAME 4 TYPE, e.g. observational movement] → [FRAME 5 TYPE, e.g. tactile macro] → [FRAME 6 TYPE, e.g. cinematic summer finale]`},
-{id:37,c:"Image Generation",s:"@AmirMushich",t:"Branded Editorial Campaign Poster",ph:7,x:`Act as a Senior Brand Art Director creating a horizontal editorial campaign poster where bold typography and photography are unified across a split-layout composition. Deeply rooted in [BRAND NAME]'s real brand identity.
+{id:36,c:"Image Generation",s:"@AmirMushich",t:"Branded Editorial Campaign Poster",ph:7,x:`Act as a Senior Brand Art Director creating a horizontal editorial campaign poster where bold typography and photography are unified across a split-layout composition. Deeply rooted in [BRAND NAME]'s real brand identity.
 
 NOTE: Do not generate real identifiable people by name. Use a realistic figure wearing [BRAND NAME] products visibly, in an environment associated with the brand.
 
@@ -424,43 +407,7 @@ Large numeral accent: founding year last 2 digits, upper right, 15–20% poster 
 PHOTOGRAPHY: Realistic figure in [BRAND NAME]'s visual world, wearing [BRAND NAME] products visibly, positioned slightly left of center in photo zone, facing slightly away.
 
 Technical: Aspect ratio 16:9, single flat image, colors exactly the brand's documented palette.`},
-{id:38,c:"Image Generation",s:"@noorwithwifi",t:"Dark Mode Sports / Tech Brand Identity Board",ph:3,x:`Dark Mode Sports / Tech Brand Identity Board — futuristic black interface with [ACCENT COLOR, e.g. neon Volt] accents, aggressive modern layout, modular technical grid system.
-
-Brand: [BRAND NAME or SPORT/TECH CATEGORY]
-
-Include sections for:
-- Color system (dark backgrounds, neon accents, neutrals) with HEX codes
-- Bold condensed typography examples
-- Action photography style direction
-- Gaming or sports branding applications
-- UI components and interface elements
-- Social media kit mockups
-- [ESPORTS OVERLAYS / JERSEY DESIGNS / APP SCREENS]
-- Carbon fiber and mesh textures
-- Motion graphics language notes
-- Holographic UI elements
-- Cyberpunk visual identity direction
-
-Style: Ultra-detailed infographic, premium tech branding, high-energy presentation, 8K.`},
-{id:39,c:"Image Generation",s:"@noorwithwifi",t:"Luxury Fashion Brand Identity Board",ph:2,x:`Luxury Fashion Brand Identity Board — clean modular grid layout, white background with black and gold accents, elegant editorial design, couture aesthetic.
-
-Brand: [BRAND NAME or FASHION CATEGORY]
-
-Include sections for:
-- Color palette (neutrals, signature color, accent) with HEX codes
-- Typography system (serif primary, sans-serif secondary, script accent)
-- Visual language and image style direction
-- Luxury textures (silk, leather, gold foil, embossed)
-- Brand applications and mockups
-- Packaging concepts
-- Website UI direction
-- Social media layouts
-- Logo system variations
-- Grid and spacing system
-
-Photography style: high-fashion, cinematic lighting, [COLOR GRADING DIRECTION].
-Style: Premium branding presentation, ultra-detailed infographic, luxury art direction, photorealistic mockups, sophisticated magazine aesthetic, 8K.`},
-{id:40,c:"Image Generation",s:"@harboriis",t:"Anime Group Selfie \u2014 Fisheye Style",ph:2,x:`Ultra-wide fisheye selfie shot. Anime crossover group selfie inside a [SETTING, e.g. cozy modern living room].
+{id:37,c:"Image Generation",s:"@harboriis",t:"Anime Group Selfie — Fisheye Style",ph:2,x:`Ultra-wide fisheye selfie shot. Anime crossover group selfie inside a [SETTING, e.g. cozy modern living room].
 
 The viewer's face (or uploaded reference) replacing the central person — centered very close to camera, arms extended toward the lens, slightly playful expression.
 
@@ -473,7 +420,7 @@ Technical: strong circular fisheye distortion, black rounded lens vignette, inti
 Lighting: darker moodier ultra-cinematic style — deep black-rich shadows, cinematic contrast, dramatic directional light on face and upper torso, luminous halo, strong subject separation, subtle rim light, realistic skin texture.
 
 Quality: 8K, film-like contrast, ultra-sharp details, high-end poster look.`},
-{id:41,c:"Image Generation",s:"@Zyrellix",t:"Trending Anime Style Transformation",ph:1,x:`Create a trending anime art style image from the uploaded subject.
+{id:38,c:"Image Generation",s:"@Zyrellix",t:"Trending Anime Style Transformation",ph:1,x:`Create a trending anime art style image from the uploaded subject.
 
 Use confident line-work with slight variation and minimal cel shading using flat shadow shapes. Use bright, saturated colors and clean graphic lighting.
 
@@ -486,7 +433,7 @@ Composition and tone: [ENERGY LEVEL, e.g. energetic and lively / calm and serene
 Subject mood: [EXPRESSION, e.g. determined / joyful / mysterious / surprised].
 Setting: [TRANSFORMED ENVIRONMENT, e.g. fantasy school / urban rooftop / magical forest / cyberpunk street].
 Color palette emphasis: [PALETTE, e.g. warm sunset tones / cool blues and purples / vibrant neons].`},
-{id:42,c:"Image Generation",s:"@MissDelulu9",t:"High-Fashion Editorial Magazine Poster",ph:3,x:`Ultra-stylized high-fashion editorial poster of a confident [DESCRIPTION, e.g. young Asian female model] standing in the center frame. Elegant pose, glossy radiant skin, soft dewy makeup, [HAIR DESCRIPTION], wearing [FASHION DESCRIPTION, e.g. modern trendy K-fashion streetwear with premium styling details].
+{id:39,c:"Image Generation",s:"@MissDelulu9",t:"High-Fashion Editorial Magazine Poster",ph:3,x:`Ultra-stylized high-fashion editorial poster of a confident [DESCRIPTION, e.g. young Asian female model] standing in the center frame. Elegant pose, glossy radiant skin, soft dewy makeup, [HAIR DESCRIPTION], wearing [FASHION DESCRIPTION, e.g. modern trendy K-fashion streetwear with premium styling details].
 
 Clean studio lighting with high-contrast fashion flash photography, sharp focus, ultra-detailed textures, cinematic composition.
 
@@ -495,7 +442,7 @@ Background: vibrant retro pop-art magazine aesthetics, layered graphic typograph
 Overall mood: [MOOD, e.g. nostalgic 2000s teen fashion magazine energy with modern luxury editorial campaign style].
 
 Style: Bold color harmony, premium print aesthetic, ultra crisp details, fashion advertising quality, 8K resolution, highly polished commercial poster look.`},
-{id:43,c:"Image Generation",s:"@frametheory058",t:"Football Fashion Editorial Poster",ph:4,x:`Create an ultra-premium cinematic football-fashion editorial poster using uploaded reference face with exact facial identity preservation — maintain same hairstyle, skin tone, facial structure, [BEARD DETAILS], expression style. Zero identity alteration.
+{id:40,c:"Image Generation",s:"@frametheory058",t:"Football Fashion Editorial Poster",ph:4,x:`Create an ultra-premium cinematic football-fashion editorial poster using uploaded reference face with exact facial identity preservation — maintain same hairstyle, skin tone, facial structure, [BEARD DETAILS], expression style. Zero identity alteration.
 
 Pose: Walking confidently toward the camera in a relaxed luxury-athlete pose — one hand partially inside pocket, shoulders naturally loose, subtle confident smirk, direct eye contact.
 
@@ -512,7 +459,7 @@ Camera: Full-body vertical composition · Slight low-angle perspective · 85mm l
 Typography: Minimal premium football-poster typography on left: small modern sans-serif · luxury sports-brand spacing · editorial alignment · tiny logo-inspired marks
 
 Aspect Ratio: 4:5 vertical · Ultra detailed, photorealistic, cinematic quality.`},
-{id:44,c:"Image Generation",s:"@Minahil42298354",t:"Cyberpunk Fashion Collage",ph:5,x:`A striking avant-garde editorial collage featuring a confident fashion model in edgy [AESTHETIC, e.g. tactical streetwear / avant-garde fashion / futuristic couture].
+{id:41,c:"Image Generation",s:"@Minahil42298354",t:"Cyberpunk Fashion Collage",ph:5,x:`A striking avant-garde editorial collage featuring a confident fashion model in edgy [AESTHETIC, e.g. tactical streetwear / avant-garde fashion / futuristic couture].
 
 Composition: high-contrast blend of sharp photography and gritty urban graphics.
 Color palette: [PRIMARY COLOR, e.g. hot pink], [SECONDARY COLOR, e.g. electric yellow], and [BASE, e.g. deep blacks].
@@ -521,7 +468,7 @@ Overlaid with bold stylized typography and [TEXTURE TYPE, e.g. distressed paint]
 Aesthetic: [STYLE, e.g. cyber-punk street-style / dark academia / vaporwave / lo-fi futurism] with heavy mixed-media layering.
 Additional elements: [GRAPHIC ELEMENTS, e.g. torn paper edges / halftone dots / neon brush strokes / graffiti marks / geometric shapes].
 Mood: [MOOD, e.g. rebellious, powerful, boundary-breaking, artistic].`},
-{id:45,c:"Image Generation",s:"@mon010_de",t:"Surreal Crowd Portrait \u2014 Human Mosaic",ph:12,x:`A hyper-detailed surreal portrait of a [SUBJECT DESCRIPTION, e.g. stylish young man] created entirely from thousands of tiny human figures standing closely together, forming every facial feature, hair strand, [BEARD DETAIL], and clothing texture.
+{id:42,c:"Image Generation",s:"@mon010_de",t:"Surreal Crowd Portrait — Human Mosaic",ph:12,x:`A hyper-detailed surreal portrait of a [SUBJECT DESCRIPTION, e.g. stylish young man] created entirely from thousands of tiny human figures standing closely together, forming every facial feature, hair strand, [BEARD DETAIL], and clothing texture.
 
 Subject features: [HAIRSTYLE] · [FACIAL FEATURE] · [ACCESSORY, e.g. round luxury eyeglasses] · [EXPRESSION, e.g. calm confident expression] looking [DIRECTION].
 
@@ -532,7 +479,7 @@ The miniature people vary in clothing colors like [COLOR 1], [COLOR 2], [COLOR 3
 Background: minimal clean [COLOR] background, dramatic long shadows, cinematic lighting.
 
 Style: Ultra realistic 3D render, high detail, depth and texture emphasis, isometric perspective, elegant composition, futuristic conceptual art, crowd-made portrait installation, octane render, sharp focus, masterpiece quality, highly intricate details.`},
-{id:46,c:"Image Generation",s:"@Diplomeme",t:"Surreal CGI Product Advertising Poster",ph:10,x:`4:5 vertical premium poster, ultra-detailed 4K realism, bold commercial layout × cinematic surreal realism.
+{id:43,c:"Image Generation",s:"@Diplomeme",t:"Surreal CGI Product Advertising Poster",ph:10,x:`4:5 vertical premium poster, ultra-detailed 4K realism, bold commercial layout × cinematic surreal realism.
 
 CORE IDEA: "[BRAND TAGLINE, e.g. FUEL YOUR WORLD.]"
 
@@ -554,7 +501,7 @@ LIGHTING: [LIGHTING STYLE, e.g. dramatic rim lighting / soft studio / neon glow 
 RENDERING STYLE: [STYLE, e.g. hyperrealistic CGI / painterly surrealism / glossy commercial / matte editorial].
 
 FINAL FEEL: Premium commercial advertising, [BRAND PERSONALITY], visually arresting, scroll-stopping.`},
-{id:47,c:"Image Generation",s:"@CaliraVal",t:"Designer-Grade Modern Poster Layout",ph:4,x:`Designer-grade modern poster layout with strong visual hierarchy, asymmetric composition, intentional imbalance, editorial rhythm, and luxury fashion magazine aesthetics.
+{id:44,c:"Image Generation",s:"@CaliraVal",t:"Designer-Grade Modern Poster Layout",ph:4,x:`Designer-grade modern poster layout with strong visual hierarchy, asymmetric composition, intentional imbalance, editorial rhythm, and luxury fashion magazine aesthetics.
 
 Avoid: generic AI poster style, centered layouts, boring placement, floating elements, cheap event-poster feel, template-based composition.
 
@@ -578,7 +525,7 @@ Content: [POSTER SUBJECT / EVENT / BRAND / CAMPAIGN]
 Dominant color: [COLOR]
 Style reference: [STYLE, e.g. Balenciaga / Off-White / Supreme / A-Cold-Wall]
 Mood: [MOOD, e.g. confrontational / serene / energetic / melancholic]`},
-{id:48,c:"Image Generation",s:"@ChillaiKalan__",t:"Hijabi in Flower Field \u2014 Ground Level",ph:7,x:`Ultra-realistic cinematic photo of a hijabi woman. Do not change her face. Tall and slim body posture. Sitting calmly in the middle of a vast wild [FLOWER TYPE, e.g. poppy] flower field during the [TIME, e.g. afternoon].
+{id:45,c:"Image Generation",s:"@ChillaiKalan__",t:"Hijabi in Flower Field — Ground Level",ph:7,x:`Ultra-realistic cinematic photo of a hijabi woman. Do not change her face. Tall and slim body posture. Sitting calmly in the middle of a vast wild [FLOWER TYPE, e.g. poppy] flower field during the [TIME, e.g. afternoon].
 
 Entire area: natural dark green grass and hundreds of [COLOR] [FLOWER TYPE] flowers scattered randomly and organically. Flower distribution: natural and realistic like a real meadow.
 
@@ -591,7 +538,7 @@ Camera: slightly from the side at eye level, cinematic perspective. Medium shot 
 Background: wide bright [TIME OF DAY] sky. [LIGHTING, e.g. afternoon sunlight illuminating side of face and hijab with soft subtle shadows].
 
 Style: Rich dark green tones, vivid yet realistic flower colors, extremely sharp grass texture, cinematic color grading, subtle film grain, realistic depth of field, dreamy and immersive atmosphere, ultra realism, HD.`},
-{id:49,c:"Image Generation",s:"@saniaspeaks_",t:"Cinematic 16-Panel Storyboard Infographic",ph:13,x:`Create a cinematic 16-panel storyboard infographic showing the adventure of [PROTAGONIST DESCRIPTION, e.g. a young female wildlife photographer] traveling to [LOCATION] to [GOAL, e.g. photograph a majestic lion].
+{id:46,c:"Image Generation",s:"@saniaspeaks_",t:"Cinematic 16-Panel Storyboard Infographic",ph:13,x:`Create a cinematic 16-panel storyboard infographic showing the adventure of [PROTAGONIST DESCRIPTION, e.g. a young female wildlife photographer] traveling to [LOCATION] to [GOAL, e.g. photograph a majestic lion].
 
 Use a realistic movie-storyboard style with [COLOR PALETTE, e.g. warm natural colors], dramatic sunlight, [ATMOSPHERE, e.g. jungle atmosphere], cinematic camera angles.
 
@@ -610,7 +557,7 @@ Replace brackets with your specific scene descriptions.
 Include: realistic [ENVIRONMENT] lighting, [ATMOSPHERIC DETAIL, e.g. dust particles, leaves moving], cinematic shadows, dramatic expressions, emotional storytelling.
 
 Style: Ultra-realistic photography style, [GENRE] documentary mood, high-detail [ENVIRONMENT], no anime, no cartoon, no CGI look, 4K quality.`},
-{id:50,c:"Image Generation",s:"@Mind_Boticni",t:"Futuristic Music Streaming Website UI",ph:7,x:`Avant-garde futuristic music streaming website UI. 4 stacked artist hero banners presentation.
+{id:47,c:"Image Generation",s:"@Mind_Boticni",t:"Futuristic Music Streaming Website UI",ph:7,x:`Avant-garde futuristic music streaming website UI. 4 stacked artist hero banners presentation.
 
 Layout: Bold [FONT STYLE, e.g. white sans-serif] typography on left, ultra-realistic [SUBJECT TYPE, e.g. artist portrait] on right.
 
@@ -627,7 +574,7 @@ Photography: studio-quality portrait photography, ultra-clean composition, cinem
 Format: dark mode UI, 1:1 aspect ratio.
 
 Style keywords: Behance-style showcase mockup, premium digital art direction, highly detailed, sharp focus.`},
-{id:51,c:"Image Generation",s:"@abs_uiux",t:"Wedding Souvenir Jotter Cover Design",ph:9,x:`Create a premium modern wedding souvenir jotter cover design using a two-panel layout on one canvas — back cover on the left, front cover on the right. Luxurious, elegant, clean, modern, professionally designed.
+{id:48,c:"Image Generation",s:"@abs_uiux",t:"Wedding Souvenir Jotter Cover Design",ph:9,x:`Create a premium modern wedding souvenir jotter cover design using a two-panel layout on one canvas — back cover on the left, front cover on the right. Luxurious, elegant, clean, modern, professionally designed.
 
 Use fully AI-generated generic couple photos (not real people). The couple should look romantic, polished, and classy.
 
@@ -654,7 +601,7 @@ RIGHT PANEL / FRONT COVER:
 - Venue: [VENUE, e.g. Rosewood Garden Estate]
 
 Typography: elegant serif for names · refined script for "&" · clean modern small caps for supporting details.`},
-{id:52,c:"Image Generation",s:"@Naiknelofar788",t:"Comic Book Character Emerging",ph:2,x:`Ultra-detailed cinematic fantasy scene inside a messy teenage bedroom filled with comic book posters, scattered clothes, gaming accessories, and warm ambient lighting.
+{id:49,c:"Image Generation",s:"@Naiknelofar788",t:"Comic Book Character Emerging",ph:2,x:`Ultra-detailed cinematic fantasy scene inside a messy teenage bedroom filled with comic book posters, scattered clothes, gaming accessories, and warm ambient lighting.
 
 A gigantic illustrated comic book matching [CHARACTER, e.g. Spider-Man / Wonder Woman / Naruto / your original character] leans open against the wall, its massive detailed pages filled with dramatic artwork, symbols, environments, and storytelling elements connected to [CHARACTER].
 
@@ -663,7 +610,7 @@ Tearing through a jagged ripped hole in the center of the page, [CHARACTER] sudd
 Dynamic mid-step pose emerging from the torn comic page, flying paper fragments, cinematic depth of field, realistic textures, dramatic shadows, highly detailed costume design, blending comic-book illustration with hyper-realistic photography, immersive storytelling atmosphere.
 
 Ultra-realistic, 8K, vertical composition.`},
-{id:53,c:"Image Generation",s:"@aimikoda",t:"Cute \u2194 Crazy Emotional Performance Grid",ph:0,x:`Create a clean 4×4 emotional performance grid using the provided character as the fixed identity reference.
+{id:50,c:"Image Generation",s:"@aimikoda",t:"Cute ↔ Crazy Emotional Performance Grid",ph:0,x:`Create a clean 4×4 emotional performance grid using the provided character as the fixed identity reference.
 
 Visual style: Clean modern graphic design layout. Elegant serif header at the top, soft off-white background, even spacing, small readable handwritten-style labels centered below each panel.
 
@@ -680,7 +627,7 @@ Row 4: 13. chaotic stare  14. dangerous excitement  15. beautiful insanity  16. 
 Format: 4×4 grid, cinematic portrait photography style, neutral background, tight close-up framing, shallow depth of field, no watermark.
 
 Customize: Replace the header text and label names to create your own custom emotional scale (e.g. "CALM ↔ CHAOTIC", "SHY ↔ CONFIDENT").`},
-{id:54,c:"Image Generation",s:"@Goodmanprotocol",t:"1960s Vintage Brew Advertising Poster",ph:5,x:`Authentic 1960s American advertising poster for [BREW, e.g. Coca-Cola / a fictional craft beer / your brand].
+{id:51,c:"Image Generation",s:"@Goodmanprotocol",t:"1960s Vintage Brew Advertising Poster",ph:5,x:`Authentic 1960s American advertising poster for [BREW, e.g. Coca-Cola / a fictional craft beer / your brand].
 
 Scene: [PERSON DESCRIPTION, e.g. a cheerful young woman in a polka-dot dress / a rugged outdoorsman in a flannel shirt] holding a frosty glass bottle of [BREW], in a bright optimistic lifestyle scene.
 
@@ -691,7 +638,7 @@ Nostalgic Americana atmosphere. Bold [COLOR 1] and [COLOR 2, e.g. red and cream 
 Style: authentic screen print texture, subtle paper grain, hand-painted illustration style, vintage Madison Avenue advertising aesthetic, clean composition, highly detailed, warm cinematic lighting, premium poster design, authentic 1960s print imperfections, painterly realism, soft brushwork.
 
 Format: vertical composition 4:5.`},
-{id:55,c:"Image Generation",s:"@Diplomeme",t:"SNITCH-Style Luxury Menswear Campaign",ph:10,x:`FORMAT: 4:5 vertical premium menswear campaign poster — hyper-realistic fashion advertising — luxury daytime editorial — Instagram billboard composition — 8K ultra-detail.
+{id:52,c:"Image Generation",s:"@Diplomeme",t:"SNITCH-Style Luxury Menswear Campaign",ph:10,x:`FORMAT: 4:5 vertical premium menswear campaign poster — hyper-realistic fashion advertising — luxury daytime editorial — Instagram billboard composition — 8K ultra-detail.
 
 CONCEPT: [BRAND NAME] adapts its own daytime luxury identity — clean masculine confidence — modern [CITY] street luxury — minimal premium fashion storytelling.
 
@@ -709,7 +656,7 @@ LIGHTING: [LIGHTING, e.g. hard directional afternoon sunlight / soft golden diff
 CAMERA: 85mm portrait lens — full-body or 3/4 body — slight upward angle — luxury fashion editorial framing.
 
 STYLE: Luxury fashion editorial × [NATIONALITY] streetwear × premium social media campaign × Behance top project quality.`},
-{id:56,c:"Image Generation",s:"@Mind_Boticni",t:"Director's Pitch Character Presentation Board",ph:0,x:`A premium director's pitch presentation board for a high-budget cinematic production, showcasing a single grounded human character with intense emotional readability and natural imperfections.
+{id:53,c:"Image Generation",s:"@Mind_Boticni",t:"Director's Pitch Character Presentation Board",ph:0,x:`A premium director's pitch presentation board for a high-budget cinematic production, showcasing a single grounded human character with intense emotional readability and natural imperfections.
 
 Layout: art-directed and organically asymmetrical, avoiding rigid grids.
 
@@ -726,7 +673,7 @@ Technical: Shot on 35mm anamorphic lens simulation, shallow depth of field, mute
 Character to design: [CHARACTER DESCRIPTION — appearance, clothing, emotional backstory, world/era]
 Tone: [TONE, e.g. grounded thriller / sci-fi realism / period drama / noir]
 Color palette: [PALETTE, e.g. desaturated warm tones / cool blue greys / earthy naturals]`},
-{id:57,c:"Image Generation",s:"@Preda2005",t:"National Sports Celebration Poster",ph:11,x:`Create an ultra-detailed cinematic national sports poster:
+{id:54,c:"Image Generation",s:"@Preda2005",t:"National Sports Celebration Poster",ph:11,x:`Create an ultra-detailed cinematic national sports poster:
 
 Country: [COUNTRY, e.g. Nigeria / Brazil / South Korea / Spain]
 Sport: [SPORT, e.g. Football / Basketball / Athletics / Cricket]
@@ -748,23 +695,18 @@ TYPOGRAPHY: "[COUNTRY]" in bold display type · "[EVENT NAME]" · "[YEAR]" · "[
 STYLE: Epic cinematic poster quality · photorealistic athletes · dramatic volumetric lighting · dust and confetti particles · emotional storytelling · IMAX blockbuster aesthetic · 8K resolution.
 
 AVOID: Generic sports imagery · cliché trophy shots · flat composition · stock photo feel.`},
-{id:58,c:"Image Generation",s:"@frametheory058",t:"Miniature Atlas \u2014 Country as Collectible Miniature World",ph:3,x:`An ultra-premium cinematic atlas visualization of [COUNTRY] designed as a luxurious collectible miniature world built directly into an aged textured world map.
+{id:55,c:"Image Generation",s:"Merged",t:"Miniature Diorama — Built On a Surface",ph:3,x:`A hyper-detailed miniature diorama of [SUBJECT — a city, country, or civilization, e.g. Tokyo / Ancient Rome] built directly onto [SURFACE — pick one below]:
 
-The miniature world features:
-- [COUNTRY]'s most iconic landmarks at accurate relative positions
-- Major cities rendered as tiny glowing settlements
-- Mountain ranges, rivers, coastlines, and terrain in hyper-detailed miniature form
-- Traditional architecture, monuments, and cultural symbols
-- Tiny vehicles, boats, trains, and people in historically/culturally authentic styling
+• World Map: an aged, textured parchment world map with visible cartographic lines, handwritten annotations, and a compass rose — the miniature [SUBJECT] rises from the flat map in precise 3D, seamlessly emerging from the paper. Style: luxury collectible museum piece, atlas-inspired cartographic aesthetic, warm amber and parchment tones.
 
-The world map beneath: aged parchment paper texture, visible cartographic lines, handwritten annotations, compass rose, depth and shadow.
+• Wooden Workshop Table: a rustic wooden tabletop, as if [SUBJECT] is being handcrafted in real time, with no visible platform or base — buildings and roads emerge naturally from the wood grain. A realistic human hand uses precision tweezers and brushes to place tiny details. Warm window light, atmospheric haze, floating dust particles, cozy workshop ambience.
 
-The miniature [COUNTRY] rises from the flat map in precise 3D, seamlessly emerging from the paper.
+• Architectural Blueprints: large rolled-out blueprints spread across a wooden drafting table, showing [SUBJECT] under construction — partially completed monuments, scaffolding, cranes, and tiny craftsmen using historically accurate tools. Surrounding the workspace: compasses, rolled parchment plans, candles, reference books, rulers.
 
-Lighting: Warm golden cinematic light from slightly above-right, creating soft shadows across miniature mountains and buildings. Shallow depth of field.
+Scene detail (all surfaces): the most iconic landmarks, architecture, streets, transportation, and cultural elements of [SUBJECT], with dense miniature activity — tiny people, vehicles, and environmental storytelling.
 
-Style: Luxury collectible museum piece · handcrafted precision miniature · atlas-inspired cartographic aesthetic · warm amber and parchment tones · ultra realistic textures · cinematic macro photography · 8K quality.`},
-{id:59,c:"Image Generation",s:"@frametheory058",t:"Silk Ribbon Nation \u2014 Country as Sculptural Poster",ph:5,x:`Create a breathtaking ultra-luxury vertical gallery poster where the entire nation of [COUNTRY NAME] is transformed into a flowing sculptural silk ribbon.
+Photography: warm cinematic light, shallow depth of field, realistic tilt-shift effect, handcrafted museum-quality scale-model textures, ultra-realistic 8K detail, vertical composition, realistic shadows.`},
+{id:56,c:"Image Generation",s:"@frametheory058",t:"Silk Ribbon Nation — Country as Sculptural Poster",ph:5,x:`Create a breathtaking ultra-luxury vertical gallery poster where the entire nation of [COUNTRY NAME] is transformed into a flowing sculptural silk ribbon.
 
 The silk ribbon:
 - Traces the exact geographic borders and shape of [COUNTRY NAME]
@@ -784,29 +726,7 @@ Wow factors:
 Typography (minimal): "[COUNTRY NAME]" in ultra-thin serif at the bottom · small gold country code or coordinates
 
 Style: Museum installation art · luxury editorial fashion photography · hyperrealistic CGI rendering · dramatic gallery lighting · silky material realism · cinematic depth · 8K resolution.`},
-{id:60,c:"Image Generation",s:"@Naiknelofar788",t:"Miniature Diorama on Wooden Workshop Table",ph:2,x:`A hyper-detailed miniature diorama of [CITY OR PLACE, e.g. Paris / Tokyo / Lagos / Venice] seamlessly built directly onto a rustic wooden table surface, as if the entire location is being handcrafted in real time.
-
-The scene features the most iconic landmarks, architecture, streets, transportation, cultural elements, and atmosphere of [CITY OR PLACE], surrounded by dense miniature activity with tiny people, vehicles, shops, markets, lights, and environmental storytelling unique to the location.
-
-Roads, landscapes, buildings, and structures emerge naturally from the wooden tabletop with no visible platform or base.
-
-In the foreground: a realistic human hand carefully uses precision tweezers, brushes, or miniature modeling tools to place and adjust tiny details.
-
-Lighting: Warm cinematic light streams through a nearby window creating soft golden highlights, atmospheric haze, floating dust particles.
-
-Photography style: Shallow depth of field, realistic tilt-shift photography. Ultra intricate miniature craftsmanship, photorealistic textures, cozy workshop ambience, cinematic composition, immersive scale-model realism, ultra realistic 8K detail.`},
-{id:61,c:"Image Generation",s:"@Naiknelofar788",t:"Ancient Civilization Under Construction \u2014 Miniature on Blueprints",ph:0,x:`A highly detailed miniature diorama of an ancient civilization under construction, displayed directly on top of large rolled-out architectural blueprints spread across a realistic wooden drafting table.
-
-The scene features iconic historical architecture from [CIVILIZATION OR LOCATION, e.g. Ancient Egypt / Ancient Rome / Aztec Empire / Tang Dynasty China], including partially completed monuments, temples, towers, walls, palaces, streets, or ceremonial structures at different stages of construction.
-
-Tiny craftsmen, builders, engineers, and workers interact naturally throughout the scene using historically accurate tools, scaffolding, ramps, cranes, carts, stone blocks, timber frameworks, and construction platforms.
-
-The miniature terrain blends seamlessly into the printed engineering drawings beneath, combining realistic sand, stone, earth, marble, vegetation, or desert textures with visible architectural floor plans, elevation sketches, measurements, annotations, and cross-sections.
-
-Surrounding the workspace: drafting instruments, compasses, rolled parchment plans, books, rulers, brass weights, candles, maps, carving tools, and historical reference materials.
-
-Lighting: Soft cinematic natural sunlight from a nearby window, shallow depth of field, ultra realistic textures, handcrafted museum-quality scale model aesthetic, intricate miniature detailing, photoreal materials, atmospheric realism, vertical composition, extremely high detail, realistic shadows, authentic historical mood.`},
-{id:62,c:"Image Generation",s:"@iamsofiaijaz",t:"Queen of Spades Sorcerer Movie Poster",ph:1,x:`A hyper-realistic cinematic movie poster of a powerful female sorcerer (with the same facial structure and likeness as the uploaded reference photo) bursting through a cracked Queen of Spades playing card.
+{id:57,c:"Image Generation",s:"@iamsofiaijaz",t:"Queen of Spades Sorcerer Movie Poster",ph:1,x:`A hyper-realistic cinematic movie poster of a powerful female sorcerer (with the same facial structure and likeness as the uploaded reference photo) bursting through a cracked Queen of Spades playing card.
 
 The card explodes outward with stone fragments, dust, and debris frozen mid-air.
 
@@ -819,7 +739,7 @@ Expression: intense piercing gaze, confident and dominant, cinematic hero framin
 Technical: Dramatic chiaroscuro lighting, dark moody background, volumetric light rays, ultra-detailed textures, shallow cinematic depth of field. Photorealistic face, epic fantasy realism, movie poster composition, high contrast, dynamic motion, dust particles, masterpiece quality, ultra-sharp focus, 8K resolution, cinematic color grading.
 
 Adapt: Change the card suit/rank, costume style, magical element color, or mood to suit your character concept.`},
-{id:63,c:"Image Generation",s:"@xRahultripathi",t:"Billionaire Portrait \u2014 Ink & Watercolor",ph:5,x:`A powerful portrait of a high-status business leader (using uploaded reference image for exact facial likeness).
+{id:58,c:"Image Generation",s:"@xRahultripathi",t:"Billionaire Portrait — Ink & Watercolor",ph:5,x:`A powerful portrait of a high-status business leader (using uploaded reference image for exact facial likeness).
 
 Wearing: [OUTFIT, e.g. premium luxury formal suit, tailored dark suit, crisp white shirt, elegant tie].
 
@@ -837,7 +757,7 @@ Typography Elements (integrated into the design):
 - Quote: "[YOUR POWER QUOTE, e.g. 'Build in silence. Let success make the noise.']"
 
 Style: Premium luxury editorial portrait · Abstract expressionist art direction · Magazine cover quality`},
-{id:64,c:"Image Generation",s:"@abxxai",t:"Hip-Hop Dancer Ink Brush Storyboard",ph:0,x:`Create a director-style PREVIS action storyboard focused on 8 continuous action frames using only minimal stick figures. No realistic anatomy, clothing details — show only movement, camera choreography, momentum trails, and ink motion.
+{id:59,c:"Image Generation",s:"@abxxai",t:"Hip-Hop Dancer Ink Brush Storyboard",ph:0,x:`Create a director-style PREVIS action storyboard focused on 8 continuous action frames using only minimal stick figures. No realistic anatomy, clothing details — show only movement, camera choreography, momentum trails, and ink motion.
 
 Subject: A hip-hop dancer wearing [OUTFIT, e.g. loose white top and dark oversized pants with irregular ink erosion along the fabric edges], holding an oversized heavy ink brush in the right hand with dense wet ink. The brush is always part of the movement, generating visible ink trails and ink masses with every swing.
 
@@ -856,7 +776,7 @@ Style: Ink wash minimalism + abstract fashion silhouette + dynamic motion ink + 
 6. [0:10–0:12] Camera suddenly pushes close — large turning motion, brush creates full heavy ink ring
 7. [0:12–0:13.5] Camera briefly stabilizes — dancer pulls brush far behind body into extreme tension
 8. [0:13.5–0:15] Extreme frontal wide-perspective close shot — dancer lunges forward, brush whips toward camera, massive calligraphic ink strokes flood the frame until screen becomes pure black`},
-{id:65,c:"Image Generation",s:"@Ciri_ai",t:"Sports Broadcast Glamour Stadium Still",ph:6,x:`Ultra-realistic sports broadcast still of a glamorous [GENDER, e.g. woman / man] sitting in a packed [SPORT, e.g. football] stadium crowd during a [TIME, e.g. night / evening] match.
+{id:60,c:"Image Generation",s:"@Ciri_ai",t:"Sports Broadcast Glamour Stadium Still",ph:6,x:`Ultra-realistic sports broadcast still of a glamorous [GENDER, e.g. woman / man] sitting in a packed [SPORT, e.g. football] stadium crowd during a [TIME, e.g. night / evening] match.
 
 Subject: Wearing [OUTFIT, e.g. a dark brown sleeveless high-neck satin top and black square earrings, shoulder-length light brown/blonde hair styled in soft waves]. Casually [ACTION, e.g. drinking from a tall blue aluminum can while holding a half-eaten cheeseburger].
 
@@ -869,32 +789,7 @@ Broadcast overlay: realistic UI graphics in the top-left corner showing a live [
 Lighting: Natural arena lighting, detailed skin texture, sharp focus on subject, slightly blurred background crowd, authentic live sports broadcast aesthetic.
 
 Composition: 16:9.`},
-{id:66,c:"Image Generation",s:"@Goodmanprotocol",t:"Illustrated City Collage Travel Poster",ph:3,x:`Destination: [CITY NAME, e.g. Paris / Dubai / Lagos / Kyoto]
-
-Create an ultra-high-resolution vector travel illustration poster themed around [DESTINATION].
-
-CORE COMPOSITION:
-- Portrait poster aspect ratio (4:5)
-- Represent the entire city as one compressed "illustrated world"
-- Layer landmarks, architecture, bridges, rivers, streets, parks, transportation, hills, and sky elements vertically throughout the composition
-- Every element should feel densely interconnected like a postcard-style city collage
-- Balance 8–15 iconic landmarks of the city across the full composition
-- Leave a large clean margin at the bottom containing: "[DESTINATION]" typography in thin geometric sans-serif with wide letter spacing
-
-STYLE: Mid-century modern vector illustration · Scandinavian editorial poster style · Minimal geometric city illustration · Clean flat vector art · Thick navy outlines · Ultra crisp linework · Architectural illustration · Storybook cityscape · Retro tourism poster aesthetic · Screen print-style illustration
-
-VISUAL RULES:
-- All buildings simplified into geometric architectural forms
-- Avoid excessive micro-detail
-- Landmarks should appear slightly cute and stylized rather than realistic
-- Compress the cityscape into a "miniature toy city" feeling
-- Between buildings, insert small icon-like elements: trees, clouds, hills, rivers, roads, hot air balloons, birds, cars, trams, trains
-- Emphasize symmetry and visual rhythm
-
-COLOR PALETTE: Muted pastel palette — cream, dusty blue, sage green, warm orange, soft peach, muted teal · Low-saturation soft colors · Background: bright ivory or very light gray · Minimal shadows, flat shading only
-
-QUALITY: Ultra detailed vector, print-ready, 8K, extremely clean edges, no blur, no painterly texture, pure vector illustration`},
-{id:67,c:"Image Generation",s:"@frametheory058",t:"Ultra Premium AI Fitness Analysis Poster",ph:0,x:`Create an ULTRA PREMIUM AI FITNESS ANALYSIS POSTER from an uploaded gym mirror selfie / body photo.
+{id:61,c:"Image Generation",s:"@frametheory058",t:"Ultra Premium AI Fitness Analysis Poster",ph:0,x:`Create an ULTRA PREMIUM AI FITNESS ANALYSIS POSTER from an uploaded gym mirror selfie / body photo.
 
 IMPORTANT: The uploaded face and identity must remain EXACTLY THE SAME. Do not change: face structure, eyes, jawline, hairstyle, skin tone, or facial proportions. Only enhance: body presentation, outfit styling, lighting, pose, atmosphere.
 
@@ -917,7 +812,7 @@ FOOD SECTION: Floating premium food cards — salmon, eggs, chicken breast, avoc
 EXERCISE SECTION: Sleek cinematic mini-panels — incline bench, pull-ups, shoulder press, squats, deadlift
 
 QUALITY: Hyper-realistic, ultra-detailed, 8K, cinematic realism, viral social media quality.`},
-{id:68,c:"Image Generation",s:"@harboriis",t:"Urban Newsstand Fashion Editorial",ph:6,x:`A cinematic fashion editorial scene of [NUMBER, e.g. 8] diverse young adults gathered around a vintage urban newsstand kiosk with a bold "NEWSSTAND" sign, set in a gritty indoor street environment with worn concrete floors, dark industrial walls, and subtle urban details.
+{id:62,c:"Image Generation",s:"@harboriis",t:"Urban Newsstand Fashion Editorial",ph:6,x:`A cinematic fashion editorial scene of [NUMBER, e.g. 8] diverse young adults gathered around a vintage urban newsstand kiosk with a bold "NEWSSTAND" sign, set in a gritty indoor street environment with worn concrete floors, dark industrial walls, and subtle urban details.
 
 Newspapers fly dynamically through the air in mid-motion, creating layered depth and energy with natural motion blur.
 
@@ -934,7 +829,7 @@ Shot from a [ANGLE, e.g. slightly elevated angle (top-down perspective)], [LENS,
 Lighting: Soft cinematic with warm highlights and diffused shadows, creating a premium fashion campaign mood.
 
 Ultra-detailed, photorealistic, shallow depth of field, crisp subject focus, soft film grain, natural color grading, high-end magazine aesthetic, 4K quality.`},
-{id:69,c:"Image Generation",s:"@RizwanAly07",t:"Fashion Portrait with Digital Deconstruction",ph:5,x:`Create a cinematic high-fashion portrait of a stylish [GENDER, e.g. young man] standing confidently in a minimalist studio environment.
+{id:63,c:"Image Generation",s:"@RizwanAly07",t:"Fashion Portrait with Digital Deconstruction",ph:5,x:`Create a cinematic high-fashion portrait of a stylish [GENDER, e.g. young man] standing confidently in a minimalist studio environment.
 
 Wearing: [OUTFIT, e.g. layered contemporary winter outfit featuring a long textured charcoal overcoat, oversized teal innerwear, and a rich burnt-orange scarf flowing naturally with motion]. Expression: calm, sharp, and editorial. Confident presence.
 
@@ -951,7 +846,7 @@ Color palette: strong complementary contrast between [COLOR 1, e.g. teal/blue] a
 Ultra-realistic, cinematic lighting, sharp focus, high detail, premium editorial photography style, surreal digital art fusion, dynamic motion particles, floating geometric debris.
 
 Aspect Ratio: 9:16`},
-{id:70,c:"Image Generation",s:"@azed_ai",t:"Typographic Silhouette Illustration",ph:0,x:`Create a minimalist black-and-white typographic illustration of a [SUBJECT, e.g. figure under an umbrella / running athlete / seated musician / car / tree / building], formed entirely from arranged words and phrases.
+{id:64,c:"Image Generation",s:"@azed_ai",t:"Typographic Silhouette Illustration",ph:0,x:`Create a minimalist black-and-white typographic illustration of a [SUBJECT, e.g. figure under an umbrella / running athlete / seated musician / car / tree / building], formed entirely from arranged words and phrases.
 
 The text used: [WORDS/PHRASES, e.g. the lyrics of a song / a poem / the subject's name repeated / affirmations / technical terms related to the subject]
 
@@ -960,7 +855,7 @@ Design: Curved and distorted lettering shaping the full silhouette · Varied tex
 Style: [AESTHETIC, e.g. word cloud art / typographic poster / text portrait / calligram]
 
 Applications: Personal portrait from your name · Brand identity using product names · Sports figure using stats and quotes · Animal made from facts about the species`},
-{id:71,c:"Image Generation",s:"@Sheldon056",t:"Dual Identity \u2014 Holding Your Own Face as a Mask",ph:5,x:`Hyper-realistic studio portrait of a [GENDER, e.g. young man/woman] holding their own face like a mask slightly away from their head. Underneath is a second, more [CONTRAST, e.g. tired and expressionless / raw and emotional / younger and innocent] version of themselves.
+{id:65,c:"Image Generation",s:"@Sheldon056",t:"Dual Identity — Holding Your Own Face as a Mask",ph:5,x:`Hyper-realistic studio portrait of a [GENDER, e.g. young man/woman] holding their own face like a mask slightly away from their head. Underneath is a second, more [CONTRAST, e.g. tired and expressionless / raw and emotional / younger and innocent] version of themselves.
 
 Outfit: [OUTFIT, e.g. clean monochrome fit, minimal styling].
 Background: soft grey-beige seamless.
@@ -974,7 +869,7 @@ Typography integrated into the image:
 Mood: [MOOD, e.g. dual identity / emotional suppression / performative self / vulnerability / authenticity]
 
 Customize: Change the typography phrases to reflect your own message or emotional concept.`},
-{id:72,c:"Image Generation",s:"@AiWithTariq",t:"Disintegrating Body \u2014 Walking in Dark City",ph:2,x:`Ultra-realistic cinematic full-body portrait of a [GENDER, e.g. young man] (100% same face as the reference photo) walking forward with right foot stepping ahead. Head slightly bowed, eyes toward the ground, expressing emotional heaviness.
+{id:66,c:"Image Generation",s:"@AiWithTariq",t:"Disintegrating Body — Walking in Dark City",ph:2,x:`Ultra-realistic cinematic full-body portrait of a [GENDER, e.g. young man] (100% same face as the reference photo) walking forward with right foot stepping ahead. Head slightly bowed, eyes toward the ground, expressing emotional heaviness.
 
 Right hand near chest, holding [ITEM, e.g. the collar of his long charcoal coat], left arm hangs loose.
 
@@ -987,7 +882,7 @@ Lighting: sharp cool-blue rim light comes from the smoke-disintegration side, il
 Outfit: [OUTFIT, e.g. long charcoal trench coat, black turtleneck, slim-fit black trousers, matte boots, silver watch glinting softly].
 
 Mood: Moody, gritty, dramatic, surreal, emotional. 8K realism.`},
-{id:73,c:"Image Generation",s:"@AiWithTariq",t:"Watercolor Splash Hair Portrait",ph:5,x:`Ultra detailed watercolor splash portrait of a [GENDER, e.g. beautiful young man/woman], side profile.
+{id:67,c:"Image Generation",s:"@AiWithTariq",t:"Watercolor Splash Hair Portrait",ph:5,x:`Ultra detailed watercolor splash portrait of a [GENDER, e.g. beautiful young man/woman], side profile.
 
 Flowing [COLOR, e.g. turquoise and aqua blue] hair transforming into liquid water splashes. Monochrome realistic face with soft shading. Elegant [EXPRESSION, e.g. serene / fierce / dreamlike] expression.
 
@@ -996,7 +891,7 @@ Abstract ink splatter effects, dripping paint details, dynamic fluid composition
 Cinematic lighting, 8K, masterpiece, highly detailed.
 
 Customize: Change the hair color splash ([COLOR]) to create different moods — violet and gold, crimson and black, emerald and silver, sunset orange and pink.`},
-{id:74,c:"Image Generation",s:"@AiWithTariq",t:"Man Emerging from Earth \u2014 Spiritual Portrait",ph:1,x:`A dramatic surreal portrait of a [GENDER, e.g. man] emerging from earth and dust, eyes closed in a meditative state.
+{id:68,c:"Image Generation",s:"@AiWithTariq",t:"Man Emerging from Earth — Spiritual Portrait",ph:1,x:`A dramatic surreal portrait of a [GENDER, e.g. man] emerging from earth and dust, eyes closed in a meditative state.
 
 Their body is partially formed from soil and crumbling clay, hands raised gently in front as if feeling energy. Particles of dirt and sand exploding and floating around the body. The lower torso dissolves into a pile of earth on the ground.
 
@@ -1007,7 +902,7 @@ Powerful spiritual symbolism: [CONCEPT, e.g. "man made of earth" / rebirth / ret
 Dynamic particle effects, volumetric lighting, epic poster composition, centered subject, sharp focus, 8K resolution, dramatic contrast, masterpiece, photorealistic.
 
 Adapt: Change the mood (peaceful → anguished → transcendent), the element the body emerges from (earth / water / fire / light / darkness), and the lighting color to suit your concept.`},
-{id:75,c:"Image Generation",s:"@AiWithTariq",t:"Medieval Double Exposure Portrait",ph:3,x:`A cinematic double exposure portrait of a medieval [DESCRIPTION, e.g. young man / warrior / scholar / noblewoman] in side profile, ultra-realistic and highly detailed.
+{id:69,c:"Image Generation",s:"@AiWithTariq",t:"Medieval Double Exposure Portrait",ph:3,x:`A cinematic double exposure portrait of a medieval [DESCRIPTION, e.g. young man / warrior / scholar / noblewoman] in side profile, ultra-realistic and highly detailed.
 
 Their pale emotional face is softly illuminated with natural diffused light, showing subtle [EMOTION, e.g. sadness / determination / wisdom / mystery].
 
@@ -1020,7 +915,7 @@ Atmospheric fog surrounds the environment, creating a haunting and mysterious mo
 Color palette: Desaturated cinematic — soft grey, brown, and muted [TONE, e.g. sepia / blue / green] tones. Dramatic volumetric lighting, ultra-detailed skin texture, shallow depth of field.
 
 Style: Epic dark fantasy game poster · Unreal Engine cinematic render · 4K ultra HD.`},
-{id:76,c:"Image Generation",s:"@AiWithTariq",t:"Coffee Steam Face Portrait",ph:6,x:`A hyper-realistic cinematic photograph of a steaming cup of artisanal coffee placed on a dark oak wooden table inside a luxurious cozy [CITY, e.g. Melbourne / London / Kyoto] café during a quiet morning atmosphere.
+{id:70,c:"Image Generation",s:"@AiWithTariq",t:"Coffee Steam Face Portrait",ph:6,x:`A hyper-realistic cinematic photograph of a steaming cup of artisanal coffee placed on a dark oak wooden table inside a luxurious cozy [CITY, e.g. Melbourne / London / Kyoto] café during a quiet morning atmosphere.
 
 Warm amber-toned cinematic lighting softly illuminates the ceramic coffee cup, while delicate golden highlights reflect naturally around the rim. Background: softly blurred with buttery bokeh — elegant wooden textures, vintage books, warm pendant lights, and subtle café ambience.
 
@@ -1032,33 +927,7 @@ Add elegant glossy signature text: "[SIGNATURE TEXT, e.g. Tiny Wonder / your bra
 
 Style: Hyper-realistic cinematic photography · Surrealist portraiture · Luxury café aesthetic
 Lens: 85mm prime, f/1.2 · Lighting: Volumetric warm indoor golden-hour glow · Quality: 8K ultra HD masterpiece`},
-{id:77,c:"Image Generation",s:"@Naiknelofar788",t:"3D Typography Travel Poster \u2014 City as Letterform Architecture",ph:6,x:`Create a 3:2 premium 3D typography-based travel poster for [CITY], using luxury editorial destination advertising fused with realistic sculptural letterform architecture.
-
-The city name "[CITY]" is the dominant subject. Build the letters as large realistic three-dimensional sculptural forms made from [MATERIAL, e.g. glossy painted material / polished ceramic / carved stone / sunlit architectural surfaces].
-
-Each letter physically transforms into the city's identity — landmarks, skyline silhouettes, arches, towers, domes, bridges, windows, balconies, cultural patterns grow directly out of the letterforms. NOT pasted behind — architecturally integrated.
-
-Camera: Low-angle three-quarter view so the typography feels monumental, cinematic, premium, and friendly.
-
-Header (top, faded and elegant): A refined horizontal row of tiny vector icons of [CITY]'s famous landmarks with their names below. Soft, secondary, like premium magazine header details.
-
-Lighting: Bright natural daylight with soft key light from upper-left, gentle fill light, clean highlights, cheerful, fresh, editorial. No sun visible in top-left corner.
-
-Color palette [CITY-ADAPTIVE]:
-- Coastal cities → aqua, coral, cream, sunny yellow
-- Historic cities → warm stone, terracotta, olive, soft sky blue
-- Tropical cities → turquoise, mango, palm green, white
-- Mountain cities → alpine blue, meadow green, snow white, golden warmth
-- Nightlife cities → violet, cyan, peach, amber
-
-Editorial text elements (quiet, secondary):
-- Small uppercase: "DESTINATION SERIES"
-- Tiny location code: "[CITY] / 01"
-- Minimal footer: "VISIT [CITY]"
-- Small microtype coordinates near bottom edge
-
-NEGATIVE: No generic travel posters · No flat typography · No cluttered backgrounds · No visible sun in top-left · No dark cinematic lighting · No distorted letters.`},
-{id:78,c:"Image Generation",s:"@ZephyraLeigh",t:"Architectural Blueprint Infographic \u2014 Landmark Building",ph:8,x:`Ultra-detailed architectural blueprint sheet of [BUILDING, e.g. the Burj Khalifa / the Eiffel Tower / the Sagrada Família / your building] — full-height front view with engineering annotations and technical callout labels.
+{id:71,c:"Image Generation",s:"@ZephyraLeigh",t:"Architectural Blueprint Infographic — Landmark Building",ph:8,x:`Ultra-detailed architectural blueprint sheet of [BUILDING, e.g. the Burj Khalifa / the Eiffel Tower / the Sagrada Família / your building] — full-height front view with engineering annotations and technical callout labels.
 
 BUILDING DETAILS to include:
 - Height: [HEIGHT, e.g. 828 meters]
@@ -1078,7 +947,7 @@ Surrounding elements: height comparison charts, floor distribution diagrams, str
 Style: luxury architectural visualization · engineering blueprint aesthetics · cinematic city photography · infographic design · professional skyscraper concept presentation
 
 Quality: ultra detailed · 8K · [ASPECT RATIO, e.g. 3:4]`},
-{id:79,c:"Image Generation",s:"@HaniaAi12",t:"Snack / Product Commercial Advertisement",ph:3,x:`A [MOOD, e.g. cheerful and modern / bold and edgy / premium and elegant] advertisement-style photo featuring a [DESCRIPTION, e.g. smiling young woman with natural flowing hair], wearing [OUTFIT, e.g. a stylish mustard-yellow suit paired with clean white sneakers].
+{id:72,c:"Image Generation",s:"@HaniaAi12",t:"Snack / Product Commercial Advertisement",ph:3,x:`A [MOOD, e.g. cheerful and modern / bold and edgy / premium and elegant] advertisement-style photo featuring a [DESCRIPTION, e.g. smiling young woman with natural flowing hair], wearing [OUTFIT, e.g. a stylish mustard-yellow suit paired with clean white sneakers].
 
 Setting: [SETTING, e.g. sitting cross-legged against a solid mustard-yellow background / reclining on a luxury sofa / standing in a vibrant studio] in a [ENERGY, e.g. confident playful / cool relaxed / energetic] pose.
 
@@ -1093,7 +962,7 @@ Branding:
 - Side: "[TAGLINE, e.g. Simple. Tasty. Perfect. / Bold. Crunchy. Unstoppable.]" with a small arrow pointing toward her and the product
 
 Lighting: [LIGHTING, e.g. High-quality commercial photography with bright warm studio lighting / High-contrast with neon reflections] · glossy reflections · realistic shadows · ultra-detailed textures · cinematic depth of field · photorealistic quality · 8K masterpiece.`},
-{id:80,c:"Image Generation",s:"@oggii_0",t:"Fast-Food / FMCG Editorial Advertising Poster",ph:6,x:`A premium fast-food / FMCG advertising poster promoting [PRODUCT TYPE, e.g. crispy fried chicken / gourmet burger / premium coffee / bottled beverage].
+{id:73,c:"Image Generation",s:"@oggii_0",t:"Fast-Food / FMCG Editorial Advertising Poster",ph:6,x:`A premium fast-food / FMCG advertising poster promoting [PRODUCT TYPE, e.g. crispy fried chicken / gourmet burger / premium coffee / bottled beverage].
 
 STYLE & ART DIRECTION: Minimal commercial advertising aesthetics · High-end FMCG campaign design · Editorial fast-food branding visuals · Modern social-media poster composition · Clean studio advertising style · Bold geometric branding system · High-contrast editorial food photography.
 
@@ -1115,7 +984,7 @@ LIGHTING: Professional commercial studio lighting · Soft realistic shadows · C
 COLOR PALETTE: [BRAND COLOR] dominance · High-contrast warm food tones · Clean white/light-gray background · Bold modern color blocking.
 
 QUALITY: Ultra high-resolution commercial rendering · 8K premium advertising quality · Award-winning advertising art direction.`},
-{id:81,c:"Social Media",s:"@beginnersblog1",t:"LinkedIn Carousel Studio \u2014 HTML Slides",ph:5,x:`You build LinkedIn carousels as HTML files. 1080×1350px per slide. 8 slides max. 1 idea per slide.
+{id:74,c:"Social Media",s:"@beginnersblog1",t:"LinkedIn Carousel Studio — HTML Slides",ph:5,x:`You build LinkedIn carousels as HTML files. 1080×1350px per slide. 8 slides max. 1 idea per slide.
 
 Use brand assets:
 - Brand color: [BRAND COLOR, e.g. #0A66C2]
@@ -1134,7 +1003,7 @@ Brand voice: [DESCRIBE YOUR TONE, e.g. authoritative, conversational, educationa
 Target audience: [AUDIENCE]
 Goal of the carousel: [GOAL, e.g. grow followers / drive leads / educate / build authority]
 Number of slides: [3–8]`},
-{id:82,c:"Social Media",s:"@jaxoncoder",t:"Full Social Media Manager \u2014 30-Day Strategy",ph:6,x:`Act as my full-time social media manager for [YOUR NICHE].
+{id:75,c:"Social Media",s:"@jaxoncoder",t:"Full Social Media Manager — 30-Day Strategy",ph:6,x:`Act as my full-time social media manager for [YOUR NICHE].
 
 Create a 30-day content strategy covering:
 - Reels
@@ -1152,7 +1021,7 @@ My current following: [FOLLOWING SIZE]
 My goal: [GOAL, e.g. grow to X followers / drive traffic / monetize / build brand]
 My brand voice: [TONE DESCRIPTION]
 My target audience: [AUDIENCE DESCRIPTION]`},
-{id:83,c:"Social Media",s:"@jaxoncoder",t:"Viral Content Factory \u2014 30 Ideas",ph:6,x:`Generate 30 viral content ideas for [NICHE], each with:
+{id:76,c:"Social Media",s:"@jaxoncoder",t:"Viral Content Factory — 30 Ideas",ph:6,x:`Generate 30 viral content ideas for [NICHE], each with:
 - A scroll-stopping hook
 - 3-step storyline
 - Caption
@@ -1166,7 +1035,7 @@ My platform: [PLATFORM]
 My audience: [AUDIENCE DESCRIPTION]
 My current best-performing content: [DESCRIBE OR PASTE]
 Content format preference: [REELS / CAROUSELS / STATIC / ALL]`},
-{id:84,c:"Social Media",s:"@jaxoncoder",t:"Caption & Copywriting Engine",ph:6,x:`Write 10 high-engagement captions for this topic: [TOPIC].
+{id:77,c:"Social Media",s:"@jaxoncoder",t:"Caption & Copywriting Engine",ph:6,x:`Write 10 high-engagement captions for this topic: [TOPIC].
 
 Each caption must include:
 - A hook (first line stops the scroll)
@@ -1181,7 +1050,7 @@ Platform: [PLATFORM]
 Target audience: [AUDIENCE]
 Desired action from readers: [CTA GOAL, e.g. save post / comment / follow / click link]
 Caption length preference: [SHORT under 100 words / MEDIUM 100-200 / LONG 200+]`},
-{id:85,c:"Social Media",s:"@jaxoncoder",t:"30-Day Posting Calendar Builder",ph:6,x:`Make a complete 30-day posting calendar for my page in the niche [NICHE].
+{id:78,c:"Social Media",s:"@jaxoncoder",t:"30-Day Posting Calendar Builder",ph:6,x:`Make a complete 30-day posting calendar for my page in the niche [NICHE].
 
 Include for each day:
 - Post type (reel / carousel / static / story / etc.)
@@ -1198,7 +1067,7 @@ Posting frequency: [TIMES PER WEEK/DAY]
 Content mix: [e.g. 40% educational / 30% entertaining / 30% promotional]
 Brand voice: [TONE]
 Current audience size: [SIZE]`},
-{id:86,c:"Social Media",s:"@jaxoncoder",t:"Competitor Domination Strategy",ph:6,x:`Analyze my top 5 competitors in the niche [NICHE].
+{id:79,c:"Social Media",s:"@jaxoncoder",t:"Competitor Domination Strategy",ph:6,x:`Analyze my top 5 competitors in the niche [NICHE].
 
 Break down their:
 - Best-performing content formats
@@ -1213,7 +1082,7 @@ My platform: [PLATFORM]
 My competitors: [LIST 3-5 COMPETITORS OR THEIR @HANDLES]
 My current weaknesses: [DESCRIBE]
 My unfair advantage: [WHAT MAKES ME DIFFERENT]`},
-{id:87,c:"Social Media",s:"@jaxoncoder",t:"Account Growth Accelerator Plan",ph:6,x:`Based on my current page [PASTE LINK OR STATS], create a growth acceleration plan focused on:
+{id:80,c:"Social Media",s:"@jaxoncoder",t:"Account Growth Accelerator Plan",ph:6,x:`Based on my current page [PASTE LINK OR STATS], create a growth acceleration plan focused on:
 
 1. Profile optimization
 2. Content themes that convert
@@ -1228,7 +1097,7 @@ My niche: [NICHE]
 My platform: [PLATFORM]
 Time I can dedicate: [HOURS PER WEEK]
 My goal in 90 days: [SPECIFIC GOAL]`},
-{id:88,c:"Social Media",s:"@jaxoncoder",t:"Social Media Branding Architect",ph:4,x:`Design a complete brand identity for my social media presence in the niche [NICHE].
+{id:81,c:"Social Media",s:"@jaxoncoder",t:"Social Media Branding Architect",ph:4,x:`Design a complete brand identity for my social media presence in the niche [NICHE].
 
 Include:
 - Tone of voice
@@ -1245,7 +1114,7 @@ My platform(s): [PLATFORMS]
 My values as a creator/brand: [3-5 VALUES]
 Brands or creators I admire aesthetically: [REFERENCES]
 What I want to be known for: [1-2 SENTENCES]`},
-{id:89,c:"Social Media",s:"@jaxoncoder",t:"Reel Script & Shot Guide",ph:4,x:`Create 10 reel scripts for my niche [NICHE], each with:
+{id:82,c:"Social Media",s:"@jaxoncoder",t:"Reel Script & Shot Guide",ph:4,x:`Create 10 reel scripts for my niche [NICHE], each with:
 
 - Camera instructions (shot type, angle, movement)
 - Dialogue / voiceover script
@@ -1260,7 +1129,7 @@ My platform: [PLATFORM]
 My style: [e.g. talking head / B-roll heavy / text on screen / POV / tutorial]
 Target watch time: [e.g. 15s / 30s / 60s]
 My language: [LANGUAGE & ACCENT if relevant]`},
-{id:90,c:"Social Media",s:"@iamfakhrealam",t:"Algorithm Kill or Push Test",ph:5,x:`Here's my post: [PASTE YOUR POST]
+{id:83,c:"Social Media",s:"@iamfakhrealam",t:"Algorithm Kill or Push Test",ph:5,x:`Here's my post: [PASTE YOUR POST]
 
 You are the algorithm. You have 0.3 seconds to decide — does this get pushed to thousands of people or does it die in silence?
 
@@ -1270,7 +1139,7 @@ Platform: [PLATFORM, e.g. LinkedIn / Instagram / X / TikTok]
 My niche: [NICHE]
 My target audience: [AUDIENCE]
 Goal of this post: [GOAL, e.g. virality / leads / saves / engagement]`},
-{id:91,c:"Social Media",s:"@iamfakhrealam",t:"First Line Rewrite \u2014 5 Versions",ph:5,x:`You killed my post. Now rewrite ONLY the first line so you'd push it instead.
+{id:84,c:"Social Media",s:"@iamfakhrealam",t:"First Line Rewrite — 5 Versions",ph:5,x:`You killed my post. Now rewrite ONLY the first line so you'd push it instead.
 
 Same topic. Same message. Just make the opening impossible to scroll past.
 
@@ -1281,7 +1150,7 @@ Full post (for context): [PASTE FULL POST]
 Platform: [PLATFORM]
 Target audience: [AUDIENCE]
 Tone: [TONE DESCRIPTION]`},
-{id:92,c:"Social Media",s:"@iamfakhrealam",t:"Batch Post Autopsy",ph:4,x:`Here are my last 10 posts: [PASTE POSTS 1-10]
+{id:85,c:"Social Media",s:"@iamfakhrealam",t:"Batch Post Autopsy",ph:4,x:`Here are my last 10 posts: [PASTE POSTS 1-10]
 
 You are the algorithm. Kill or push each one. No explanation for each. Just the verdict.
 
@@ -1290,7 +1159,7 @@ Then tell me the ONE pattern across every post you killed.
 Platform: [PLATFORM]
 Niche: [NICHE]
 Time period these were posted: [DATE RANGE]`},
-{id:93,c:"Social Media",s:"@iamfakhrealam",t:"Scroll Simulation Test",ph:5,x:`You are a person scrolling [PLATFORM] at 11pm. Half watching Netflix. Half paying attention.
+{id:86,c:"Social Media",s:"@iamfakhrealam",t:"Scroll Simulation Test",ph:5,x:`You are a person scrolling [PLATFORM] at 11pm. Half watching Netflix. Half paying attention.
 
 You see my post: [PASTE YOUR POST]
 
@@ -1301,7 +1170,7 @@ What would need to change in the first 2 seconds to make you stop?
 My target audience for this post: [AUDIENCE DESCRIPTION]
 Platform: [PLATFORM]
 Content type: [REEL / STATIC / CAROUSEL / TEXT POST]`},
-{id:94,c:"Social Media",s:"@iamfakhrealam",t:"Before You Post \u2014 Score & Fix",ph:4,x:`Here's my post before I publish it: [PASTE YOUR POST]
+{id:87,c:"Social Media",s:"@iamfakhrealam",t:"Before You Post — Score & Fix",ph:4,x:`Here's my post before I publish it: [PASTE YOUR POST]
 
 Score it 1–10 on scroll-stopping power alone.
 
@@ -1310,7 +1179,7 @@ If it's under 8 — fix it. Don't explain. Just give me the better version ready
 Platform: [PLATFORM]
 Target audience: [AUDIENCE]
 Post goal: [GOAL, e.g. get saves / comments / follows / clicks]`},
-{id:95,c:"Social Media",s:"@Dipanshu_AI",t:"Instagram Niche & Content Pillars Selector",ph:4,x:`Act as an Instagram growth strategist with a proven track record of building monetizable accounts from zero.
+{id:88,c:"Social Media",s:"@Dipanshu_AI",t:"Instagram Niche & Content Pillars Selector",ph:4,x:`Act as an Instagram growth strategist with a proven track record of building monetizable accounts from zero.
 
 Step 1 — Niche Validation: Analyze [MY INTERESTS / SKILLS / EXPERTISE] and identify:
 - The 3 most profitable sub-niches within my broad area
@@ -1332,7 +1201,7 @@ Step 3 — Profile Positioning:
 My interests / skills / expertise: [DESCRIBE WHAT YOU KNOW, DO, OR ARE PASSIONATE ABOUT]
 My target audience: [WHO DO YOU WANT TO REACH]
 Monetization goal: [HOW YOU WANT TO MAKE MONEY FROM THIS]`},
-{id:96,c:"Social Media",s:"@Dipanshu_AI",t:"Reel Hook & Script Generator",ph:5,x:`Act as a viral Instagram reels specialist. Create 10 reel scripts for [TOPIC/NICHE] optimized for maximum watch time and saves.
+{id:89,c:"Social Media",s:"@Dipanshu_AI",t:"Reel Hook & Script Generator",ph:5,x:`Act as a viral Instagram reels specialist. Create 10 reel scripts for [TOPIC/NICHE] optimized for maximum watch time and saves.
 
 For each reel provide:
 1. HOOK (first 1-3 seconds): The exact words to say or text to show — controversial, curiosity-gap, or pattern-interrupt style
@@ -1350,7 +1219,7 @@ My niche: [NICHE]
 My audience: [AUDIENCE AGE AND INTERESTS]
 My speaking style: [CASUAL / PROFESSIONAL / ENERGETIC / CALM]
 Format: [TALKING HEAD / TEXT ON SCREEN / VOICEOVER / B-ROLL ONLY]`},
-{id:97,c:"Social Media",s:"@Dipanshu_AI",t:"Instagram Monetization Roadmap",ph:4,x:`Act as a digital marketing consultant who specializes in helping Instagram creators generate their first \$10,000/month.
+{id:90,c:"Social Media",s:"@Dipanshu_AI",t:"Instagram Monetization Roadmap",ph:4,x:`Act as a digital marketing consultant who specializes in helping Instagram creators generate their first $10,000/month.
 
 PHASE 1 — Foundation (0–1,000 followers):
 - What to focus on (not money yet)
@@ -1374,7 +1243,7 @@ My account details:
 - Niche: [NICHE]
 - Audience demographics: [AGE / LOCATION / INTERESTS]
 - Available time per week: [HOURS]`},
-{id:98,c:"Social Media",s:"@Dipanshu_AI",t:"Competitor Deep-Dive Analysis",ph:3,x:`Act as a social media intelligence analyst. Conduct a deep competitor analysis for my niche.
+{id:91,c:"Social Media",s:"@Dipanshu_AI",t:"Competitor Deep-Dive Analysis",ph:3,x:`Act as a social media intelligence analyst. Conduct a deep competitor analysis for my niche.
 
 For each of my top 5 competitors, analyze:
 
@@ -1403,7 +1272,7 @@ STEAL THEIR BEST IDEAS (ETHICALLY):
 My niche: [NICHE]
 My platform: [PLATFORM]
 My top 5 competitors' handles: [LIST HANDLES]`},
-{id:99,c:"Career & Resume",s:"@jamescoder12",t:"Resume Builder \u2014 From Scratch",ph:3,x:`Act as a professional resume writer and create a clean ATS-friendly resume tailored for the specific role of [JOB TITLE].
+{id:92,c:"Career & Resume",s:"@jamescoder12",t:"Resume Builder — From Scratch",ph:3,x:`Act as a professional resume writer and create a clean ATS-friendly resume tailored for the specific role of [JOB TITLE].
 
 Use the provided job description to align keywords, responsibilities, and expectations so the resume is optimized for both recruiters and automated systems.
 
@@ -1414,7 +1283,7 @@ My details:
 
 Job description:
 [PASTE THE JOB DESCRIPTION YOU'RE TARGETING]`},
-{id:100,c:"Career & Resume",s:"@jamescoder12",t:"Resume Optimization \u2014 Existing Resume",ph:3,x:`Act as a professional resume strategist and review my current resume to make it more compelling and tailored for the [JOB TITLE] role.
+{id:93,c:"Career & Resume",s:"@jamescoder12",t:"Resume Optimization — Existing Resume",ph:3,x:`Act as a professional resume strategist and review my current resume to make it more compelling and tailored for the [JOB TITLE] role.
 
 Analyze it against the provided job description to ensure it is ATS-friendly and includes all critical keywords. Rewrite bullet points and sections to emphasize measurable achievements, impactful action verbs, and clear results.
 
@@ -1423,7 +1292,7 @@ My current resume:
 
 Job description:
 [PASTE THE JOB DESCRIPTION]`},
-{id:101,c:"Career & Resume",s:"@jamescoder12",t:"Achievement Rewriter \u2014 Tasks Into Impact",ph:2,x:`Act as a professional resume writer and transform my list of job responsibilities into powerful achievement-focused bullet points.
+{id:94,c:"Career & Resume",s:"@jamescoder12",t:"Achievement Rewriter — Tasks Into Impact",ph:2,x:`Act as a professional resume writer and transform my list of job responsibilities into powerful achievement-focused bullet points.
 
 Focus on outcomes, measurable results, and the impact of each task rather than just duties. Use strong action verbs, quantify achievements wherever possible, and keep each point concise, clear, and compelling.
 
@@ -1431,7 +1300,7 @@ My current bullet points / responsibilities:
 [PASTE YOUR CURRENT BULLET POINTS OR JOB DUTIES]
 
 Target role / industry: [ROLE OR INDUSTRY — for context on what to emphasize]`},
-{id:102,c:"Career & Resume",s:"@jamescoder12",t:"ATS Keyword Optimization",ph:2,x:`Act as a professional resume consultant and extract the most important keywords, phrases, and skills from the provided job description.
+{id:95,c:"Career & Resume",s:"@jamescoder12",t:"ATS Keyword Optimization",ph:2,x:`Act as a professional resume consultant and extract the most important keywords, phrases, and skills from the provided job description.
 
 Integrate them naturally and seamlessly into my existing resume so it aligns with ATS requirements without sounding forced.
 
@@ -1440,7 +1309,7 @@ Job description:
 
 My resume:
 [PASTE YOUR RESUME]`},
-{id:103,c:"Career & Resume",s:"@jamescoder12",t:"Skill Gap Analysis \u2014 Resume vs Job",ph:2,x:`Act as a career strategist and analyze my resume against the provided job description to identify any skill gaps or areas that may weaken my candidacy.
+{id:96,c:"Career & Resume",s:"@jamescoder12",t:"Skill Gap Analysis — Resume vs Job",ph:2,x:`Act as a career strategist and analyze my resume against the provided job description to identify any skill gaps or areas that may weaken my candidacy.
 
 Highlight missing skills, certifications, or experiences the role emphasizes, and provide actionable suggestions on what to add, learn, or reframe.
 
@@ -1449,7 +1318,7 @@ My resume:
 
 Job description:
 [PASTE THE JOB DESCRIPTION]`},
-{id:104,c:"Career & Resume",s:"@jamescoder12",t:"LinkedIn Headline Generator \u2014 5 Versions",ph:5,x:`Act as a LinkedIn expert and create 5 attention-grabbing high-converting LinkedIn headlines tailored to my experience and target role of [JOB TITLE].
+{id:97,c:"Career & Resume",s:"@jamescoder12",t:"LinkedIn Headline Generator — 5 Versions",ph:5,x:`Act as a LinkedIn expert and create 5 attention-grabbing high-converting LinkedIn headlines tailored to my experience and target role of [JOB TITLE].
 
 Make each headline professional, clear, and keyword-rich to improve visibility in searches and attract recruiters.
 
@@ -1457,7 +1326,7 @@ Target role: [JOB TITLE]
 My background: [PASTE YOUR CURRENT HEADLINE OR KEY EXPERIENCE]
 Top 3 skills or achievements to emphasize: [SKILLS/ACHIEVEMENTS]
 Industry: [INDUSTRY]`},
-{id:105,c:"Career & Resume",s:"@jamescoder12",t:"LinkedIn About Section",ph:1,x:`Act as a LinkedIn content specialist and craft a compelling "About" section that showcases my experience, strengths, and career goals.
+{id:98,c:"Career & Resume",s:"@jamescoder12",t:"LinkedIn About Section",ph:1,x:`Act as a LinkedIn content specialist and craft a compelling "About" section that showcases my experience, strengths, and career goals.
 
 Make it professional yet engaging, using a clear approachable tone that captures attention within the first few lines.
 
@@ -1466,7 +1335,7 @@ My details:
 
 Target audience: [RECRUITERS / POTENTIAL CLIENTS / COLLABORATORS / ALL]
 Tone preference: [PROFESSIONAL AND FORMAL / WARM AND CONVERSATIONAL / BOLD AND CONFIDENT]`},
-{id:106,c:"Career & Resume",s:"@jamescoder12",t:"Cold Outreach Message to Recruiter",ph:5,x:`Act as a career communication expert and craft a short professional LinkedIn message to a recruiter for the role of [JOB TITLE].
+{id:99,c:"Career & Resume",s:"@jamescoder12",t:"Cold Outreach Message to Recruiter",ph:5,x:`Act as a career communication expert and craft a short professional LinkedIn message to a recruiter for the role of [JOB TITLE].
 
 Make it concise, confident, and personalized — highlighting my most relevant experience and value.
 
@@ -1475,7 +1344,7 @@ Company: [COMPANY NAME if known]
 Recruiter's name: [NAME if available]
 My most relevant experience: [TOP 1-2 ACHIEVEMENTS OR QUALIFICATIONS]
 My background in brief: [2-3 SENTENCES]`},
-{id:107,c:"Career & Resume",s:"@jamescoder12",t:"Cover Letter Generator",ph:5,x:`Act as a professional cover letter writer and craft a tailored compelling cover letter for the role of [JOB TITLE].
+{id:100,c:"Career & Resume",s:"@jamescoder12",t:"Cover Letter Generator",ph:5,x:`Act as a professional cover letter writer and craft a tailored compelling cover letter for the role of [JOB TITLE].
 
 Make it concise, personalized, and closely aligned with my experience — highlighting how my skills and accomplishments bring immediate value to the company.
 
@@ -1487,7 +1356,7 @@ Job description:
 
 Company name: [COMPANY NAME]
 One thing that genuinely excites me about this company: [YOUR GENUINE REASON]`},
-{id:108,c:"Career & Resume",s:"@ElaraGrace_AI",t:"Google Recruiter 6-Second Resume Rewriter",ph:0,x:`Act as a Google senior recruiter who reviews 500+ resumes per week and makes split-second decisions. You have exactly 6 seconds to decide if a resume makes the next round.
+{id:101,c:"Career & Resume",s:"@ElaraGrace_AI",t:"Google Recruiter 6-Second Resume Rewriter",ph:0,x:`Act as a Google senior recruiter who reviews 500+ resumes per week and makes split-second decisions. You have exactly 6 seconds to decide if a resume makes the next round.
 
 Rewrite this resume so it passes your 6-second scan:
 1. Summary: 2 powerful sentences — current title, biggest quantified win, target role
@@ -1500,7 +1369,7 @@ Rewrite this resume so it passes your 6-second scan:
 
 My current resume + target job description:
 [PASTE YOUR ENTIRE CURRENT RESUME AND THE JOB DESCRIPTION YOU'RE TARGETING]`},
-{id:109,c:"Career & Resume",s:"@ElaraGrace_AI",t:"McKinsey Achievement Quantifier",ph:0,x:`Act as a McKinsey senior consultant who turns vague work history into board-room-ready impact statements.
+{id:102,c:"Career & Resume",s:"@ElaraGrace_AI",t:"McKinsey Achievement Quantifier",ph:0,x:`Act as a McKinsey senior consultant who turns vague work history into board-room-ready impact statements.
 
 Transform every resume bullet using this 3-step method:
 1. What was the situation/problem? (context — 1 phrase max)
@@ -1515,7 +1384,7 @@ Rules:
 
 My bullets:
 [PASTE ALL YOUR CURRENT RESUME BULLET POINTS EXACTLY AS WRITTEN]`},
-{id:110,c:"Career & Resume",s:"@ElaraGrace_AI",t:"Cover Letter That Actually Gets Read",ph:0,x:`Act as a Robert Half senior recruiter who reads 200+ cover letters per week and deletes 90% in the first paragraph.
+{id:103,c:"Career & Resume",s:"@ElaraGrace_AI",t:"Cover Letter That Actually Gets Read",ph:0,x:`Act as a Robert Half senior recruiter who reads 200+ cover letters per week and deletes 90% in the first paragraph.
 
 Write a cover letter that survives the delete key:
 
@@ -1531,7 +1400,7 @@ Rules: Maximum 250 words · Zero clichés (hardworking, passionate, team player)
 
 My application:
 [PASTE THE JOB DESCRIPTION, YOUR 3 MOST RELEVANT ACHIEVEMENTS, AND ONE THING THAT GENUINELY EXCITES YOU ABOUT THIS COMPANY]`},
-{id:111,c:"Career & Resume",s:"@ElaraGrace_AI",t:"LinkedIn Profile Transformer",ph:1,x:`Act as a Heidrick & Struggles executive recruiter who reviews LinkedIn profiles daily.
+{id:104,c:"Career & Resume",s:"@ElaraGrace_AI",t:"LinkedIn Profile Transformer",ph:1,x:`Act as a Heidrick & Struggles executive recruiter who reviews LinkedIn profiles daily.
 
 Transform this LinkedIn profile into a magnet for recruiters, headhunters, and opportunities:
 
@@ -1557,7 +1426,7 @@ My LinkedIn:
 [PASTE YOUR CURRENT HEADLINE, ABOUT SECTION, AND MOST RECENT 2-3 EXPERIENCE ENTRIES]
 
 Target role or industry: [WHERE YOU WANT TO BE FOUND]`},
-{id:112,c:"Career & Resume",s:"@ElaraGrace_AI",t:"Career Pivot Repositioner",ph:0,x:`Act as a Goldman Sachs career advisory partner who has helped hundreds of professionals successfully change industries.
+{id:105,c:"Career & Resume",s:"@ElaraGrace_AI",t:"Career Pivot Repositioner",ph:0,x:`Act as a Goldman Sachs career advisory partner who has helped hundreds of professionals successfully change industries.
 
 Build a complete career pivot strategy:
 
@@ -1575,7 +1444,7 @@ Build a complete career pivot strategy:
 
 My pivot:
 [DESCRIBE YOUR CURRENT ROLE AND INDUSTRY, TARGET ROLE AND INDUSTRY, AND WHY YOU'RE MAKING THIS CHANGE]`},
-{id:113,c:"Career & Resume",s:"@ElaraGrace_AI",t:"Salary Negotiation War Room",ph:0,x:`Act as a Korn Ferry executive compensation consultant who has negotiated thousands of offers.
+{id:106,c:"Career & Resume",s:"@ElaraGrace_AI",t:"Salary Negotiation War Room",ph:0,x:`Act as a Korn Ferry executive compensation consultant who has negotiated thousands of offers.
 
 Build me a complete salary negotiation strategy:
 
@@ -1588,7 +1457,7 @@ Phase 6 — Walk-Away Point: how to decline gracefully if they won't move
 
 My offer details:
 [DESCRIBE THE ROLE, COMPANY, OFFERED SALARY, YOUR CURRENT COMPENSATION, YEARS OF EXPERIENCE, AND ANY COMPETING OFFERS]`},
-{id:114,c:"Career & Resume",s:"@ElaraGrace_AI",t:"Interview Domination Prep Kit",ph:0,x:`Act as a Spencer Stuart executive search consultant who preps C-suite candidates for high-stakes interviews.
+{id:107,c:"Career & Resume",s:"@ElaraGrace_AI",t:"Interview Domination Prep Kit",ph:0,x:`Act as a Spencer Stuart executive search consultant who preps C-suite candidates for high-stakes interviews.
 
 Create a complete interview preparation kit:
 
@@ -1602,7 +1471,7 @@ Create a complete interview preparation kit:
 
 My interview:
 [DESCRIBE THE COMPANY, ROLE, INTERVIEW FORMAT, AND YOUR BIGGEST CONCERN ABOUT YOUR CANDIDACY]`},
-{id:115,c:"Career & Resume",s:"@ElaraGrace_AI",t:"Amazon Leadership Principles Resume Aligner",ph:1,x:`Act as an Amazon bar raiser who has conducted hundreds of interviews and reviewed thousands of resumes.
+{id:108,c:"Career & Resume",s:"@ElaraGrace_AI",t:"Amazon Leadership Principles Resume Aligner",ph:1,x:`Act as an Amazon bar raiser who has conducted hundreds of interviews and reviewed thousands of resumes.
 
 Align my resume with [TARGET COMPANY, e.g. Amazon]'s leadership principles and values:
 
@@ -1618,7 +1487,7 @@ Align my resume with [TARGET COMPANY, e.g. Amazon]'s leadership principles and v
 
 My target:
 [PASTE YOUR RESUME, TARGET COMPANY NAME, AND THEIR PUBLISHED VALUES OR LEADERSHIP PRINCIPLES]`},
-{id:116,c:"Career & Resume",s:"@ElaraGrace_AI",t:"Career Gap & Red Flag Neutralizer",ph:0,x:`Act as a FAANG recruiter and HR strategist who specializes in helping candidates with non-traditional backgrounds get past screening.
+{id:109,c:"Career & Resume",s:"@ElaraGrace_AI",t:"Career Gap & Red Flag Neutralizer",ph:0,x:`Act as a FAANG recruiter and HR strategist who specializes in helping candidates with non-traditional backgrounds get past screening.
 
 For every potential red flag in my background:
 
@@ -1636,7 +1505,7 @@ For every potential red flag in my background:
 
 My concerns:
 [DESCRIBE ANY GAPS, SHORT TENURES, LAYOFFS, INDUSTRY CHANGES, OR OVERQUALIFICATION SITUATIONS YOU'RE WORRIED ABOUT EXPLAINING]`},
-{id:117,c:"Career & Resume",s:"@ElaraGrace_AI",t:"Job Search Automation Strategist",ph:2,x:`Act as an Indeed and LinkedIn Recruiter power user who knows how to compress a 6-month job search into 6 weeks.
+{id:110,c:"Career & Resume",s:"@ElaraGrace_AI",t:"Job Search Automation Strategist",ph:2,x:`Act as an Indeed and LinkedIn Recruiter power user who knows how to compress a 6-month job search into 6 weeks.
 
 Build me a systematic, automated job search strategy:
 
@@ -1654,7 +1523,7 @@ Build me a systematic, automated job search strategy:
 
 My search:
 [DESCRIBE YOUR TARGET ROLE, INDUSTRY, LOCATION PREFERENCE, EXPERIENCE LEVEL, AND HOW MANY HOURS PER WEEK YOU CAN DEDICATE TO JOB SEARCHING]`},
-{id:118,c:"Presentations",s:"@jason_coder0",t:"Complete Presentation Blueprint",ph:6,x:`Act like a professional presentation consultant who has built decks for Fortune 500 boardrooms and billion-dollar pitch meetings.
+{id:111,c:"Presentations",s:"@jason_coder0",t:"Complete Presentation Blueprint",ph:6,x:`Act like a professional presentation consultant who has built decks for Fortune 500 boardrooms and billion-dollar pitch meetings.
 
 Create a complete presentation blueprint for [TOPIC].
 
@@ -1672,7 +1541,7 @@ Audience: [WHO WILL SEE THIS — role, seniority, familiarity with topic]
 Objective: [WHAT YOU WANT THE AUDIENCE TO DO/FEEL AFTER]
 Length: [NUMBER OF SLIDES OR MINUTES]
 Context: [PITCH / BOARDROOM / CONFERENCE / INTERNAL TEAM / OTHER]`},
-{id:119,c:"Presentations",s:"@jason_coder0",t:"Killer Opening Hook \u2014 3 Options",ph:4,x:`Act like a TED Talk coach who has helped speakers get 10M+ views.
+{id:112,c:"Presentations",s:"@jason_coder0",t:"Killer Opening Hook — 3 Options",ph:4,x:`Act like a TED Talk coach who has helped speakers get 10M+ views.
 
 Write 3 opening hooks for my presentation on [TOPIC] that stop the room cold in the first 10 seconds.
 
@@ -1682,7 +1551,7 @@ Topic: [YOUR TOPIC]
 Audience: [AUDIENCE DESCRIPTION]
 Desired tone: [e.g. authoritative / provocative / inspiring / data-driven]
 One surprising fact about this topic: [SHARE IF YOU HAVE ONE]`},
-{id:120,c:"Presentations",s:"@jason_coder0",t:"Slide-by-Slide Script",ph:7,x:`Act like a world-class speechwriter who has written for CEOs, presidents, and keynote legends.
+{id:113,c:"Presentations",s:"@jason_coder0",t:"Slide-by-Slide Script",ph:7,x:`Act like a world-class speechwriter who has written for CEOs, presidents, and keynote legends.
 
 Write a full slide-by-slide script for [TOPIC] presentation with [NUMBER] slides.
 
@@ -1697,7 +1566,7 @@ Number of slides: [NUMBER]
 Total speaking time: [MINUTES]
 Audience: [AUDIENCE]
 Key message: [CORE MESSAGE IN ONE SENTENCE]`},
-{id:121,c:"Presentations",s:"@jason_coder0",t:"Data Storytelling \u2014 Transform Numbers",ph:4,x:`Act like a McKinsey senior partner who turns raw numbers into boardroom decisions.
+{id:114,c:"Presentations",s:"@jason_coder0",t:"Data Storytelling — Transform Numbers",ph:4,x:`Act like a McKinsey senior partner who turns raw numbers into boardroom decisions.
 
 I have this data: [PASTE YOUR DATA].
 
@@ -1712,7 +1581,7 @@ Tell me:
 Audience: [WHO SEES THIS]
 The decision you want them to make: [DECISION]
 Your position: [WHAT YOU BELIEVE THE DATA SHOWS]`},
-{id:122,c:"Presentations",s:"@jason_coder0",t:"Objection-Proof Slides",ph:6,x:`Act like a debate champion and crisis communications expert.
+{id:115,c:"Presentations",s:"@jason_coder0",t:"Objection-Proof Slides",ph:6,x:`Act like a debate champion and crisis communications expert.
 
 My presentation on [TOPIC] will face these objections: [LIST YOUR EXPECTED OBJECTIONS].
 
@@ -1724,7 +1593,7 @@ Topic: [YOUR TOPIC]
 Expected objections: [LIST 3-5 OBJECTIONS YOU ANTICIPATE]
 Audience skepticism level: [LOW / MEDIUM / HIGH / HOSTILE]
 Stakes of this presentation: [WHY IT MATTERS]`},
-{id:123,c:"Presentations",s:"@jason_coder0",t:"Executive Summary Slide",ph:5,x:`Act like a Goldman Sachs analyst who has one slide to convince a room of skeptical partners.
+{id:116,c:"Presentations",s:"@jason_coder0",t:"Executive Summary Slide",ph:5,x:`Act like a Goldman Sachs analyst who has one slide to convince a room of skeptical partners.
 
 Write a single executive summary slide for [TOPIC] that captures the entire presentation in under 60 words.
 
@@ -1741,7 +1610,7 @@ The problem you're solving: [PROBLEM]
 Your solution: [SOLUTION]
 Your strongest proof point: [EVIDENCE / DATA]
 The ask: [WHAT YOU'RE REQUESTING — budget / approval / action / decision]`},
-{id:124,c:"Presentations",s:"@jason_coder0",t:"Closing CTA Slide & Script",ph:5,x:`Act like a master closer who has raised hundreds of millions in funding and closed enterprise deals.
+{id:117,c:"Presentations",s:"@jason_coder0",t:"Closing CTA Slide & Script",ph:5,x:`Act like a master closer who has raised hundreds of millions in funding and closed enterprise deals.
 
 Write the final slide and closing script for my [TOPIC] presentation.
 
@@ -1756,7 +1625,7 @@ Topic: [YOUR TOPIC]
 The next step you want: [SPECIFIC DESIRED ACTION]
 The cost of not acting: [WHAT THEY LOSE BY WAITING]
 Deadline or urgency factor: [IF ANY]`},
-{id:125,c:"Presentations",s:"@jason_coder0",t:"Q&A Preparation \u2014 Hard Questions",ph:5,x:`Act like a veteran debate coach and PR strategist.
+{id:118,c:"Presentations",s:"@jason_coder0",t:"Q&A Preparation — Hard Questions",ph:5,x:`Act like a veteran debate coach and PR strategist.
 
 My presentation is on [TOPIC] to [AUDIENCE TYPE].
 
@@ -1768,7 +1637,7 @@ Topic: [YOUR TOPIC]
 Audience type: [AUDIENCE, e.g. investors / executives / skeptical clients / regulators]
 Your most vulnerable point: [WHAT YOU'RE LEAST CONFIDENT ABOUT]
 One question you're dreading: [THE QUESTION YOU HOPE NOBODY ASKS]`},
-{id:126,c:"Presentations",s:"@jason_coder0",t:"Visual Direction Brief",ph:5,x:`Act like a creative director at a top design agency who builds decks for Apple and Nike.
+{id:119,c:"Presentations",s:"@jason_coder0",t:"Visual Direction Brief",ph:5,x:`Act like a creative director at a top design agency who builds decks for Apple and Nike.
 
 Give me a complete visual direction brief for my [TOPIC] presentation.
 
@@ -1778,14 +1647,14 @@ Include:
 - Slide layout principles
 - Image style direction
 - Chart types to use for different data
-- 3 design rules that will make every slide look like it cost \$10,000 to produce
+- 3 design rules that will make every slide look like it cost $10,000 to produce
 
 Topic: [YOUR TOPIC]
 Brand guidelines (if any): [PASTE OR DESCRIBE]
 Audience formality: [CASUAL / PROFESSIONAL / EXECUTIVE / INVESTOR]
 Industry: [INDUSTRY]
 Mood/feel: [e.g. bold and confident / clean and minimal / warm and approachable]`},
-{id:127,c:"Presentations",s:"@jason_coder0",t:"Presentation Stress Test",ph:4,x:`Act like the most critical person in the room — a skeptical CFO, a burned investor, or a competitor looking for holes.
+{id:120,c:"Presentations",s:"@jason_coder0",t:"Presentation Stress Test",ph:4,x:`Act like the most critical person in the room — a skeptical CFO, a burned investor, or a competitor looking for holes.
 
 Review this presentation outline: [PASTE YOUR OUTLINE].
 
@@ -1802,21 +1671,21 @@ My presentation outline:
 
 Who will be in the room: [AUDIENCE]
 The highest-risk moment: [WHERE YOU FEAR LOSING THEM]`},
-{id:128,c:"Business Strategy",s:"@AndrewBolis",t:"SWOT Analysis",ph:7,x:`Act as a business strategist. Generate a SWOT analysis for [BUSINESS NAME / DESCRIPTION] in the [INDUSTRY], using competitive market data and internal insights.
+{id:121,c:"Business Strategy",s:"@AndrewBolis",t:"SWOT Analysis",ph:7,x:`Act as a business strategist. Generate a SWOT analysis for [BUSINESS NAME / DESCRIPTION] in the [INDUSTRY], using competitive market data and internal insights.
 
 Business: [INSERT YOUR BUSINESS OR DESCRIBE IT]
 Industry: [INSERT INDUSTRY]
 Stage: [STARTUP / GROWTH / ESTABLISHED / ENTERPRISE]
 Main competitors: [LIST KEY COMPETITORS]
 Your current biggest challenge: [DESCRIBE]`},
-{id:129,c:"Business Strategy",s:"@AndrewBolis",t:"5 Scalable Growth Levers",ph:5,x:`Find 5 scalable growth levers for a [TYPE OF BUSINESS], focusing on revenue expansion, operational efficiency, and brand reach.
+{id:122,c:"Business Strategy",s:"@AndrewBolis",t:"5 Scalable Growth Levers",ph:5,x:`Find 5 scalable growth levers for a [TYPE OF BUSINESS], focusing on revenue expansion, operational efficiency, and brand reach.
 
 Business type: [DESCRIBE YOUR BUSINESS]
 Current revenue model: [HOW YOU MAKE MONEY]
 Current bottleneck: [WHAT'S LIMITING GROWTH]
 Resources available: [BUDGET / TEAM SIZE / TIME]
 Target growth metric: [e.g. double revenue / reach 10K customers / expand to new market]`},
-{id:130,c:"Business Strategy",s:"@AndrewBolis",t:"30-60-90 Day Action Plan",ph:8,x:`Create a 30-60-90 day action plan for a new [ROLE] at [COMPANY], including onboarding objectives, performance metrics, and quick wins.
+{id:123,c:"Business Strategy",s:"@AndrewBolis",t:"30-60-90 Day Action Plan",ph:8,x:`Create a 30-60-90 day action plan for a new [ROLE] at [COMPANY], including onboarding objectives, performance metrics, and quick wins.
 
 New role: [JOB TITLE]
 Company: [COMPANY NAME OR DESCRIPTION]
@@ -1824,35 +1693,35 @@ Industry: [INDUSTRY]
 Key stakeholders to win over: [LIST 2-3]
 Biggest challenge in first 90 days: [DESCRIBE]
 One metric that will define success: [KPI]`},
-{id:131,c:"Business Strategy",s:"@AndrewBolis",t:"Revenue Model Projection",ph:6,x:`Develop a lean revenue model for a business providing [PRODUCT / SERVICE], covering optimal pricing, CAC, LTV, and monthly recurring revenue forecasts.
+{id:124,c:"Business Strategy",s:"@AndrewBolis",t:"Revenue Model Projection",ph:6,x:`Develop a lean revenue model for a business providing [PRODUCT / SERVICE], covering optimal pricing, CAC, LTV, and monthly recurring revenue forecasts.
 
 Business: [DESCRIBE YOUR PRODUCT OR SERVICE]
 Target market: [WHO BUYS FROM YOU]
 Current pricing (if any): [PRICE POINT]
 Customer acquisition channels: [HOW YOU GET CUSTOMERS]
 Goal: [REVENUE TARGET OR MILESTONE]`},
-{id:132,c:"Business Strategy",s:"@AndrewBolis",t:"Churn Reduction Strategies",ph:5,x:`Suggest 3 data-driven strategies to minimize churn for a SaaS product targeting [TARGET CUSTOMER], leveraging user behavior data and feedback loops.
+{id:125,c:"Business Strategy",s:"@AndrewBolis",t:"Churn Reduction Strategies",ph:5,x:`Suggest 3 data-driven strategies to minimize churn for a SaaS product targeting [TARGET CUSTOMER], leveraging user behavior data and feedback loops.
 
 Product: [DESCRIBE YOUR SAAS PRODUCT]
 Target customer: [CUSTOMER DESCRIPTION]
 Current churn rate: [% if known]
 Primary reason customers leave: [REASON if known]
 Current retention efforts: [WHAT YOU'RE ALREADY DOING]`},
-{id:133,c:"Business Strategy",s:"@AndrewBolis",t:"KPI Dashboard Framework",ph:6,x:`Outline the 7 critical KPIs for a [BUSINESS TYPE] to monitor across customer acquisition, retention, product engagement, and financial performance.
+{id:126,c:"Business Strategy",s:"@AndrewBolis",t:"KPI Dashboard Framework",ph:6,x:`Outline the 7 critical KPIs for a [BUSINESS TYPE] to monitor across customer acquisition, retention, product engagement, and financial performance.
 
 Business type: [DESCRIBE YOUR BUSINESS]
 Stage: [STARTUP / GROWTH / SCALE]
 Primary business model: [SAAS / ECOMMERCE / SERVICE / MARKETPLACE / OTHER]
 Current data visibility: [WHAT METRICS YOU ALREADY TRACK]
 Decision you need these KPIs to inform: [DESCRIBE]`},
-{id:134,c:"Business Strategy",s:"@AndrewBolis",t:"Pricing Strategy \u2014 3 Approaches",ph:6,x:`Act as a pricing advisor. Propose 3 pricing approaches for [OFFER] aimed at [SEGMENT], utilizing value-based pricing, tier structures, and market positioning.
+{id:127,c:"Business Strategy",s:"@AndrewBolis",t:"Pricing Strategy — 3 Approaches",ph:6,x:`Act as a pricing advisor. Propose 3 pricing approaches for [OFFER] aimed at [SEGMENT], utilizing value-based pricing, tier structures, and market positioning.
 
 Your offer: [DESCRIBE PRODUCT OR SERVICE]
 Target segment: [CUSTOMER SEGMENT]
 Current pricing: [EXISTING PRICE if any]
 Competitors' pricing: [WHAT COMPETITORS CHARGE]
 Your biggest pricing challenge: [e.g. customers think it's too expensive / unclear what to charge]`},
-{id:135,c:"Business Strategy",s:"@AndrewBolis",t:"Go-to-Market Plan",ph:8,x:`Design a go-to-market plan for introducing [PRODUCT] to [TARGET MARKET], addressing positioning, distribution channels, customer acquisition, and success metrics.
+{id:128,c:"Business Strategy",s:"@AndrewBolis",t:"Go-to-Market Plan",ph:8,x:`Design a go-to-market plan for introducing [PRODUCT] to [TARGET MARKET], addressing positioning, distribution channels, customer acquisition, and success metrics.
 
 Product: [DESCRIBE YOUR PRODUCT]
 Target market: [WHO YOU'RE SELLING TO]
@@ -1860,21 +1729,21 @@ Launch timeline: [WHEN ARE YOU LAUNCHING]
 Budget: [APPROXIMATE BUDGET]
 Biggest competitive threat: [WHO ALREADY OWNS THIS MARKET]
 Your unfair advantage: [WHAT MAKES YOU DIFFERENT]`},
-{id:136,c:"Business Strategy",s:"@AndrewBolis",t:"Value Proposition",ph:6,x:`Draft a persuasive value proposition for [BRAND OR PRODUCT] that addresses customer challenges, presents the solution, and emphasizes unique advantages.
+{id:129,c:"Business Strategy",s:"@AndrewBolis",t:"Value Proposition",ph:6,x:`Draft a persuasive value proposition for [BRAND OR PRODUCT] that addresses customer challenges, presents the solution, and emphasizes unique advantages.
 
 Brand/Product: [NAME AND DESCRIPTION]
 Target customer: [WHO THEY ARE]
 Customer's #1 pain point: [BIGGEST PROBLEM YOU SOLVE]
 Your solution: [HOW YOU SOLVE IT]
 Why you specifically — not a competitor: [YOUR UNIQUE ANGLE]`},
-{id:137,c:"Business Strategy",s:"@AndrewBolis",t:"Strategic Pivot Options",ph:6,x:`Recommend 3 strategic pivot options for a startup facing [SPECIFIC PROBLEM], including alternative customer segments, applications, or product approaches.
+{id:130,c:"Business Strategy",s:"@AndrewBolis",t:"Strategic Pivot Options",ph:6,x:`Recommend 3 strategic pivot options for a startup facing [SPECIFIC PROBLEM], including alternative customer segments, applications, or product approaches.
 
 Your current situation: [DESCRIBE YOUR STARTUP AND THE PROBLEM]
 What you've tried that didn't work: [LIST]
 Your core assets/capabilities: [WHAT YOU'RE GOOD AT / WHAT YOU HAVE]
 Resources available for pivot: [BUDGET / TEAM / TIME]
 Non-negotiable constraints: [WHAT YOU CANNOT CHANGE]`},
-{id:138,c:"Productivity",s:"@techxmanoj",t:"Daily Strategic Planning",ph:4,x:`Act as an executive productivity coach.
+{id:131,c:"Productivity",s:"@techxmanoj",t:"Daily Strategic Planning",ph:4,x:`Act as an executive productivity coach.
 
 Help me organize my day with the following information:
 
@@ -1888,7 +1757,7 @@ Then:
 2. Suggest a structured schedule
 3. Highlight tasks that can be automated or delegated
 4. Recommend the highest impact activities for today`},
-{id:139,c:"Productivity",s:"@techxmanoj",t:"Research Assistant",ph:1,x:`Act as a professional research analyst.
+{id:132,c:"Productivity",s:"@techxmanoj",t:"Research Assistant",ph:1,x:`Act as a professional research analyst.
 
 Research the following topic: [TOPIC]
 
@@ -1898,7 +1767,7 @@ Provide:
 3. Important statistics
 4. Main companies or market players
 5. Opportunities and risks in this sector`},
-{id:140,c:"Productivity",s:"@techxmanoj",t:"Thinking Clarification",ph:1,x:`I will share a general idea or unstructured thoughts.
+{id:133,c:"Productivity",s:"@techxmanoj",t:"Thinking Clarification",ph:1,x:`I will share a general idea or unstructured thoughts.
 
 Your task is to:
 - Clarify the main idea
@@ -1908,7 +1777,7 @@ Your task is to:
 
 Here is the idea:
 [PASTE YOUR THOUGHTS HERE]`},
-{id:141,c:"Productivity",s:"@techxmanoj",t:"Learning Acceleration",ph:2,x:`Act as an expert teacher in [TOPIC].
+{id:134,c:"Productivity",s:"@techxmanoj",t:"Learning Acceleration",ph:2,x:`Act as an expert teacher in [TOPIC].
 
 Explain this concept clearly and concisely: [TOPIC]
 
@@ -1918,7 +1787,7 @@ Structure the explanation as:
 - Practical examples (real-world application)
 - Common mistakes to avoid
 - A brief summary for quick recall`},
-{id:142,c:"Productivity",s:"@techxmanoj",t:"Decision Making Framework",ph:4,x:`Help me evaluate the following decision: [DESCRIBE THE SITUATION]
+{id:135,c:"Productivity",s:"@techxmanoj",t:"Decision Making Framework",ph:4,x:`Help me evaluate the following decision: [DESCRIBE THE SITUATION]
 
 Analyze:
 1. Pros and cons
@@ -1931,7 +1800,7 @@ Then recommend the most rational option with your reasoning.
 Context: [ADDITIONAL CONTEXT ABOUT YOUR SITUATION]
 Deadline for this decision: [DATE OR TIMEFRAME]
 What you're most uncertain about: [YOUR BIGGEST DOUBT]`},
-{id:143,c:"Productivity",s:"@techxmanoj",t:"Writing Improvement",ph:3,x:`Improve the following text so that it is:
+{id:136,c:"Productivity",s:"@techxmanoj",t:"Writing Improvement",ph:3,x:`Improve the following text so that it is:
 - Clearer (no ambiguity)
 - More persuasive (stronger argument structure)
 - More concise (remove redundancy)
@@ -1943,7 +1812,7 @@ Text: [PASTE YOUR TEXT HERE]
 
 Target audience for this text: [AUDIENCE]
 Purpose of the text: [GOAL, e.g. email / report / social post / proposal]`},
-{id:144,c:"Productivity",s:"@techxmanoj",t:"Problem Solving",ph:4,x:`Help me solve the following problem step by step: [DESCRIBE THE PROBLEM]
+{id:137,c:"Productivity",s:"@techxmanoj",t:"Problem Solving",ph:4,x:`Help me solve the following problem step by step: [DESCRIBE THE PROBLEM]
 
 Do the following:
 1. Identify the root causes (not just symptoms)
@@ -1954,7 +1823,7 @@ Do the following:
 Context: [ADDITIONAL CONTEXT]
 Constraints: [BUDGET / TIME / RESOURCES / LIMITATIONS]
 What you've already tried: [PREVIOUS ATTEMPTS]`},
-{id:145,c:"Productivity",s:"@techxmanoj",t:"Business Idea Evaluation",ph:4,x:`Act as a startup advisor.
+{id:138,c:"Productivity",s:"@techxmanoj",t:"Business Idea Evaluation",ph:4,x:`Act as a startup advisor.
 
 Evaluate the following business idea: [DESCRIBE THE IDEA]
 
@@ -1970,7 +1839,7 @@ Provide an honest recommendation.
 My idea: [FULL DESCRIPTION]
 My background/expertise: [YOUR RELEVANT EXPERIENCE]
 Resources available: [BUDGET / TIME / SKILLS]`},
-{id:146,c:"Productivity",s:"@techxmanoj",t:"Information Simplification",ph:3,x:`Simplify the following information so it is easy to understand.
+{id:139,c:"Productivity",s:"@techxmanoj",t:"Information Simplification",ph:3,x:`Simplify the following information so it is easy to understand.
 
 Break it down into:
 1. Key points (what matters most)
@@ -1981,7 +1850,7 @@ Information: [PASTE YOUR TEXT, ARTICLE, OR COMPLEX CONTENT HERE]
 
 Target audience: [WHO NEEDS TO UNDERSTAND THIS]
 Purpose: [WHY ARE THEY READING THIS]`},
-{id:147,c:"Productivity",s:"@techxmanoj",t:"Weekly Reflection & Improvement",ph:5,x:`Help me reflect on my week and identify areas for improvement.
+{id:140,c:"Productivity",s:"@techxmanoj",t:"Weekly Reflection & Improvement",ph:5,x:`Help me reflect on my week and identify areas for improvement.
 
 What went well: [LIST]
 What did not go well: [LIST]
@@ -1994,7 +1863,7 @@ Then help me:
 
 My main goal this month: [GOAL]
 What keeps derailing me: [RECURRING OBSTACLE]`},
-{id:148,c:"Productivity",s:"@techxmanoj",t:"Content Idea Generation",ph:5,x:`Act as a content strategist.
+{id:141,c:"Productivity",s:"@techxmanoj",t:"Content Idea Generation",ph:5,x:`Act as a content strategist.
 
 My niche: [YOUR NICHE]
 Platform: [PLATFORM]
@@ -2007,7 +1876,7 @@ Generate 15 content ideas, including for each:
 My target audience: [DESCRIBE]
 My current follower count: [SIZE]
 Content formats I can create: [REELS / CAROUSELS / BLOGS / TWEETS / ALL]`},
-{id:149,c:"Productivity",s:"@techxmanoj",t:"Copywriting",ph:2,x:`Write persuasive copy for: [PRODUCT OR IDEA]
+{id:142,c:"Productivity",s:"@techxmanoj",t:"Copywriting",ph:2,x:`Write persuasive copy for: [PRODUCT OR IDEA]
 
 Include:
 - Hook (attention-grabbing opening)
@@ -2020,7 +1889,7 @@ Include:
 Target audience: [AUDIENCE]
 Tone: [TONE, e.g. bold/direct / warm/conversational / professional/authoritative]
 Medium: [WHERE THIS WILL BE USED, e.g. sales page / email / ad / social post]`},
-{id:150,c:"Productivity",s:"@techxmanoj",t:"Personal Finance Analyzer",ph:6,x:`Act as a certified financial planner.
+{id:143,c:"Productivity",s:"@techxmanoj",t:"Personal Finance Analyzer",ph:6,x:`Act as a certified financial planner.
 
 Analyze my current financial situation and give me a clear action plan.
 
@@ -2038,7 +1907,7 @@ Provide:
 3. A realistic savings and investment plan
 4. Debt elimination strategy (if applicable)
 5. One financial habit to start this week`},
-{id:151,c:"Productivity",s:"@techxmanoj",t:"Email Triage & Response System",ph:4,x:`Act as an executive communications expert.
+{id:144,c:"Productivity",s:"@techxmanoj",t:"Email Triage & Response System",ph:4,x:`Act as an executive communications expert.
 
 Help me build a system to handle my email overload efficiently.
 
@@ -2054,7 +1923,7 @@ Provide:
 3. A daily email processing routine (with time estimates)
 4. Which emails to never reply to
 5. Rules to automate filtering`},
-{id:152,c:"Productivity",s:"@techxmanoj",t:"Meeting Effectiveness Optimizer",ph:5,x:`Act as an organizational productivity consultant.
+{id:145,c:"Productivity",s:"@techxmanoj",t:"Meeting Effectiveness Optimizer",ph:5,x:`Act as an organizational productivity consultant.
 
 Analyze my meeting situation and help me reclaim my calendar.
 
@@ -2070,7 +1939,7 @@ Provide:
 3. A pre-meeting checklist to ensure every meeting is necessary
 4. Post-meeting action system (so decisions actually happen)
 5. How to say no to unnecessary meetings professionally`},
-{id:153,c:"Graphic Design",s:"Claude AI Prompts",t:"Design Brief Simplifier",ph:3,x:`Act as a senior creative director. Simplify this client brief into a clear design direction.
+{id:146,c:"Graphic Design",s:"Claude AI Prompts",t:"Design Brief Simplifier",ph:3,x:`Act as a senior creative director. Simplify this client brief into a clear design direction.
 
 Extract and present:
 - Main objective (what is this design trying to achieve?)
@@ -2083,7 +1952,7 @@ Brief: [PASTE OR DESCRIBE THE CLIENT BRIEF HERE]
 
 Additional context: [ANY EXTRA INFORMATION ABOUT THE PROJECT]
 Budget/timeline constraints: [IF RELEVANT]`},
-{id:154,c:"Graphic Design",s:"Claude AI Prompts",t:"Logo Concept Generator",ph:4,x:`Act as an expert logo designer. Generate 10 logo concepts for a brand in the [INDUSTRY].
+{id:147,c:"Graphic Design",s:"Claude AI Prompts",t:"Logo Concept Generator",ph:4,x:`Act as an expert logo designer. Generate 10 logo concepts for a brand in the [INDUSTRY].
 
 For each concept:
 - Focus on symbolism, meaning, and visual metaphors
@@ -2095,7 +1964,7 @@ Industry: [INDUSTRY]
 Brand personality (choose 3): [e.g. bold / innovative / trustworthy / playful / premium / minimal]
 Target customer: [DESCRIPTION]
 Competitor references (to differentiate from): [3-5 COMPETITORS]`},
-{id:155,c:"Graphic Design",s:"Claude AI Prompts",t:"Layout & Composition Builder",ph:4,x:`Create 5 layout ideas for a [TYPE OF DESIGN: poster / social media post / website section / flyer / etc.].
+{id:148,c:"Graphic Design",s:"Claude AI Prompts",t:"Layout & Composition Builder",ph:4,x:`Create 5 layout ideas for a [TYPE OF DESIGN: poster / social media post / website section / flyer / etc.].
 
 For each layout:
 - Describe the structure (grid system, placement of elements)
@@ -2106,7 +1975,7 @@ Design type: [WHAT YOU'RE DESIGNING]
 Content elements to include: [LIST WHAT MUST BE IN THE DESIGN]
 Aesthetic direction: [DESCRIBE THE STYLE]
 Format/dimensions: [SIZE AND ORIENTATION]`},
-{id:156,c:"Graphic Design",s:"Claude AI Prompts",t:"Typography System Generator",ph:6,x:`Act as a typography expert. Create a typography system for a [INDUSTRY] brand.
+{id:149,c:"Graphic Design",s:"Claude AI Prompts",t:"Typography System Generator",ph:6,x:`Act as a typography expert. Create a typography system for a [INDUSTRY] brand.
 
 Include:
 - Font pairing suggestions (with reasoning for why they work together)
@@ -2118,7 +1987,7 @@ Industry: [INDUSTRY]
 Brand personality: [ADJECTIVES]
 Platform (where will this be used): [PRINT / WEB / MOBILE / ALL]
 Existing brand colors: [COLORS]`},
-{id:157,c:"Graphic Design",s:"Claude AI Prompts",t:"Design Critique & Improvement",ph:3,x:`Act as a professional design critic. Analyze this design and give honest, detailed feedback on:
+{id:150,c:"Graphic Design",s:"Claude AI Prompts",t:"Design Critique & Improvement",ph:3,x:`Act as a professional design critic. Analyze this design and give honest, detailed feedback on:
 - Composition (balance, tension, visual flow)
 - Typography (hierarchy, readability, pairing)
 - Color (harmony, contrast, psychological impact)
@@ -2130,7 +1999,7 @@ Then suggest specific improvements — actionable changes, not general advice.
 Design: [DESCRIBE OR ATTACH THE DESIGN HERE]
 Context: [WHERE WILL THIS BE USED / WHO IS THE AUDIENCE]
 What you're most unsure about: [YOUR OWN DOUBTS]`},
-{id:158,c:"Graphic Design",s:"Claude AI Prompts",t:"Brand Identity System Builder",ph:4,x:`Act as a brand strategist. Build a complete visual identity system for a [INDUSTRY] brand.
+{id:151,c:"Graphic Design",s:"Claude AI Prompts",t:"Brand Identity System Builder",ph:4,x:`Act as a brand strategist. Build a complete visual identity system for a [INDUSTRY] brand.
 
 Include:
 - Logo direction (primary, secondary, icon mark)
@@ -2145,7 +2014,7 @@ Brand values: [3-5 VALUES]
 Target customer: [DESCRIPTION]
 Brands you admire (for reference): [3 REFERENCES]
 Brands you want to avoid looking like: [3 TO AVOID]`},
-{id:159,c:"Graphic Design",s:"Claude AI Prompts",t:"Social Media Visual Template System",ph:4,x:`Act as a senior social media designer. Create a complete visual template system for [PLATFORM, e.g. Instagram / LinkedIn / TikTok / YouTube].
+{id:152,c:"Graphic Design",s:"Claude AI Prompts",t:"Social Media Visual Template System",ph:4,x:`Act as a senior social media designer. Create a complete visual template system for [PLATFORM, e.g. Instagram / LinkedIn / TikTok / YouTube].
 
 Provide design specifications for:
 
@@ -2175,7 +2044,7 @@ For each template specify:
 Brand details: [BRAND NAME, COLORS, FONTS, VIBE]
 Platform: [PLATFORM]
 Content type: [WHAT YOU MAINLY POST ABOUT]`},
-{id:160,c:"Graphic Design",s:"Claude AI Prompts",t:"Packaging Design Brief",ph:5,x:`Act as a packaging design director at a top consumer goods agency.
+{id:153,c:"Graphic Design",s:"Claude AI Prompts",t:"Packaging Design Brief",ph:5,x:`Act as a packaging design director at a top consumer goods agency.
 
 Write a comprehensive packaging design brief for [PRODUCT NAME] by [BRAND NAME].
 
@@ -2195,7 +2064,7 @@ Include in the brief:
 Brand: [BRAND NAME]
 Price point: [BUDGET / MID / PREMIUM / ULTRA-PREMIUM]
 Retail environment: [SUPERMARKET / PHARMACY / SPECIALTY / ONLINE-ONLY / ALL]`},
-{id:161,c:"AI Image Templates",s:"Template Prompts",t:"YouTube Thumbnail Concept Board",ph:8,x:`Create a YouTube thumbnail concept board for a video about [VIDEO TOPIC].
+{id:154,c:"AI Image Templates",s:"Template Prompts",t:"YouTube Thumbnail Concept Board",ph:8,x:`Create a YouTube thumbnail concept board for a video about [VIDEO TOPIC].
 
 Video title / hook: "[VIDEO TITLE]"
 
@@ -2213,39 +2082,19 @@ Requirements:
 Style: Bold YouTube thumbnail design, high contrast, [COLOR SCHEME] accents, expressive, clean.
 Niche: [YOUR NICHE]
 Target audience age range: [AGE RANGE]`},
-{id:162,c:"AI Image Templates",s:"Template Prompts",t:"Instagram Carousel \u2014 Educational",ph:10,x:`Create a [NUMBER]-slide Instagram carousel for creators.
+{id:155,c:"AI Image Templates",s:"Merged",t:"Educational / Professional Carousel — Instagram or LinkedIn",ph:6,x:`Create a [NUMBER]-slide carousel about "[TOPIC]" for [PLATFORM — Instagram or LinkedIn].
 
-Topic: "[CAROUSEL TOPIC / TITLE]"
+Structure:
+- Slide 1: strong hook — bold claim, stat, or scroll-stopping question
+- Slides 2–[N-1]: one clear idea, example, or step per slide
+- Slide [N]: takeaway + CTA
 
-Requirements:
-- Slide 1: strong hook that stops the scroll
-- Slides 2–[N-1]: each teaches one useful idea clearly
-- Slide [N]: simple call to action
-- Make the carousel visually consistent
-- Keep text short and readable
+Tone: Instagram → punchy, niche-flavored, casual-premium. LinkedIn → professional, credibility-first, not hypey.
 
-Style: Modern social media carousel, [BACKGROUND COLOR], [TEXT COLOR], [ACCENT COLOR], rounded cards, premium [NICHE] aesthetic.
+Style: Instagram → modern rounded cards, [BACKGROUND COLOR] / [TEXT COLOR] / [ACCENT COLOR], premium [NICHE] aesthetic. LinkedIn → clean white background, subtle [COLOR] accents, large typography, elegant spacing, premium business-presentation design.
 
-Creator niche: [YOUR NICHE]
-Target audience: [AUDIENCE]
-Core lesson of the carousel: [MAIN TAKEAWAY]
-CTA goal: [WHAT YOU WANT VIEWERS TO DO, e.g. follow / save / DM / click link]`},
-{id:163,c:"AI Image Templates",s:"Template Prompts",t:"LinkedIn Carousel \u2014 Professional",ph:4,x:`Create a professional LinkedIn carousel about [TOPIC].
-
-Audience: [TARGET AUDIENCE, e.g. founders, marketers, creators, and small business owners]
-
-Create 6 slides:
-1. Strong opening slide (bold claim or statistic)
-2–5. Practical examples or steps
-6. Final takeaway slide + CTA
-
-Requirements: Polished enough to post on LinkedIn. Professional tone, not hypey. Every slide readable.
-
-Style: Premium business presentation design, clean white background, subtle [COLOR] accents, large typography, elegant spacing.
-
-Your professional context: [YOUR ROLE / COMPANY / EXPERTISE]
-Key insight to share: [THE MAIN IDEA]`},
-{id:164,c:"AI Image Templates",s:"Template Prompts",t:"Brand Mood Board",ph:5,x:`Create a brand mood board for a [REAL / FICTIONAL] [PRODUCT/APP/BUSINESS] called "[BRAND NAME]."
+Inputs: Target audience: [AUDIENCE]. Core idea to share: [MAIN TAKEAWAY]. Your context (LinkedIn only): [YOUR ROLE / COMPANY / EXPERTISE]. CTA goal: [WHAT YOU WANT VIEWERS TO DO — follow / save / DM / click link].`},
+{id:156,c:"AI Image Templates",s:"Template Prompts",t:"Brand Mood Board",ph:5,x:`Create a brand mood board for a [REAL / FICTIONAL] [PRODUCT/APP/BUSINESS] called "[BRAND NAME]."
 
 [Brief description of what the brand/product does.]
 
@@ -2260,7 +2109,7 @@ You decide:
 - Brand personality words (3-5 adjectives)
 
 Style: Premium startup brand mood board, clean, modern, subtle gradients, organized sections, polished design.`},
-{id:165,c:"AI Image Templates",s:"Template Prompts",t:"Event Poster",ph:6,x:`Create a premium event poster for a [EVENT TYPE, e.g. AI creator meetup / music festival / networking night].
+{id:157,c:"AI Image Templates",s:"Template Prompts",t:"Event Poster",ph:6,x:`Create a premium event poster for a [EVENT TYPE, e.g. AI creator meetup / music festival / networking night].
 
 Location: [CITY / VENUE]
 Audience: [TARGET ATTENDEES]
@@ -2275,7 +2124,7 @@ Style: [AESTHETIC, e.g. modern tech event poster], [BACKGROUND], [COLOR] accents
 
 Brand colors: [COLORS]
 Mood: [ENERGY, e.g. intimate / high energy / exclusive / community-driven]`},
-{id:166,c:"AI Image Templates",s:"Template Prompts",t:"Business Process Flowchart",ph:9,x:`Create a process diagram for a [BUSINESS TYPE] [PROCESS, e.g. client onboarding / order fulfillment / customer support workflow].
+{id:158,c:"AI Image Templates",s:"Template Prompts",t:"Business Process Flowchart",ph:9,x:`Create a process diagram for a [BUSINESS TYPE] [PROCESS, e.g. client onboarding / order fulfillment / customer support workflow].
 
 The diagram should show:
 - [STEP 1]
@@ -2289,7 +2138,7 @@ The diagram should show:
 Requirements: Practical and easy to understand. Clear flowchart layout with decision points, yes/no branches, clear start/end.
 
 Style: Professional business workflow diagram, white background, thin lines, [COLOR] accents, rounded nodes.`},
-{id:167,c:"AI Image Templates",s:"Template Prompts",t:"Explainer Infographic \u2014 Non-Technical",ph:5,x:`Create an infographic that explains [TECHNICAL CONCEPT] to a non-technical audience.
+{id:159,c:"AI Image Templates",s:"Template Prompts",t:"Explainer Infographic — Non-Technical",ph:5,x:`Create an infographic that explains [TECHNICAL CONCEPT] to a non-technical audience.
 
 Requirements:
 - Understandable in under 60 seconds
@@ -2302,7 +2151,7 @@ Style: Clean modern explainer infographic, white background, [COLOR] accents, ro
 Concept: [YOUR TECHNICAL CONCEPT]
 Audience's knowledge level: [COMPLETE BEGINNER / SOME FAMILIARITY / KNOWS THE BASICS]
 Why they need to understand this: [CONTEXT / PURPOSE]`},
-{id:168,c:"AI Image Templates",s:"Template Prompts",t:"Visual Tool Comparison Chart",ph:4,x:`Create a visual comparison chart for choosing between [TOOL 1], [TOOL 2], [TOOL 3], and [TOOL 4].
+{id:160,c:"AI Image Templates",s:"Template Prompts",t:"Visual Tool Comparison Chart",ph:4,x:`Create a visual comparison chart for choosing between [TOOL 1], [TOOL 2], [TOOL 3], and [TOOL 4].
 
 Audience: [WHO NEEDS THIS, e.g. people choosing their first email marketing tool]
 
@@ -2315,7 +2164,7 @@ Include for each option:
 Requirements: Simple, useful, not too crowded. Accurate based on general knowledge.
 
 Style: Clean buying guide, white background, rounded cards, readable table layout, subtle colored accents.`},
-{id:169,c:"AI Image Templates",s:"Template Prompts",t:"Printable Reference Cheat Sheet",ph:3,x:`Create a printable cheat sheet for [TOPIC, e.g. writing better AI image prompts / Python basics / email copywriting].
+{id:161,c:"AI Image Templates",s:"Template Prompts",t:"Printable Reference Cheat Sheet",ph:3,x:`Create a printable cheat sheet for [TOPIC, e.g. writing better AI image prompts / Python basics / email copywriting].
 
 Include:
 - A simple formula or framework
@@ -2327,7 +2176,7 @@ Include:
 Requirements: Genuinely useful and easy to reference. Text readable at A4 print size.
 
 Style: Minimal [black-and-white / colored] reference sheet, thin lines, rounded boxes, elegant typography, printable layout.`},
-{id:170,c:"AI Image Templates",s:"Template Prompts",t:"Ecommerce Product Image Set",ph:7,x:`Create an ecommerce product image set for a [PRODUCT TYPE] called the "[PRODUCT NAME]."
+{id:162,c:"AI Image Templates",s:"Template Prompts",t:"Ecommerce Product Image Set",ph:7,x:`Create an ecommerce product image set for a [PRODUCT TYPE] called the "[PRODUCT NAME]."
 
 You decide key features, use-case scenes, and lifestyle concepts.
 
@@ -2345,7 +2194,7 @@ Style: Clean ecommerce product photography, white and lifestyle backgrounds, pre
 
 Product category: [CATEGORY]
 Target customer: [DESCRIPTION]`},
-{id:171,c:"AI Image Templates",s:"Template Prompts",t:"Website Hero Section Mockup",ph:8,x:`Create a website hero section mockup for a [PRODUCT/SERVICE TYPE] called "[PRODUCT NAME]."
+{id:163,c:"AI Image Templates",s:"Template Prompts",t:"Website Hero Section Mockup",ph:8,x:`Create a website hero section mockup for a [PRODUCT/SERVICE TYPE] called "[PRODUCT NAME]."
 
 You decide:
 - Headline (clear, benefit-driven)
@@ -2361,7 +2210,7 @@ Style: Premium tech startup landing page, [DARK / LIGHT] theme, [COLOR] accents,
 What the product does: [ONE SENTENCE DESCRIPTION]
 Target customer: [DESCRIPTION]
 Brand tone: [ADJECTIVES]`},
-{id:172,c:"AI Image Templates",s:"Template Prompts",t:"30-Day Habit Tracker",ph:3,x:`Create a printable 30-day habit tracker.
+{id:164,c:"AI Image Templates",s:"Template Prompts",t:"30-Day Habit Tracker",ph:3,x:`Create a printable 30-day habit tracker.
 
 Audience: [WHO WILL USE IT, e.g. a busy adult trying to build healthier routines]
 
@@ -2377,7 +2226,7 @@ Requirements: Actually printable and easy to use. Clean and premium feeling.
 Style: Minimal productivity planner, [DARK / LIGHT] mode, thin lines, rounded boxes, elegant typography.
 
 Habits to track: [LIST YOUR HABITS OR LET AI SUGGEST THEM]`},
-{id:173,c:"AI Image Templates",s:"Template Prompts",t:"Printable Recipe Card",ph:14,x:`Create a beautiful printable recipe card for "[RECIPE NAME]."
+{id:165,c:"AI Image Templates",s:"Template Prompts",t:"Printable Recipe Card",ph:14,x:`Create a beautiful printable recipe card for "[RECIPE NAME]."
 
 Prep time: [X] minutes  |  Cook time: [X] minutes  |  Servings: [X]
 
@@ -2398,7 +2247,7 @@ Instructions:
 [Add more as needed]
 
 Style: Clean food magazine layout, [LIGHTING, e.g. bright natural light / warm golden], readable text, warm minimal design.`},
-{id:174,c:"AI Image Templates",s:"Template Prompts",t:"Interactive Data Dashboard Mockup",ph:16,x:`Create a professional data dashboard mockup for a [BUSINESS TYPE / DEPARTMENT, e.g. SaaS analytics / marketing team / executive overview / e-commerce].
+{id:166,c:"AI Image Templates",s:"Template Prompts",t:"Interactive Data Dashboard Mockup",ph:16,x:`Create a professional data dashboard mockup for a [BUSINESS TYPE / DEPARTMENT, e.g. SaaS analytics / marketing team / executive overview / e-commerce].
 
 Dashboard title: "[DASHBOARD NAME, e.g. Growth Intelligence / Campaign Command Center]"
 
@@ -2417,7 +2266,7 @@ Design requirements:
 - Color scheme: [BRAND COLORS OR AESTHETIC]
 
 Style: [STYLE, e.g. modern SaaS / enterprise BI / startup growth dashboard / executive KPI view]`},
-{id:175,c:"AI Image Templates",s:"Template Prompts",t:"Mobile App UI Screen Set",ph:6,x:`Create a set of [NUMBER, e.g. 5] mobile app UI screens for a [APP CATEGORY, e.g. fitness tracking / budgeting / learning / food delivery / meditation] app called "[APP NAME]."
+{id:167,c:"AI Image Templates",s:"Template Prompts",t:"Mobile App UI Screen Set",ph:6,x:`Create a set of [NUMBER, e.g. 5] mobile app UI screens for a [APP CATEGORY, e.g. fitness tracking / budgeting / learning / food delivery / meditation] app called "[APP NAME]."
 
 Screens to include:
 1. Onboarding / welcome screen
@@ -2437,7 +2286,7 @@ Color palette: [COLORS]
 Target user: [USER DESCRIPTION]
 
 Aspect ratio: 9:19.5 (standard phone) · All screens at same scale`},
-{id:176,c:"AI Image Templates",s:"Template Prompts",t:"Annual Report Cover & Spread",ph:9,x:`Create a premium annual report cover and two-page spread for [ORGANIZATION NAME].
+{id:168,c:"AI Image Templates",s:"Template Prompts",t:"Annual Report Cover & Spread",ph:9,x:`Create a premium annual report cover and two-page spread for [ORGANIZATION NAME].
 
 Industry: [INDUSTRY, e.g. tech / healthcare / finance / NGO / education]
 Report year: [YEAR]
@@ -2457,7 +2306,7 @@ INNER SPREAD (two pages):
 Color palette: [COLORS, e.g. deep navy and gold / forest green and cream / monochrome with red accent]
 Typography style: [STYLE, e.g. classic serif / modern geometric / editorial mixed]
 Overall feel: [FEEL, e.g. conservative and trustworthy / modern and ambitious / warm and human]`},
-{id:177,c:"ChatGPT Design",s:"ChatGPT 2.0 Prompts",t:"Forbes Style Magazine Cover",ph:21,x:`Create a premium vertical magazine cover from the uploaded photo. Keep the subject's exact identity and facial features.
+{id:169,c:"ChatGPT Design",s:"ChatGPT 2.0 Prompts",t:"Forbes Style Magazine Cover",ph:21,x:`Create a premium vertical magazine cover from the uploaded photo. Keep the subject's exact identity and facial features.
 
 Head-and-shoulders portrait, facing forward, confident gaze, slight smile, one hand subtly raised.
 Dress the subject in a [OUTFIT, e.g. tailored black suit].
@@ -2475,21 +2324,7 @@ Typography:
 Style: modern, photorealistic, polished, luxury [INDUSTRY] editorial.
 
 Replace tags: [NAME], [MAGAZINE TITLE], [MAIN HEADLINE], [DATE], [WEBSITE], [BADGE TEXT], [INDUSTRY]`},
-{id:178,c:"ChatGPT Design",s:"ChatGPT 2.0 Prompts",t:"Full Brand Kit Identity Board",ph:11,x:`A professional minimalist brand identity presentation board for '[BRAND NAME]'. Clean and futuristic layout, presented as a flat lay on a subtle [TEXTURE, e.g. concrete] background.
-
-At the top center: the primary logo — a modern [LOGO STYLE, e.g. geometric sans-serif wordmark].
-Main brand color: [PRIMARY COLOR], accented by [ACCENT COLORS].
-
-The board features:
-1. A [NUMBER]-swatch color palette strip (with HEX codes)
-2. A typography sample showing 'Aa Bb Cc' in the brand typeface
-3. Two realistic mockups on the bottom half: a premium matte [MOCKUP 1, e.g. business card] and [MOCKUP 2, e.g. iPhone displaying the brand interface]
-
-Style: High-end, precise design studio aesthetic, soft studio lighting.
-Brand personality: [ADJECTIVES]
-Industry: [INDUSTRY]
-Target customer: [DESCRIPTION]`},
-{id:179,c:"ChatGPT Design",s:"ChatGPT 2.0 Prompts",t:"Epic Movie Poster",ph:9,x:`Epic cinematic [GENRE, e.g. sci-fi / fantasy / action / horror] movie poster for a fictional film titled "[MOVIE TITLE]".
+{id:170,c:"ChatGPT Design",s:"ChatGPT 2.0 Prompts",t:"Epic Movie Poster",ph:9,x:`Epic cinematic [GENRE, e.g. sci-fi / fantasy / action / horror] movie poster for a fictional film titled "[MOVIE TITLE]".
 
 Style: Ultra-detailed, [COLOR GRADE, e.g. desaturated blue / warm golden / high contrast noir], massive [GENRE] composition.
 
@@ -2506,7 +2341,7 @@ Technical: Glossy cinematic lighting, highly detailed, blockbuster poster, photo
 
 Text: Title "[MOVIE TITLE]" at bottom · Tagline: "[TAGLINE]" at top · Credits · Cinema logos
 Quality: Masterpiece, 8K`},
-{id:180,c:"ChatGPT Design",s:"ChatGPT 2.0 Prompts",t:"Football Match Poster",ph:8,x:`Dramatic football match poster — [TEAM A] vs [TEAM B].
+{id:171,c:"ChatGPT Design",s:"ChatGPT 2.0 Prompts",t:"Football Match Poster",ph:8,x:`Dramatic football match poster — [TEAM A] vs [TEAM B].
 
 Visual layout:
 - Split [TEAM A COLOR] and [TEAM B COLOR] background (halved vertically)
@@ -2520,7 +2355,7 @@ Style: Gritty texture, bold sports typography, cinematic lighting, high contrast
 Match context: [LEAGUE / TOURNAMENT / FRIENDLY]
 Date/time: [DATE if desired]
 Tone: [EPIC AND INTENSE / CLEAN AND MODERN / VINTAGE / CLASSIC]`},
-{id:181,c:"ChatGPT Design",s:"ChatGPT 2.0 Prompts",t:"Restaurant Menu Design",ph:8,x:`Design a modern [CUISINE TYPE, e.g. Italian / Japanese / West African / Mediterranean] restaurant menu.
+{id:172,c:"ChatGPT Design",s:"ChatGPT 2.0 Prompts",t:"Restaurant Menu Design",ph:8,x:`Design a modern [CUISINE TYPE, e.g. Italian / Japanese / West African / Mediterranean] restaurant menu.
 
 Restaurant name: [RESTAURANT NAME]
 
@@ -2535,7 +2370,7 @@ With realistic pricing that fits [MARKET SEGMENT, e.g. casual dining / upscale /
 Style: [TONE, e.g. warm and rustic / clean and modern / bold and vibrant] tones, clean [FONT STYLE] fonts, and a [TEXTURE, e.g. aged paper / clean white / dark wood grain] background texture.
 
 Color palette: [DESCRIBE COLORS]`},
-{id:182,c:"ChatGPT Design",s:"ChatGPT 2.0 Prompts",t:"AI-Powered Sketchnote Infographic",ph:4,x:`Create a hand-drawn sketchnote visual summary of these notes.
+{id:173,c:"ChatGPT Design",s:"ChatGPT 2.0 Prompts",t:"AI-Powered Sketchnote Infographic",ph:4,x:`Create a hand-drawn sketchnote visual summary of these notes.
 
 Background: Pristine white paper (no lines).
 
@@ -2552,20 +2387,7 @@ Format: A4 layout.
 
 Notes to visualise:
 [PASTE YOUR NOTES, KEY POINTS, OR CONTENT HERE]`},
-{id:183,c:"Special Prompts",s:"GPT Image 2",t:"Travel Poster \u2014 Lost In [Country]",ph:6,x:`Create a stylised travel poster / graphic collage for [COUNTRY].
-
-Main subject: A stylish international tourist visiting [COUNTRY], clearly presented as a traveller — not a local resident. The tourist wears modern travel fashion with details such as [TRAVEL ACCESSORIES, e.g. camera, backpack, sunglasses, map, or suitcase] — exploring the culture and atmosphere of [COUNTRY].
-
-Composition: Place the tourist in a dynamic composition surrounded by iconic architecture, streets, landmarks, transportation, food, signage, and cultural elements associated with [COUNTRY].
-
-Technique: Blend realistic character detail with a graphic collage background made of layered paper textures, torn poster edges, sticker elements, halftone dots, editorial typography, and bold geometric shapes.
-
-Include authentic visual motifs from [COUNTRY], but keep the tourist's appearance and styling globally fashionable and clearly foreign to the setting.
-
-Headline: Add a large readable headline: "LOST IN [COUNTRY]"
-
-Style: Modern, artistic, premium editorial travel poster aesthetic, balanced layout, print-worthy composition.`},
-{id:184,c:"Special Prompts",s:"Japanese Graffiti Style",t:"Japanese Graffiti-Inspired Fashion Poster",ph:4,x:`Create a high-detail portrait poster in a bold Japanese graffiti-inspired art style, combining modern urban street aesthetics with expressive Japanese visual culture.
+{id:174,c:"Special Prompts",s:"Japanese Graffiti Style",t:"Japanese Graffiti-Inspired Fashion Poster",ph:4,x:`Create a high-detail portrait poster in a bold Japanese graffiti-inspired art style, combining modern urban street aesthetics with expressive Japanese visual culture.
 
 Visual elements: Dynamic graffiti typography, layered spray-paint textures, hand-drawn symbols, abstract paint splashes, neon brush strokes, urban sticker elements, Japanese calligraphy accents, and decorative ornaments. Artistic, rebellious, fashionable, and visually striking — while maintaining premium editorial poster quality (not messy or overdone).
 
@@ -2580,7 +2402,7 @@ Lighting: Cinematic and fashionable, strong contrast, clean highlights, realisti
 Technical: Ultra-detailed, premium composition, realistic texture rendering, fashionable urban atmosphere, cinematic quality, poster-ready design, 8K ultra high.
 
 Customize: Subject [YOUR SUBJECT] · Gender [GENDER] · Dominant colors [YOUR COLOR PALETTE] · Graffiti text elements [WORDS/PHRASES TO INCLUDE]`},
-{id:185,c:"Special Prompts",s:"@TechieBySA",t:"Seedance Video Animation Prompt",ph:24,x:`Use the attached [STORYBOARD IMAGE] as the exact reference.
+{id:175,c:"Special Prompts",s:"@TechieBySA",t:"Seedance Video Animation Prompt",ph:24,x:`Use the attached [STORYBOARD IMAGE] as the exact reference.
 
 Create a [DURATION]-second [ASPECT RATIO, e.g. 16:9] animated [GENRE, e.g. CGI / watercolor / anime] sequence that follows the [NUMBER]-shot storyboard exactly.
 
@@ -2606,7 +2428,7 @@ Shot sequence:
 Camera: [CAMERA DIRECTION NOTES]
 Style: [LIGHTING, COLOR, ANIMATION STYLE NOTES]
 Goal: [DESCRIBE THE FINAL FEEL AND PURPOSE OF THE VIDEO]`},
-{id:186,c:"Special Prompts",s:"@aimikoda",t:"Character Sheet + Storyboard Animation Workflow",ph:15,x:`Create a complete animation production package for [CHARACTER NAME / VIDEO CONCEPT].
+{id:176,c:"Special Prompts",s:"@aimikoda",t:"Character Sheet + Storyboard Animation Workflow",ph:15,x:`Create a complete animation production package for [CHARACTER NAME / VIDEO CONCEPT].
 
 STEP 1 — CHARACTER SHEET:
 Design a model sheet for [CHARACTER DESCRIPTION] showing:
@@ -2633,7 +2455,7 @@ STEP 3 — VIDEO PROMPT (for Seedance / Kling / Runway):
 Using the storyboard as sequential shot guidance — NOT as a single static image. Follow each panel as a separate beat. Character reference matches the character sheet.
 
 Output format: [ASPECT RATIO] · [DURATION] seconds · [ART STYLE] animation · [MOOD] · [COLOR PALETTE]`},
-{id:187,c:"Special Prompts",s:"Multi-Tool",t:"Deep Research Prompt Framework",ph:10,x:`Use /deepresearch mode for this task.
+{id:177,c:"Special Prompts",s:"Multi-Tool",t:"Deep Research Prompt Framework",ph:10,x:`Use /deepresearch mode for this task.
 
 Topic: [YOUR RESEARCH TOPIC]
 Purpose: [WHY YOU NEED THIS RESEARCH, e.g. decision-making / writing / learning / business strategy]
@@ -2659,7 +2481,7 @@ Constraints:
 - Geographic scope: [GLOBAL / SPECIFIC REGION]
 - Exclude: [ANYTHING TO IGNORE, e.g. opinion pieces / outdated studies]
 - Prioritize: [WHAT MATTERS MOST, e.g. academic studies / industry reports / real-world cases]`},
-{id:188,c:"Image Generation",s:"@j_smeaton99",t:"Wildlife Reference Infographic \u2014 Desert Camel",ph:24,x:`Create a premium square "reference-style wildlife infographic" centred around the [ANIMAL, e.g. camel], designed as a beautifully curated desert-survival handbook page rather than a basic educational poster.
+{id:178,c:"Image Generation",s:"@j_smeaton99",t:"Wildlife Reference Infographic — Desert Camel",ph:24,x:`Create a premium square "reference-style wildlife infographic" centred around the [ANIMAL, e.g. camel], designed as a beautifully curated desert-survival handbook page rather than a basic educational poster.
 
 The composition should feel like a modern visual encyclopedia mixed with an elite zoology field guide and high-end editorial infographic system.
 
@@ -2702,7 +2524,7 @@ Add small premium visualization modules:
 Style Keywords: "premium zoology encyclopedia" · "editorial wildlife handbook" · "museum-quality animal reference page" · "scientific animal infographic" · "high-end natural-history poster" · "ultra-detailed animal visualization"
 
 Avoid: cartoon aesthetics · overly colorful tourist-poster looks · cluttered infographic layouts · unrealistic anatomy · exaggerated cinematic action scenes`},
-{id:189,c:"Image Generation",s:"@azed_ai",t:"Neon Tubing Logo 3D Render",ph:4,x:`Create an ultra-detailed hyper-realistic 3D render of [LOGO / BRAND NAME / WORD], constructed from expertly bent neon tubing with a clean contemporary sign-making aesthetic.
+{id:179,c:"Image Generation",s:"@azed_ai",t:"Neon Tubing Logo 3D Render",ph:4,x:`Create an ultra-detailed hyper-realistic 3D render of [LOGO / BRAND NAME / WORD], constructed from expertly bent neon tubing with a clean contemporary sign-making aesthetic.
 
 Continuous luminous glass tubes following the exact logo shape, smooth curves, realistic tube thickness, bright internal glow, subtle colored bloom, delicate reflections on the glass surface, visible electrode detailing at connection points, refined mounting structure kept minimal, premium commercial signage look.
 
@@ -2713,7 +2535,7 @@ Customize:
 - Neon tube color: [COLOR, e.g. warm white / electric blue / hot pink / neon green / golden yellow]
 - Mounting style: [WALL MOUNT / FLOATING / NO MOUNT / RUSTIC BACKING BOARD]
 - Background variant: [PURE WHITE / DARK STUDIO / EXPOSED BRICK / CONCRETE WALL]`},
-{id:190,c:"Image Generation",s:"@AiwithLariab",t:"3D Animated Family Portrait",ph:0,x:`Create a vertical 4:5 premium stylized 3D animated family portrait using the uploaded photo as reference. Keep every family member clearly recognizable through facial features, hairstyle, glasses, age, expressions, and overall vibe while transforming them into a polished cute high-end 3D animation style.
+{id:180,c:"Image Generation",s:"@AiwithLariab",t:"3D Animated Family Portrait",ph:0,x:`Create a vertical 4:5 premium stylized 3D animated family portrait using the uploaded photo as reference. Keep every family member clearly recognizable through facial features, hairstyle, glasses, age, expressions, and overall vibe while transforming them into a polished cute high-end 3D animation style.
 
 Style: soft cinematic shading, detailed hair strands, realistic fabric textures, and warm natural skin tones. Avoid plastic, toy-like, or cheap CGI looks.
 
@@ -2730,7 +2552,7 @@ Background: cozy minimal indoor room with warm beige walls, light wooden floorin
 Lighting: rich warm colors, soft indoor lighting, gentle facial highlights, subtle shadows, and a polished cinematic finish.
 
 Final feel: cozy, joyful, expressive, and premium while preserving the family's recognizable identity and arrangement.`},
-{id:191,c:"Image Generation",s:"@AiwithSaad",t:"Ajmal / Arabic Perfume Luxury Advertisement",ph:11,x:`Create an ultra-luxury cinematic advertisement for a [BRAND, e.g. Ajmal] perfume bottle placed inside a grand [SETTING, e.g. Middle Eastern architectural] environment inspired by [ELEMENTS, e.g. royal Arabic palaces, golden desert sunsets, carved Islamic arches, dark marble textures, and warm ambient candlelight].
+{id:181,c:"Image Generation",s:"@AiwithSaad",t:"Ajmal / Arabic Perfume Luxury Advertisement",ph:11,x:`Create an ultra-luxury cinematic advertisement for a [BRAND, e.g. Ajmal] perfume bottle placed inside a grand [SETTING, e.g. Middle Eastern architectural] environment inspired by [ELEMENTS, e.g. royal Arabic palaces, golden desert sunsets, carved Islamic arches, dark marble textures, and warm ambient candlelight].
 
 The perfume bottle should feel majestic and iconic — positioned elegantly on a premium marble or stone platform with realistic reflections and subtle perfume smoke flowing around it.
 
@@ -2748,7 +2570,7 @@ Typography: elegant and minimal with ONE short luxury slogan only: "[YOUR SLOGAN
 Final feel: [CULTURAL IDENTITY, e.g. Middle Eastern royalty] × modern luxury fashion campaign × cinematic perfume editorial.
 
 Ultra-realistic, hyper-detailed, 8K luxury commercial photography, realistic glass textures, authentic lighting physics, premium cinematic color grading.`},
-{id:192,c:"Image Generation",s:"@AiwithSaad",t:"Ultra-Premium Luxury Brand Product Advertisement",ph:1,x:`Create an ultra-premium cinematic luxury advertisement for a globally iconic brand product placed in a minimalist matte-finish environment.
+{id:182,c:"Image Generation",s:"@AiwithSaad",t:"Ultra-Premium Luxury Brand Product Advertisement",ph:1,x:`Create an ultra-premium cinematic luxury advertisement for a globally iconic brand product placed in a minimalist matte-finish environment.
 
 Product: [PRODUCT NAME & BRAND, e.g. iPhone 16 Pro by Apple / Air Jordan by Nike / Porsche 911]
 Setting: [ENVIRONMENT, e.g. minimalist studio / rooftop terrace at dusk / sleek modern interior]
@@ -2770,20 +2592,20 @@ Avoid: clutter, excessive text, and overly glossy colors.
 The final image should instantly grab attention while becoming more visually complex and immersive the longer someone looks at it.
 
 Ultra-realistic, cinematic, editorial luxury style, 8K commercial quality, highly detailed, premium product photography, emotionally engaging, modern minimalist masterpiece.`},
-{id:193,c:"Image Generation",s:"@Noor_ul_ain43",t:"Funny Celebrity Caricature Collage",ph:8,x:`Create a funny exaggerated caricature collage featuring [CELEBRITY 1], [CELEBRITY 2], [CELEBRITY 3], and [CELEBRITY 4] together in one artwork.
+{id:183,c:"Image Generation",s:"Merged",t:"Celebrity Caricature Collage Poster",ph:8,x:`Create an ultra-detailed caricature collage / poster featuring [CELEBRITY 1], [CELEBRITY 2], [CELEBRITY 3], and [CELEBRITY 4] together in one frame.
 
-Each character has an oversized head, huge goofy smile, expressive eyes, and playful cartoonish proportions.
+Tone (pick one):
+• Funny & Goofy — oversized heads, huge goofy smiles, expressive eyes, playful cartoonish proportions.
+• Bold & Modern — sharp jawlines, oversized heads, stylish confident poses, sleek but humorous exaggeration.
 
-Character setups (customize for your chosen celebrities):
-- [CELEBRITY 1]: [OUTFIT/CONTEXT, e.g. Brazil football jersey doing a samba-style pose with a football]
-- [CELEBRITY 2]: [OUTFIT/CONTEXT, e.g. India cricket jersey celebrating energetically]
-- [CELEBRITY 3]: [OUTFIT/CONTEXT, e.g. riding a tiny red futuristic car with a rocket launching in the background]
-- [CELEBRITY 4]: [OUTFIT/CONTEXT, e.g. posing confidently with a football and cocky expression]
+Character setups (customize per celebrity):
+- [CELEBRITY 1]: [OUTFIT / CONTEXT, e.g. national jersey doing a signature celebration pose]
+- [CELEBRITY 2]: [OUTFIT / CONTEXT]
+- [CELEBRITY 3]: [OUTFIT / CONTEXT]
+- [CELEBRITY 4]: [OUTFIT / CONTEXT]
 
-Background: [BACKGROUND, e.g. tropical background with palm trees, floating colorful music notes, vibrant sunny atmosphere]
-
-Style: oil painting texture, whimsical and energetic mood, ultra detailed brush strokes, dynamic composition, humorous legendary vibe, colorful caricature art style, full body poses, highly detailed and cinematic.`},
-{id:194,c:"Image Generation",s:"@Ankit_patel211",t:"Swiss-Style Football Legend Collage Poster",ph:14,x:`Act as a Senior Editorial Designer, Sports Art Director, and Graphic Artist.
+Style: exaggerated caricature illustration, vibrant colors, dynamic poster composition, clean or themed backdrop, high detail, print-ready, 8K.`},
+{id:184,c:"Image Generation",s:"@Ankit_patel211",t:"Swiss-Style Football Legend Collage Poster",ph:14,x:`Act as a Senior Editorial Designer, Sports Art Director, and Graphic Artist.
 
 Goal: Generate an ultra-premium Swiss-style football collage poster of [PLAYER NAME, e.g. Cristiano Ronaldo] celebrating their [ACHIEVEMENT, e.g. Saudi Pro League championship season with Al Nassr]. The composition must feel legendary, emotional, cinematic, and visually explosive.
 
@@ -2817,7 +2639,7 @@ PHASE 5 — TYPOGRAPHY SYSTEM:
 - Small editorial text: season summary in tight columns
 
 Format: vertical 4:5 · Ultra-detailed, cinematic, premium sports editorial quality`},
-{id:195,c:"Image Generation",s:"@RizwanAly07",t:"Man Interacting with Oversized App Logo \u2014 Fashion Editorial",ph:5,x:`A hyper-realistic editorial photograph of a stylish [GENDER, e.g. man] confidently interacting with the oversized logo of [APP / BRAND, e.g. Instagram / Spotify / Twitter / Apple]. The logo is minimalist, sculptural, and rendered in smooth matte 3D with soft rounded edges.
+{id:185,c:"Image Generation",s:"@RizwanAly07",t:"Man Interacting with Oversized App Logo — Fashion Editorial",ph:5,x:`A hyper-realistic editorial photograph of a stylish [GENDER, e.g. man] confidently interacting with the oversized logo of [APP / BRAND, e.g. Instagram / Spotify / Twitter / Apple]. The logo is minimalist, sculptural, and rendered in smooth matte 3D with soft rounded edges.
 
 The [GENDER] wears a couture-inspired outfit designed to match the colors, mood, and emotional identity of the app — [OUTFIT DESCRIPTION, e.g. tailored fashion, modern textures, premium layered styling, and luxury accessories]. Posed naturally as if becoming part of the logo structure itself: [POSE, e.g. leaning, sitting, standing within, or touching the logo in an artistic way].
 
@@ -2827,7 +2649,7 @@ App / Brand: [APP NAME, e.g. Instagram / Spotify / Netflix / WhatsApp]
 Outfit color mood: [DOMINANT COLORS matching the app's brand]
 Pose interaction: [HOW THE SUBJECT INTERACTS WITH THE LOGO, e.g. leaning against it / sitting inside it / reaching through it]
 Aspect ratio: 4:5`},
-{id:196,c:"Image Generation",s:"@azed_ai",t:"3D Celebrity Caricature",ph:3,x:`A highly stylized 3D caricature of [CELEBRITY / PERSON], with an oversized head, expressive facial features, and playful exaggeration.
+{id:186,c:"Image Generation",s:"@azed_ai",t:"3D Celebrity Caricature",ph:3,x:`A highly stylized 3D caricature of [CELEBRITY / PERSON], with an oversized head, expressive facial features, and playful exaggeration.
 
 Rendered in a smooth, polished style with clean materials and soft ambient lighting. Minimal background to emphasize the character's charm and presence.
 
@@ -2837,7 +2659,7 @@ Outfit: [OUTFIT, e.g. signature clothing / jersey / suit / casual]
 Background: [BACKGROUND, e.g. minimal gradient / themed environment / plain studio]
 Mood: [MOOD, e.g. confident / playful / fierce / funny]
 Style variation: [PIXAR-INSPIRED 3D / TOY-LIKE / PREMIUM DIGITAL ART / COLLECTIBLE FIGURINE AESTHETIC]`},
-{id:197,c:"Image Generation",s:"@HeyAbhishek",t:"Anime Animation Development Board",ph:19,x:`Create a single vertical anime animation development board for an original [GENRE, e.g. emotional summer] short film titled "[FILM TITLE, e.g. The Lost Wind Chime]."
+{id:187,c:"Image Generation",s:"@HeyAbhishek",t:"Anime Animation Development Board",ph:19,x:`Create a single vertical anime animation development board for an original [GENRE, e.g. emotional summer] short film titled "[FILM TITLE, e.g. The Lost Wind Chime]."
 
 The output must be ONE combined image with two sections: an anime character design sheet and a cinematic storyboard page.
 
@@ -2870,24 +2692,7 @@ STORY BEATS:
 ENVIRONMENT: [ENVIRONMENT DESCRIPTION, e.g. Bright Japanese countryside during summer with blue skies, soft clouds, green grass, sunflowers, wooden porch, warm sunset glow, and a peaceful nostalgic anime atmosphere.]
 
 FINAL GOAL: Make this feel like a beautiful anime film development board with [MOOD, e.g. emotional summer nostalgia] and cinematic storytelling.`},
-{id:198,c:"Image Generation",s:"@Noor_ul_ain43",t:"Ultra-Detailed Celebrity Caricature Crossover Poster",ph:12,x:`Create an ultra-detailed funny cartoon caricature crossover poster featuring [CELEBRITY 1], [CELEBRITY 2], [CELEBRITY 3], and [CELEBRITY 4] together in one frame.
-
-Art style: Bold modern caricature with exaggerated facial expressions, sharp jawlines, oversized heads, stylish poses, and humorous confident vibes.
-
-Character setups (customize for your celebrities):
-- [CELEBRITY 1]: [CONTEXT, e.g. playful and futuristic holding a mini rocket and standing near a Cybertruck with a smug billionaire expression]
-- [CELEBRITY 2]: [CONTEXT, e.g. posing like a selfie king with a crown, luxury vibe, football trophies, and exaggerated athletic features]
-- [CELEBRITY 3]: [CONTEXT, e.g. sitting confidently like a king surrounded by cricket bats, trophies, and Indian cricket aesthetics]
-- [CELEBRITY 4]: [CONTEXT, e.g. dominant and calm wearing their iconic hat/accessory with championship belt and defeated opponents in a funny exaggerated way]
-
-Technical: Cinematic and vibrant with dramatic lighting, teal-orange color grading, smooth shadows, detailed textures, and clean crisp outlines.
-
-Add funny luxury/success elements like: rockets, trophies, gold accents, sports gear, smoke effects, glowing highlights, and dynamic action poses.
-
-Background: blend [SETTING 1, e.g. space-tech], [SETTING 2, e.g. football stadium lights], [SETTING 3, e.g. sports arena atmosphere], and [SETTING 4, e.g. relevant arena/octagon] aesthetics together seamlessly.
-
-Style: premium cartoon caricature, semi-realistic comic art, highly detailed digital painting, humorous celebrity crossover poster, meme-worthy expressions, ultra HD, trending on ArtStation, vibrant colors, clean modern background.`},
-{id:199,c:"Image Generation",s:"@noorwithwifi",t:"Athlete Motivational Scrapbook Collage Poster",ph:15,x:`Create a highly detailed motivational scrapbook-style collage of [ATHLETE / PERSON NAME, e.g. Cristiano Ronaldo / Serena Williams / LeBron James] on a clean white background.
+{id:188,c:"Image Generation",s:"@noorwithwifi",t:"Athlete Motivational Scrapbook Collage Poster",ph:15,x:`Create a highly detailed motivational scrapbook-style collage of [ATHLETE / PERSON NAME, e.g. Cristiano Ronaldo / Serena Williams / LeBron James] on a clean white background.
 
 Combine: realistic portraits, fashion poses, sport-action sketches, and cute chibi illustrations.
 
@@ -2900,7 +2705,7 @@ Include:
 Fill the composition with energetic handwritten motivational typography including "[NICKNAME/CODE, e.g. CR7]", and quotes about [THEMES, e.g. discipline, focus, ambition, and relentless work ethic], along with a daily grind checklist and leadership keywords.
 
 Style: Dynamic mixed-media collage, cinematic lighting, sharp realism blended with stylized cartoon elements, inspirational sports poster aesthetic.`},
-{id:200,c:"Image Generation",s:"@Diplomeme",t:"PUMA / Sneaker \u00d7 Pop Culture Collaboration Campaign",ph:23,x:`FORMAT: 4:5 vertical premium sneaker SMM campaign — hyper-realistic streetwear advertising — luxury comic-culture fashion editorial — Instagram billboard composition — 8K ultra-detail.
+{id:189,c:"Image Generation",s:"@Diplomeme",t:"PUMA / Sneaker × Pop Culture Collaboration Campaign",ph:23,x:`FORMAT: 4:5 vertical premium sneaker SMM campaign — hyper-realistic streetwear advertising — luxury comic-culture fashion editorial — Instagram billboard composition — 8K ultra-detail.
 
 CONCEPT: [BRAND, e.g. PUMA] adapts the [POP CULTURE IP, e.g. Teenage Mutant Ninja Turtles / Naruto / Dragon Ball Z / Marvel] identity through elevated street-luxury storytelling.
 NOT childish cartoon branding · NOT generic gaming poster aesthetics
@@ -2930,7 +2735,7 @@ Tagline: "[TAGLINE, e.g. Walk Different. Shell Forever.]"
 LIGHTING: [LIGHTING, e.g. neon-soaked wet-asphalt reflections, cinematic volumetric glow]
 
 STYLE: Luxury fashion editorial × [IP WORLD] street culture × premium sneaker campaign × Behance top project quality`},
-{id:201,c:"Image Generation",s:"@akkiwani703",t:"Luxury Food Advertising \u2014 Smoothie Bowl Explosion",ph:12,x:`Create an ultra-premium cinematic luxury food advertisement photograph of a [DISH, e.g. berry smoothie bowl / acai bowl / tropical fruit platter].
+{id:190,c:"Image Generation",s:"@akkiwani703",t:"Luxury Food Advertising — Smoothie Bowl Explosion",ph:12,x:`Create an ultra-premium cinematic luxury food advertisement photograph of a [DISH, e.g. berry smoothie bowl / acai bowl / tropical fruit platter].
 
 Visual style: hyper-realistic cinematic food photography · fresh, energetic, vibrant, premium, playful mood · 4K ultra detailed · luxury editorial food campaign finish.
 
@@ -2949,7 +2754,7 @@ Color palette: [PALETTE, e.g. deep purples, vibrant reds, creamy whites, soft gr
 Typography (minimal): "[BRAND NAME]" in elegant minimal font.
 
 Ultra-realistic textures, authentic food styling, luxury editorial food campaign quality, 8K commercial photography.`},
-{id:202,c:"Image Generation",s:"@frametheory058",t:"Faceless Crowd \u2014 Cinematic Identity Portrait",ph:0,x:`Use the uploaded image as the Exact facial identity reference. Preserve the exact face, skin tone, hairstyle, facial proportions, expression, and overall likeness of the uploaded subject.
+{id:191,c:"Image Generation",s:"@frametheory058",t:"Faceless Crowd — Cinematic Identity Portrait",ph:0,x:`Use the uploaded image as the Exact facial identity reference. Preserve the exact face, skin tone, hairstyle, facial proportions, expression, and overall likeness of the uploaded subject.
 
 Create a dark cinematic portrait with the subject standing perfectly centered inside a tightly packed crowd of faceless hooded figures wearing matte black hoodies. The hooded figures must surround the subject from foreground to deep background, creating a claustrophobic tunnel-like composition. Foreground hooded silhouettes should appear very close to the camera and partially block the frame edges.
 
@@ -2964,7 +2769,7 @@ Color palette: near-monochrome — deep blacks, cold dark grays, single warm hig
 Style: editorial fashion campaign · existential conceptual photography · identity vs anonymity · award-winning magazine photography · cinematic depth of field.
 
 Aspect ratio: 4:5 · Ultra-detailed, photorealistic, emotionally powerful.`},
-{id:203,c:"Image Generation",s:"@mehvishs25",t:"Early 2000s Japanese Digicam Paparazzi Snapshot",ph:3,x:`Use the uploaded reference image as the exact identity base for the main subject. Preserve their authentic facial structure, recognizable appearance, hairstyle, body proportions, skin texture, and overall identity with high consistency. Completely ignore any unrelated background from the original image.
+{id:192,c:"Image Generation",s:"@mehvishs25",t:"Early 2000s Japanese Digicam Paparazzi Snapshot",ph:3,x:`Use the uploaded reference image as the exact identity base for the main subject. Preserve their authentic facial structure, recognizable appearance, hairstyle, body proportions, skin texture, and overall identity with high consistency. Completely ignore any unrelated background from the original image.
 
 Create a hyper-chaotic early-2000s Japanese digicam snapshot aesthetic with raw paparazzi energy and accidental comedy.
 
@@ -2981,7 +2786,7 @@ CAMERA ARTIFACTS: visible flash bloom on faces · color fringing · slight barre
 COMPOSITION: Feels genuinely accidental — slightly tilted, not perfectly framed, someone's elbow in the way, another camera visible in the shot.
 
 VIBE: Authentic chaotic celebrity candid energy — feels like it was actually taken, not generated.`},
-{id:204,c:"Image Generation",s:"@Ankit_patel211",t:"Dinosaur Waterpark \u2014 Animated Storyboard Sheet",ph:6,x:`Create an ultra-detailed [NUMBER, e.g. 8]-panel animated storyboard sheet in 3:2 aspect ratio for "[FILM TITLE, e.g. Dinosaur Waterpark Emergency]."
+{id:193,c:"Image Generation",s:"@Ankit_patel211",t:"Dinosaur Waterpark — Animated Storyboard Sheet",ph:6,x:`Create an ultra-detailed [NUMBER, e.g. 8]-panel animated storyboard sheet in 3:2 aspect ratio for "[FILM TITLE, e.g. Dinosaur Waterpark Emergency]."
 
 Featuring [MAIN CHARACTER, e.g. a cute aqua-blue baby dinosaur with inflatable float ring] inside a giant [THEME, e.g. tropical dinosaur-themed] waterpark.
 
@@ -3000,7 +2805,7 @@ Panels (customize scenes for your story):
 For each panel include: panel border with number, camera angle note, action description, emotional beat, and timing note.
 
 Layout: clean professional storyboard grid with production notes, character consistency throughout.`},
-{id:205,c:"Image Generation",s:"@abxxai",t:"Product Campaign Cinematic Storyboard Poster",ph:18,x:`Create a premium [GRID SIZE, e.g. 3×3] cinematic storyboard poster for a [BRAND, e.g. The North Face / Nike / Apple / your brand] [PRODUCT TYPE, e.g. outdoor jacket / sneaker / device] advertisement.
+{id:194,c:"Image Generation",s:"@abxxai",t:"Product Campaign Cinematic Storyboard Poster",ph:18,x:`Create a premium [GRID SIZE, e.g. 3×3] cinematic storyboard poster for a [BRAND, e.g. The North Face / Nike / Apple / your brand] [PRODUCT TYPE, e.g. outdoor jacket / sneaker / device] advertisement.
 
 CANVAS: [FORMAT, e.g. square 1:1] format, [BACKGROUND, e.g. deep charcoal / clean white / brand color] background, [STYLE, e.g. high-contrast] color palette, [BORDER STYLE, e.g. thin silver borders with panel numbers and production notes].
 
@@ -3028,7 +2833,7 @@ DESIGN DETAILS:
 - Brand tagline integrated: "[TAGLINE]"
 
 FINAL LOOK: [AESTHETIC, e.g. Award-winning advertising storyboard / Editorial film production quality / Behance-level campaign presentation]`},
-{id:206,c:"Image Generation",s:"@Goodmanprotocol",t:"Surreal Automotive Advertising Poster",ph:6,x:`High-end surreal automotive advertising poster for [BRAND, e.g. Ferrari / Porsche / Rolls Royce / your custom car brand] [CAR MODEL, e.g. 488 GTB / 911 Turbo].
+{id:195,c:"Image Generation",s:"@Goodmanprotocol",t:"Surreal Automotive Advertising Poster",ph:6,x:`High-end surreal automotive advertising poster for [BRAND, e.g. Ferrari / Porsche / Rolls Royce / your custom car brand] [CAR MODEL, e.g. 488 GTB / 911 Turbo].
 
 Visual elements:
 - Iconic [CAR MODEL] shown in clean side profile
@@ -3044,7 +2849,7 @@ Style: Premium magazine advertisement aesthetic, cinematic studio lighting, shar
 
 Format: vertical poster format (4:5 or 2:3).
 NO black and white — use [YOUR DOMINANT COLOR PALETTE].`},
-{id:207,c:"Image Generation",s:"@Mind_Boticni",t:"High-Fashion Desert Editorial Shoot",ph:2,x:`A high-fashion cinematic desert shoot inspired by [PUBLICATION, e.g. Vogue / Harper's Bazaar / i-D Magazine] editorial styling.
+{id:196,c:"Image Generation",s:"@Mind_Boticni",t:"High-Fashion Desert Editorial Shoot",ph:2,x:`A high-fashion cinematic desert shoot inspired by [PUBLICATION, e.g. Vogue / Harper's Bazaar / i-D Magazine] editorial styling.
 
 The character is a supermodel adventurer wearing flowing couture garments that blend [FABRIC TYPES, e.g. silk, sand-resistant fabrics, and metallic accents].
 
@@ -3064,7 +2869,7 @@ Additional shots to include:
 - Mid-shot action pose — [POSE, e.g. walking with flowing fabric in wind / standing dramatically on dune ridge / reaching toward the sky]
 
 Ultra-realistic photography style, ultra-detailed skin and fabric textures, premium editorial feel, 8K quality.`},
-{id:208,c:"Image Generation",s:"@azed_ai",t:"Charcoal Sketch Portrait",ph:2,x:`A charcoal sketch of a [SUBJECT, e.g. woman reading / man in deep thought / hands at work / cityscape at night / animal portrait], raw and textured with expressive shading and bold linework.
+{id:197,c:"Image Generation",s:"@azed_ai",t:"Charcoal Sketch Portrait",ph:2,x:`A charcoal sketch of a [SUBJECT, e.g. woman reading / man in deep thought / hands at work / cityscape at night / animal portrait], raw and textured with expressive shading and bold linework.
 
 The background is filled with smudged gradients and sketchbook marks, giving it a gritty, unrefined elegance.
 
@@ -3077,7 +2882,7 @@ Detail level: [HIGH DETAIL on subject, loose and smudged on background] (or adju
 Medium simulation: real charcoal stick marks visible, finger-smudging, eraser highlights, textured paper grain showing through.
 
 Format: [FORMAT, e.g. portrait / landscape / square]. Black, white, and grey only — no color.`},
-{id:209,c:"Image Generation",s:"@TechieBySA",t:"Luxury Magazine Cover \u2014 Product as Cover Star",ph:7,x:`A world-class luxury magazine cover, 4:5 ratio, featuring [BRAND/PRODUCT, e.g. a perfume bottle / a luxury watch / a sports car / a fashion item / a sneaker] as the cover star.
+{id:198,c:"Image Generation",s:"@TechieBySA",t:"Luxury Magazine Cover — Product as Cover Star",ph:7,x:`A world-class luxury magazine cover, 4:5 ratio, featuring [BRAND/PRODUCT, e.g. a perfume bottle / a luxury watch / a sports car / a fashion item / a sneaker] as the cover star.
 
 The product floats center frame, lit like a fashion editorial — soft directional studio light with one dramatic color gel in [COLOR, e.g. deep blue / warm amber / soft rose] casting a subtle wash.
 
@@ -3096,7 +2901,7 @@ The product has hyper-realistic texture and surface detail.
 Overall feel: If this product had its own magazine, this would be Issue 01.
 
 Shot on Hasselblad, photorealistic, print-ready quality.`},
-{id:210,c:"Image Generation",s:"@AIwithSynthia",t:"Apple-Inspired Luxury Fashion Campaign Poster",ph:7,x:`Ultra realistic luxury [BRAND, e.g. Apple-inspired / Samsung / tech brand] fashion campaign poster featuring a stylish modern [GENDER, e.g. woman / man] in a premium minimalist aesthetic.
+{id:199,c:"Image Generation",s:"@AIwithSynthia",t:"Apple-Inspired Luxury Fashion Campaign Poster",ph:7,x:`Ultra realistic luxury [BRAND, e.g. Apple-inspired / Samsung / tech brand] fashion campaign poster featuring a stylish modern [GENDER, e.g. woman / man] in a premium minimalist aesthetic.
 
 Background: clean matte [COLOR, e.g. white and silver] with soft [BRAND]-inspired keynote lighting, elegant shadows, futuristic luxury vibe, and ultra polished studio composition.
 
@@ -3109,7 +2914,7 @@ Typography: elegant minimal font inspired by [BRAND] ads — small product label
 Style: hyper detailed textures, cinematic soft lighting, realistic fabric folds, luxury editorial photography, Pinterest luxury fashion aesthetic, futuristic ecommerce catalog design, ultra clean minimal composition.
 
 Format: vertical 4:5 Instagram fashion advertisement · ultra detailed 8K luxury campaign.`},
-{id:211,c:"Video & Content",s:"@godofprompt",t:"YouTube Video Concept Generator \u2014 7 Ideas",ph:4,x:`You are a creative director who specializes in high-retention video content for YouTube and short-form platforms.
+{id:200,c:"Video & Content",s:"@godofprompt",t:"YouTube Video Concept Generator — 7 Ideas",ph:4,x:`You are a creative director who specializes in high-retention video content for YouTube and short-form platforms.
 
 I'm going to describe my niche, audience, and content goals. Generate 7 video concepts ranked by a simple scoring system:
 
@@ -3128,7 +2933,7 @@ My niche: [DESCRIBE YOUR NICHE]
 My audience: [WHO WATCHES YOUR CONTENT]
 My content goals: [WHAT YOU WANT THIS VIDEO TO ACHIEVE]
 Recent top performers: [PASTE TITLES OF YOUR 2-3 BEST VIDEOS IF YOU HAVE THEM]`},
-{id:212,c:"Video & Content",s:"@godofprompt",t:"YouTube Script Writer \u2014 Retention-Optimized",ph:4,x:`You are a YouTube scriptwriter who obsesses over audience retention curves.
+{id:201,c:"Video & Content",s:"@godofprompt",t:"YouTube Script Writer — Retention-Optimized",ph:4,x:`You are a YouTube scriptwriter who obsesses over audience retention curves.
 
 Take my chosen video concept and write a full script with these built-in elements:
 
@@ -3144,7 +2949,7 @@ RIGHT column: visual/editing notes for that section
 Video concept: [PASTE YOUR CHOSEN CONCEPT]
 My speaking style: [CASUAL / PROFESSIONAL / ENERGETIC / CALM]
 Target length: [DESIRED VIDEO LENGTH, e.g. 8 minutes / 3 minutes]`},
-{id:213,c:"Video & Content",s:"@godofprompt",t:"Shot-by-Shot Production Plan",ph:3,x:`You are a cinematographer planning a shoot for a solo creator who films with minimal gear.
+{id:202,c:"Video & Content",s:"@godofprompt",t:"Shot-by-Shot Production Plan",ph:3,x:`You are a cinematographer planning a shoot for a solo creator who films with minimal gear.
 
 Take my script and break it into a shot-by-shot production plan. For every section of the script, specify:
 
@@ -3161,7 +2966,7 @@ Output as a numbered table with columns: Shot #, Script Section, Shot Type, Came
 Script: [PASTE YOUR SCRIPT]
 My gear: [LIST YOUR CAMERA, LIGHTS, MIC]
 Filming locations available: [LIST WHERE YOU CAN FILM]`},
-{id:214,c:"Video & Content",s:"@godofprompt",t:"B-Roll Planning System",ph:2,x:`You are a video editor who uses B-roll strategically, not decoratively.
+{id:203,c:"Video & Content",s:"@godofprompt",t:"B-Roll Planning System",ph:2,x:`You are a video editor who uses B-roll strategically, not decoratively.
 
 Review my script and shot list. For every section, map out the exact B-roll needed to support the narrative. Categorize each B-roll clip as one of three types:
 
@@ -3178,7 +2983,7 @@ Do not suggest B-roll that exists just to fill space. Every clip earns its spot.
 
 Script: [PASTE YOUR SCRIPT]
 Shot list: [PASTE YOUR SHOT LIST]`},
-{id:215,c:"Video & Content",s:"@godofprompt",t:"Frame-Accurate Editing Blueprint",ph:4,x:`You are a senior video editor building a frame-accurate editing plan for a solo creator.
+{id:204,c:"Video & Content",s:"@godofprompt",t:"Frame-Accurate Editing Blueprint",ph:4,x:`You are a senior video editor building a frame-accurate editing plan for a solo creator.
 
 Take my script, shot list, and B-roll plan and produce a complete editing blueprint. This blueprint should be detailed enough that I (or any editor) can follow it without creative guessing.
 
@@ -3197,7 +3002,7 @@ Output format: table with columns: Timecode Estimate, Main Footage, B-Roll/Overl
 Script: [PASTE YOUR SCRIPT]
 Shot list: [PASTE YOUR SHOT LIST]
 B-roll plan: [PASTE YOUR B-ROLL PLAN]`},
-{id:216,c:"Video & Content",s:"@godofprompt",t:"Audio Design Plan \u2014 Sound Layer",ph:2,x:`You are an audio director designing the sound layer for a YouTube video.
+{id:205,c:"Video & Content",s:"@godofprompt",t:"Audio Design Plan — Sound Layer",ph:2,x:`You are an audio director designing the sound layer for a YouTube video.
 
 Take my script and editing blueprint and create a complete audio plan. Map every audio element to the timeline:
 
@@ -3212,7 +3017,7 @@ Do not overdesign. Silence and subtlety are tools. A video with 47 sound effects
 
 Script: [PASTE YOUR SCRIPT]
 Edit blueprint: [PASTE YOUR EDITING BLUEPRINT]`},
-{id:217,c:"Video & Content",s:"@godofprompt",t:"Retention Drop-Off Analyst",ph:0,x:`You are a YouTube analytics strategist who can predict audience drop-off from a script and production plan alone.
+{id:206,c:"Video & Content",s:"@godofprompt",t:"Retention Drop-Off Analyst",ph:0,x:`You are a YouTube analytics strategist who can predict audience drop-off from a script and production plan alone.
 
 Review everything I've built: the script, shot list, B-roll plan, editing blueprint, and sound design.
 
