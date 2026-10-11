@@ -1,0 +1,40 @@
+name: Suggest or fix a prompt
+description: Propose a new prompt, or point out a mistake in an existing one.
+labels: [prompt]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Prompt title
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Image Generation
+        - Social Media
+        - Career & Resume
+        - Presentations
+        - Business Strategy
+        - Productivity
+        - Graphic Design
+        - AI Image Templates
+        - Video & Content
+        - ChatGPT Design
+        - Special Prompts
+    validations:
+      required: true
+  - type: textarea
+    id: text
+    attributes:
+      label: The prompt text
+      description: Put each blank in square brackets, like [BRAND NAME] or [OUTFIT, e.g. red jacket].
+    validations:
+      required: true
+  - type: input
+    id: creator
+    attributes:
+      label: Who created it?
+      description: Credit the original creator (for example their social handle). Only share prompts you have the right to share.

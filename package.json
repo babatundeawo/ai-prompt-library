@@ -1,0 +1,18 @@
+{
+  "name": "ai-prompt-library",
+  "private": true,
+  "description": "Quality checks for the PromptOS static site. The site itself has no build step; these tools only run inside GitHub Actions.",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "lint": "eslint js sw.js scripts",
+    "validate": "html-validate index.html library.html favorites.html about.html 404.html"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@lhci/cli": "0.15.1",
+    "eslint": "10.12.0",
+    "globals": "17.13.0",
+    "html-validate": "11.16.2",
+    "linkinator": "8.1.0"
+  }
+}

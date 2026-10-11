@@ -1,0 +1,86 @@
+# Builds, checks and publishes the site to GitHub Pages.
+#  - Every push and pull request runs the quality checks.
+#  - Only a push to main (or a manual run) publishes the site.
+# One-time setup: repository Settings > Pages > Source > "GitHub Actions".
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  checks:
+    name: Checks and build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install check tools
+        run: npm ci --no-audit --no-fund
+
+      # Fails only for real problems: bad prompt data, missing files, broken references.
+      - name: Site and data checks
+        run: node scripts/check.mjs
+
+      # The next two report problems as warnings and never block a deploy.
+      - name: Lint JavaScript
+        run: npm run lint
+        continue-on-error: true
+
+      - name: Validate HTML
+        run: npm run validate
+        continue-on-error: true
+
+      - name: Assemble site
+        run: |
+          mkdir _site
+          cp -r index.html library.html favorites.html about.html 404.html \
+                css js assets manifest.webmanifest sw.js favicon.ico robots.txt sitemap.xml .nojekyll _site/
+          # Give each release its own offline cache so visitors always get fresh files.
+          sed -i "s/__BUILD__/${GITHUB_SHA::10}/" _site/sw.js
+
+      - name: Check links
+        run: npx linkinator _site --recurse --silent --skip "^https?://"
+        continue-on-error: true
+
+      - name: Lighthouse report
+        run: npx lhci autorun
+        continue-on-error: true
+
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+        if: github.event_name != 'pull_request'
+
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: _site
+
+  deploy:
+    name: Publish to GitHub Pages
+    needs: checks
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
