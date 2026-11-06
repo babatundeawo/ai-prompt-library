@@ -10,10 +10,6 @@
   let dlg = null, input = null, list = null;
   let items = [];       /* flat list of rendered, selectable items */
   let active = 0;
-  let installPrompt = null;
-
-  window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); installPrompt = e; });
-  window.addEventListener('appinstalled', () => { installPrompt = null; });
 
   const PAGES = [
     { title: 'Home', href: 'index.html', icon: 'home' },
@@ -26,7 +22,7 @@
     const dark = PS.theme.effective() === 'dark';
     const a = [{ title: 'Switch to ' + (dark ? 'light' : 'dark') + ' theme', icon: dark ? 'sun' : 'moon', run: () => PS.theme.toggle() }];
     if (document.documentElement.hasAttribute('data-theme')) a.push({ title: 'Use my system theme', icon: 'sun', run: () => PS.theme.set('system') });
-    if (installPrompt) a.push({ title: 'Install PromptOS as an app', icon: 'download', run: () => installPrompt.prompt() });
+    if (PS.install && PS.install.available()) a.push({ title: PS.install.label(), icon: 'download', run: () => PS.install.run() });
     return a;
   }
 

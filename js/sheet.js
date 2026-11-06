@@ -8,6 +8,8 @@
 (function () {
   'use strict';
 
+  const SHARE_VERB = navigator.share && window.matchMedia('(pointer: coarse)').matches ? 'Share' : 'Copy';
+
   let dlg = null;
   let els = {};
   let cur = null;   /* { p, fields, values, mode, manual, dirty } */
@@ -47,7 +49,7 @@
         '<button type="button" class="btn btn--ghost btn--sm" data-s="reset" aria-label="Reset to the original prompt">' + PS.ui('reset') + '<span class="hide-sm">Reset</span></button>' +
         '<span class="grow"></span>' +
         '<button type="button" class="icon-btn fav-btn" data-s="fav" data-tip="Save" aria-label="Save to favourites">' + PS.ui('star') + '</button>' +
-        '<button type="button" class="icon-btn" data-s="share" data-tip="Copy link" aria-label="Copy link to this prompt">' + PS.ui('link') + '</button>' +
+        '<button type="button" class="icon-btn" data-s="share" data-tip="' + SHARE_VERB + ' link" aria-label="' + SHARE_VERB + ' link to this prompt">' + PS.ui('link') + '</button>' +
       '</div>';
     document.body.appendChild(dlg);
     dlg.querySelectorAll('[data-s]').forEach(n => { els[n.dataset.s] = n; });
@@ -153,7 +155,13 @@
 
   function share() {
     const url = new URL('library.html?p=' + cur.p.id, location.href).href;
-    PS.copyText(url).then(ok => PS.toast(ok ? 'Link copied' : 'Could not copy the link', ok ? undefined : { type: 'error' }));
+    const copyLink = () => PS.copyText(url).then(ok => PS.toast(ok ? 'Link copied' : 'Could not copy the link', ok ? undefined : { type: 'error' }));
+    /* Phones and tablets get the system share sheet; computers copy the link. */
+    if (navigator.share && window.matchMedia('(pointer: coarse)').matches) {
+      navigator.share({ title: cur.p.t + ' | PromptOS', url }).catch(err => { if (!err || err.name !== 'AbortError') copyLink(); });
+      return;
+    }
+    copyLink();
   }
 
   function onClosed() {

@@ -34,7 +34,8 @@ PromptOS is a free prompt library for people who use AI image generators and cha
 - **Library page.** Search, filter by category, sort, and switch between grid and list. Every view has a shareable link.
 - **Favourites.** Star the prompts you reuse. They stay in your browser and sync between tabs.
 - **Light and dark themes.** Follows your system setting, or choose with the toggle.
-- **Works offline.** After your first visit the library is stored on your device. Install it from your browser's menu to open it like an app.
+- **Works offline.** After your first visit the library is stored on your device, with a clear message when your connection drops.
+- **Installs like an app.** Accept the install prompt on Android and desktop Chrome or Edge. On iPhone and iPad, tap Share, then Add to Home Screen; the site shows the steps.
 - **Private by design.** No account, no cookies, no analytics.
 
 <p align="center">

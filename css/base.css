@@ -167,3 +167,15 @@ html { scrollbar-color: var(--line-strong) transparent; scrollbar-width: thin; }
 /* Elements that only make sense with JavaScript */
 html:not(.js) .js-only { display: none !important; }
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; appearance: none; display: none; }
+
+/* ---------- Print: readable pages without the interface around them ---------- */
+@media print {
+  :root { color-scheme: light; }
+  html, body { background: #fff !important; color: #000 !important; }
+  .site-header, .site-footer, .menu-dialog, .toast-region, .install-banner, .ios-guide, .net-status, .to-top,
+  .skip-link, .hero-ctas, .js-only, .scroll-progress, dialog { display: none !important; }
+  .js [data-reveal] { opacity: 1 !important; transform: none !important; }
+  main a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.85em; word-break: break-all; }
+  h1, h2, h3, summary { break-after: avoid; }
+  details, .card, .feature { break-inside: avoid; }
+}

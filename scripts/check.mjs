@@ -59,6 +59,9 @@ for (const css of fs.readdirSync(path.join(root, 'css'))) {
 
 const manifest = JSON.parse(read('manifest.webmanifest'));
 for (const icon of manifest.icons) if (!exists(icon.src)) fail('manifest icon missing: ' + icon.src);
+for (const shot of manifest.screenshots || []) if (!exists(shot.src)) fail('manifest screenshot missing: ' + shot.src);
+if (!manifest.id) warn('manifest.webmanifest has no "id"');
+if (!exists('assets/offline.html')) fail('assets/offline.html (the offline page) is missing');
 
 const sw = read('sw.js');
 const shell = [...sw.slice(sw.indexOf('SHELL = ['), sw.indexOf('];', sw.indexOf('SHELL = ['))).matchAll(/'([^']+)'/g)].map(m => m[1]);

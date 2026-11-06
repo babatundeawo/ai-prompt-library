@@ -480,3 +480,99 @@ dialog.is-closing::backdrop { animation: fade-out var(--dur-2) forwards; }
 
 .chip svg { width: 16px; height: 16px; }
 @media (max-width: 520px) { .hide-sm { display: none; } .sheet-foot .btn--ghost { padding: 0 12px; } }
+
+/* ---------- Install banner, iPhone guide, offline status, back to top ---------- */
+.install-banner {
+  position: fixed;
+  left: 50%;
+  translate: -50% 0;
+  bottom: max(16px, env(safe-area-inset-bottom));
+  z-index: var(--z-sticky);
+  width: min(560px, 100% - 24px);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: var(--s-3) var(--s-4);
+  padding: var(--s-4);
+  background: var(--surface);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-3);
+  animation: banner-in var(--dur-3) var(--ease-out);
+}
+.install-banner img { width: 48px; height: 48px; border-radius: var(--r-sm); }
+.install-copy { display: grid; gap: 2px; min-width: 0; }
+.install-copy strong { font-weight: 650; }
+.install-copy span { color: var(--ink-2); font-size: var(--fs-sm); line-height: 1.4; }
+.install-actions { grid-column: 1 / -1; display: flex; gap: var(--s-2); justify-content: flex-end; }
+@media (min-width: 560px) {
+  .install-banner { grid-template-columns: auto 1fr auto; }
+  .install-actions { grid-column: auto; }
+}
+@keyframes banner-in { from { opacity: 0; transform: translateY(14px); } }
+
+.ios-guide {
+  margin: auto;
+  padding: 0;
+  width: min(460px, 100% - 24px);
+  max-height: calc(100dvh - 24px);
+  background: var(--surface);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-xl);
+  box-shadow: var(--shadow-3);
+  overflow: auto;
+}
+.ios-guide[open] { animation: pop-in var(--dur-3) var(--ease-out); }
+.ios-guide.is-closing { animation: pop-out var(--dur-2) forwards; }
+.ios-guide-body { display: grid; gap: var(--s-4); padding: var(--s-5); padding-bottom: max(var(--s-5), env(safe-area-inset-bottom)); }
+.ios-guide-head { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--s-3); }
+.ios-guide-head h2 { font-family: var(--font-display); font-weight: 400; font-size: var(--fs-xl); line-height: 1.1; }
+.ios-guide-lede { color: var(--ink-2); }
+.ios-steps { list-style: none; display: grid; gap: var(--s-4); margin: 0; padding: 0; }
+.ios-steps li { display: grid; grid-template-columns: auto 1fr; gap: var(--s-4); align-items: start; }
+.ios-steps strong { display: block; font-weight: 650; }
+.ios-steps span:not(.ios-ico) { display: block; color: var(--ink-2); font-size: var(--fs-sm); line-height: 1.5; }
+.ios-ico { display: grid; place-items: center; width: 48px; height: 48px; border-radius: var(--r-md); background: var(--surface-2); border: 1px solid var(--line); color: var(--info); }
+.ios-ico svg { width: 24px; height: 24px; }
+
+.net-status {
+  position: fixed;
+  top: calc(env(safe-area-inset-top, 0px) + var(--header-h-compact) + 8px);
+  left: 50%;
+  translate: -50% 0;
+  z-index: var(--z-sticky);
+  width: max-content;
+  max-width: calc(100% - 24px);
+  padding: 10px 16px;
+  border-radius: var(--r-pill);
+  background: var(--inverse-bg);
+  color: var(--inverse-ink);
+  font-size: var(--fs-sm);
+  font-weight: 550;
+  text-align: center;
+  box-shadow: var(--shadow-2);
+}
+
+.to-top {
+  position: fixed;
+  right: max(16px, env(safe-area-inset-right));
+  bottom: max(16px, env(safe-area-inset-bottom));
+  z-index: var(--z-sticky);
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--r-pill);
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--line-strong);
+  box-shadow: var(--shadow-2);
+  cursor: pointer;
+  transition: background-color var(--dur-2) var(--ease-out), transform var(--dur-2) var(--ease-out);
+}
+.to-top[hidden] { display: none; }
+.to-top:hover { background: var(--surface-2); }
+.to-top:active { transform: scale(0.94); }
+.to-top svg { width: 20px; height: 20px; rotate: -90deg; }
+.has-install-banner .to-top { bottom: calc(max(16px, env(safe-area-inset-bottom)) + 128px); }
+@media (min-width: 560px) { .has-install-banner .to-top { bottom: calc(max(16px, env(safe-area-inset-bottom)) + 96px); } }

@@ -160,9 +160,8 @@
 .split-sticky h2 { font-size: var(--fs-2xl); margin-top: var(--s-3); }
 .split-sticky p { margin-top: var(--s-4); color: var(--ink-2); font-size: var(--fs-lg); line-height: 1.5; }
 .feature-list { display: grid; }
-.feature { display: grid; grid-template-columns: auto 1fr; gap: var(--s-5); padding-block: var(--s-6); border-top: 1px solid var(--line); }
+.feature { padding-block: var(--s-6); border-top: 1px solid var(--line); }
 .feature:last-child { border-bottom: 1px solid var(--line); }
-.feature-n { font-family: var(--font-mono); font-size: var(--fs-xs); color: var(--primary-text); padding-top: 0.55rem; }
 .feature h3 { font-family: var(--font-display); font-weight: 400; font-size: var(--fs-xl); line-height: 1.1; margin-bottom: var(--s-2); }
 .feature p { color: var(--ink-2); max-width: 34rem; }
 
